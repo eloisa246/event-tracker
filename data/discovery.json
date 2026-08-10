@@ -1,0 +1,533 @@
+{
+  "generated": "2026-08-08T05:47:03.868309+00:00",
+  "results": [
+    {
+      "name": "Elsewhere",
+      "website": "https://www.elsewhere.club/",
+      "events_url": "https://www.elsewhere.club/events",
+      "tier": "1-platform",
+      "method": "eventbrite-curated",
+      "feed_url": "https://www.eventbrite.com/o/elsewhere-105655500371",
+      "platforms": [
+        "eventbrite"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified eventbrite listing from websites.csv",
+        "also on: ra"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Market Hotel",
+      "website": "https://www.markethotel.org/",
+      "events_url": "https://www.markethotel.org/calendar",
+      "tier": "1-platform",
+      "method": "ra-curated",
+      "feed_url": "https://ra.co/clubs/19281",
+      "platforms": [
+        "squarespace"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified ra listing from websites.csv"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Public Records",
+      "website": "https://publicrecords.nyc/",
+      "events_url": "https://publicrecords.nyc/",
+      "tier": "1-platform",
+      "method": "dice-curated",
+      "feed_url": "https://dice.fm/venue/public-records-w2qg",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified dice listing from websites.csv",
+        "also on: ra"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Nowadays",
+      "website": "https://nowadays.nyc/",
+      "events_url": "https://nowadays.nyc/",
+      "tier": "1-platform",
+      "method": "ra-curated",
+      "feed_url": "https://ra.co/clubs/105873",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified ra listing from websites.csv"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Baby's All Right",
+      "website": "https://babysallright.com/",
+      "events_url": "https://babysallright.com/",
+      "tier": "1-platform",
+      "method": "seetickets-linked",
+      "feed_url": "https://wl.seetickets.us/BabysAllRightBrooklyn",
+      "platforms": [
+        "squarespace",
+        "seetickets"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "page links to seetickets: https://wl.seetickets.us/BabysAllRightBrooklyn"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Friends and Lovers",
+      "website": "https://www.fnlbk.com/",
+      "events_url": "https://www.fnlbk.com/upcoming",
+      "tier": "1-platform",
+      "method": "eventbrite-curated",
+      "feed_url": "https://www.eventbrite.com/o/friends-and-lovers-10023790784",
+      "platforms": [
+        "squarespace",
+        "eventbrite"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified eventbrite listing from websites.csv",
+        "also on: ra"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Brooklyn Pop-Up",
+      "website": "https://www.brooklynpop-up.com/",
+      "events_url": "https://www.brooklynpop-up.com/markets",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://www.brooklynpop-up.com/markets",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Grand Bazaar NYC",
+      "website": "https://grandbazaarnyc.org/",
+      "events_url": "https://grandbazaarnyc.org/events/",
+      "tier": "1-platform",
+      "method": "eventbrite-curated",
+      "feed_url": "https://www.eventbrite.com/o/grand-bazaar-nyc-10860076088",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified eventbrite listing from websites.csv"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Queens Night Market",
+      "website": "https://queensnightmarket.com/",
+      "events_url": "https://queensnightmarket.com/",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://queensnightmarket.com/",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Café con Libros",
+      "website": "https://www.cafeconlibrosbk.com/",
+      "events_url": "https://www.cafeconlibrosbk.com/events",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://www.cafeconlibrosbk.com/events",
+      "platforms": [
+        "wix",
+        "google-calendar"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Quiet Reading",
+      "website": "https://quietreading.org/",
+      "events_url": "https://quietreading.org/",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://quietreading.org/",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Caveat",
+      "website": "https://caveat.nyc/",
+      "events_url": "https://caveat.nyc/events",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://caveat.nyc/events",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "The Tiny Cupboard",
+      "website": "https://www.thetinycupboard.com/",
+      "events_url": "https://www.thetinycupboard.com/calendar",
+      "tier": "2-jsonld",
+      "method": "schema.org-events",
+      "feed_url": "https://www.thetinycupboard.com/calendar",
+      "platforms": [],
+      "jsonld_events": 198,
+      "evidence": [
+        "198 JSON-LD Events in page"
+      ],
+      "error": ""
+    },
+    {
+      "name": "100 Sutton",
+      "website": "https://100sutton.com/",
+      "events_url": "https://100sutton.com/upcoming-events/",
+      "tier": "4-browser",
+      "method": "unreachable-or-js-only",
+      "feed_url": "",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "https://100sutton.com/upcoming-events/ -> HTTP 202",
+        "https://100sutton.com/ -> HTTP 202"
+      ],
+      "error": "no HTML retrieved"
+    },
+    {
+      "name": "Abrons Arts Center",
+      "website": "https://www.abronsartscenter.org/",
+      "events_url": "https://www.abronsartscenter.org/calendar",
+      "tier": "1-platform",
+      "method": "eventbrite-linked",
+      "feed_url": "",
+      "platforms": [
+        "eventbrite"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "page links to eventbrite (no usable URL found)"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Alamo Drafthouse NYC",
+      "website": "https://drafthouse.com/",
+      "events_url": "https://drafthouse.com/theater/downtown-brooklyn",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://drafthouse.com/theater/downtown-brooklyn",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Film Noir Cinema",
+      "website": "https://www.filmnoircinema.com/",
+      "events_url": "https://www.filmnoircinema.com/program/",
+      "tier": "1-platform",
+      "method": "eventbrite-linked",
+      "feed_url": "https://www.eventbrite.com/e/clownspiracy-tickets-1990612090348?aff=oddtdtcreator",
+      "platforms": [
+        "squarespace",
+        "eventbrite"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "only per-event iCal found - not a calendar feed",
+        "page links to eventbrite: https://www.eventbrite.com/e/clownspiracy-tickets-1990612090348?aff=oddtdtcreator"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Light Industry",
+      "website": "https://www.lightindustry.org/",
+      "events_url": "https://www.lightindustry.org/calendar/",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://www.lightindustry.org/calendar/",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Metrograph",
+      "website": "https://metrograph.com/",
+      "events_url": "https://metrograph.com/nyc/",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://metrograph.com/nyc/",
+      "platforms": [
+        "wordpress"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Caffeine Underground",
+      "website": "https://www.caffeineunderground.com/",
+      "events_url": "https://www.caffeineunderground.com/event-calendar/",
+      "tier": "1-platform",
+      "method": "ra-curated",
+      "feed_url": "https://ra.co/clubs/213671",
+      "platforms": [
+        "wordpress"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified ra listing from websites.csv"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Seventh Heaven Bar & Karaoke",
+      "website": "https://www.seventhheaven.bar/",
+      "events_url": "https://www.seventhheaven.bar/",
+      "tier": "1-platform",
+      "method": "dice-curated",
+      "feed_url": "https://dice.fm/venue/seventh-heaven-bar--karaoke-dkkwg",
+      "platforms": [
+        "squarespace",
+        "dice"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified dice listing from websites.csv",
+        "also on: ra"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Starr Bar",
+      "website": "https://www.starrbar.com/",
+      "events_url": "https://www.starrbar.com/events",
+      "tier": "1-platform",
+      "method": "ra-curated",
+      "feed_url": "https://ra.co/clubs/130246",
+      "platforms": [
+        "squarespace"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified ra listing from websites.csv"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Bibliothèque NYC",
+      "website": "https://www.bibliothequenyc.com",
+      "events_url": "https://www.bibliothequenyc.com",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://www.bibliothequenyc.com",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Greenlight Bookstore",
+      "website": "https://greenlightbookstore.com/",
+      "events_url": "https://greenlightbookstore.com/events",
+      "tier": "1-platform",
+      "method": "eventbrite-fallback",
+      "feed_url": "https://www.eventbrite.com/o/greenlight-bookstore-13064382976",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "https://greenlightbookstore.com/events -> HTTP 403",
+        "https://greenlightbookstore.com/ -> HTTP 403",
+        "site declined our crawler; using its eventbrite listing instead"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Hive Mind Books",
+      "website": "",
+      "events_url": "https://www.eventbrite.com/o/hive-mind-books-79929425663",
+      "tier": "1-platform",
+      "method": "eventbrite-curated",
+      "feed_url": "https://www.eventbrite.com/o/hive-mind-books-79929425663",
+      "platforms": [
+        "eventbrite"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified eventbrite listing from websites.csv"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Queer Book Club Bushwick",
+      "website": "",
+      "events_url": "https://www.eventbrite.com/o/hive-mind-books-79929425663",
+      "tier": "1-platform",
+      "method": "eventbrite-linked",
+      "feed_url": "https://www.eventbrite.com/o/hive-mind-books-79929425663",
+      "platforms": [
+        "eventbrite"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "page links to eventbrite: https://www.eventbrite.com/o/hive-mind-books-79929425663"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Brooklyn Flea",
+      "website": "https://www.brooklynflea.com/",
+      "events_url": "https://www.brooklynflea.com/locations",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://www.brooklynflea.com/locations",
+      "platforms": [
+        "squarespace"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Scratch Ceramics Studio",
+      "website": "https://www.scratchceramics.com/",
+      "events_url": "https://www.scratchceramics.com/",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://www.scratchceramics.com/",
+      "platforms": [
+        "squarespace"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Cassette NYC",
+      "website": "https://dice.fm/venue/cassette-922xo",
+      "events_url": "https://dice.fm/venue/cassette-922xo",
+      "tier": "1-platform",
+      "method": "dice-curated",
+      "feed_url": "https://dice.fm/venue/cassette-922xo",
+      "platforms": [
+        "dice",
+        "seetickets"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified dice listing from websites.csv",
+        "also on: ra"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Nuyorican Poets Cafe",
+      "website": "https://www.nuyorican.org/",
+      "events_url": "https://www.nuyorican.org/",
+      "tier": "1-platform",
+      "method": "eventbrite-curated",
+      "feed_url": "https://www.eventbrite.com/o/nuyorican-poets-cafe-17401146295",
+      "platforms": [
+        "squarespace"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified eventbrite listing from websites.csv"
+      ],
+      "error": ""
+    },
+    {
+      "name": "The Poetry Project",
+      "website": "https://www.poetryproject.org/",
+      "events_url": "https://www.poetryproject.org/events",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://www.poetryproject.org/events",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "BACKSPACE",
+      "website": "https://www.wearebackspace.com/",
+      "events_url": "https://www.wearebackspace.com/",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://www.wearebackspace.com/",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    },
+    {
+      "name": "Ridgewood Commons",
+      "website": "https://ridgewoodcommons.nyc/",
+      "events_url": "https://withfriends.events/p/ridgewood-commons/",
+      "tier": "1-platform",
+      "method": "withfriends-curated",
+      "feed_url": "https://withfriends.events/o/ridgewood-commons/",
+      "platforms": [
+        "withfriends"
+      ],
+      "jsonld_events": 0,
+      "evidence": [
+        "verified withfriends listing from websites.csv"
+      ],
+      "error": ""
+    },
+    {
+      "name": "BOYFRIEND co-op",
+      "website": "https://boyfriend.coop/",
+      "events_url": "https://boyfriend.coop/",
+      "tier": "3-scrape",
+      "method": "needs-selectors",
+      "feed_url": "https://boyfriend.coop/",
+      "platforms": [],
+      "jsonld_events": 0,
+      "evidence": [
+        "https://boyfriend.coop/ -> ReadTimeout",
+        "no feed/platform/JSON-LD found; 0 JSON-LD Events"
+      ],
+      "error": ""
+    }
+  ]
+}

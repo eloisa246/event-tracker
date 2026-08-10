@@ -1,0 +1,275 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bk-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brooklyn Events — Literary & Book Communities
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:d0ded10a75bfb143f3ceb979189c66fe8604d21f@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T100000
+DTEND;TZID=America/New_York:20260808T170000
+SUMMARY:Greenlight Bookstore — Summer Sidewalk Sale!
+DESCRIPTION:Discover treasures at our Summer Sidewalk Sale with Greenligh
+ t and Yours Truly\, Brooklyn.\nhttps://www.eventbrite.com/e/summer-sidew
+ alk-sale-tickets-1992505469496
+LOCATION:Greenlight Bookstore in Fort Greene
+URL:https://www.eventbrite.com/e/summer-sidewalk-sale-tickets-19925054694
+ 96
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:71f8d4c9bb56d40d930bc604ecfced6822680536@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260809T110000
+DTEND;TZID=America/New_York:20260809T110000
+SUMMARY:Hive Mind Books — Board Game Brunch at Hive Mind Books
+DESCRIPTION:https://www.eventbrite.com/e/board-game-brunch-at-hive-mind-b
+ ooks-tickets-1995276826700
+URL:https://www.eventbrite.com/e/board-game-brunch-at-hive-mind-books-tic
+ kets-1995276826700
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:2ebd926295391c4f5a5a9355b0942366aae6c01c@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260810T183000
+DTEND;TZID=America/New_York:20260810T183000
+SUMMARY:Hive Mind Books — Hive Mind Reading Room: Silent Reading Night
+DESCRIPTION:https://www.eventbrite.com/e/hive-mind-reading-room-silent-re
+ ading-night-tickets-1995282673187
+URL:https://www.eventbrite.com/e/hive-mind-reading-room-silent-reading-ni
+ ght-tickets-1995282673187
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:eeaea13114bc65a18d9455d84e4ad40f4286e80e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260810T190000
+DTEND;TZID=America/New_York:20260810T200000
+SUMMARY:Greenlight Bookstore — Romance Book Group (A One-Night Stand)
+DESCRIPTION:For one night only\, our Romance Book Group meets to discuss 
+ beloved New York Times bestselling author Kennedy Ryan's The Score!\nhtt
+ ps://www.eventbrite.com/e/romance-book-group-a-one-night-stand-tickets-1
+ 992088687891
+LOCATION:TBD
+URL:https://www.eventbrite.com/e/romance-book-group-a-one-night-stand-tic
+ kets-1992088687891
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:3c4e91949226d4f3b6bd0ae979d2d43c26e263c1@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260810T193000
+DTEND;TZID=America/New_York:20260810T203000
+SUMMARY:Greenlight Bookstore — Summer Chills: YA Thriller Writers in Co
+ nversation
+DESCRIPTION:Award-winning author Christina Li and local author Adrienne T
+ ooley launch their new young adult thrillers on the Greenlight stage!\nh
+ ttps://www.eventbrite.com/e/summer-chills-ya-thriller-writers-in-convers
+ ation-tickets-1992142817795
+LOCATION:Greenlight Bookstore in Fort Greene
+URL:https://www.eventbrite.com/e/summer-chills-ya-thriller-writers-in-con
+ versation-tickets-1992142817795
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:e42785f1ba00cb462341541a0ddc34361983d28e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260811T183000
+DTEND;TZID=America/New_York:20260811T183000
+SUMMARY:Hive Mind Books — Queer Writing Summer Sessions in Bushwick
+DESCRIPTION:https://www.eventbrite.com/e/queer-writing-summer-sessions-in
+ -bushwick-tickets-1992943009189
+URL:https://www.eventbrite.com/e/queer-writing-summer-sessions-in-bushwic
+ k-tickets-1992943009189
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:c6944261c433ffc0ee4a645f5b99d37998031172@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260811T193000
+DTEND;TZID=America/New_York:20260811T203000
+SUMMARY:Greenlight Bookstore — Book Launch: Jess Row with Lincoln Miche
+ l
+DESCRIPTION:Guggenheim Fellow and award-winning author Jess Row launches 
+ his first collection in 15 years\, a funny & indelible look into white A
+ merica.\nhttps://www.eventbrite.com/e/book-launch-jess-row-with-lincoln-
+ michel-tickets-1992145033422
+LOCATION:Greenlight Bookstore in Fort Greene
+URL:https://www.eventbrite.com/e/book-launch-jess-row-with-lincoln-michel
+ -tickets-1992145033422
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:751cf2fe294226a140f4598c7651e8eb1a7361fd@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260812T183000
+DTEND;TZID=America/New_York:20260812T183000
+SUMMARY:Hive Mind Books — Queer New Moon Circle
+DESCRIPTION:https://www.eventbrite.com/e/queer-new-moon-circle-tickets-19
+ 94922850949
+URL:https://www.eventbrite.com/e/queer-new-moon-circle-tickets-1994922850
+ 949
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:dec9e77ff1fa4fe874afb6eac4c2fb7a41e7f821@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260813T190000
+DTEND;TZID=America/New_York:20260813T190000
+SUMMARY:Hive Mind Books — Dear Baby Queer
+DESCRIPTION:https://www.eventbrite.com/e/dear-baby-queer-tickets-19961251
+ 04923
+URL:https://www.eventbrite.com/e/dear-baby-queer-tickets-1996125104923
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:97a8b12ddcf8820ed04d78ec0d8fce0839045130@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260813T193000
+DTEND;TZID=America/New_York:20260813T203000
+SUMMARY:Greenlight Bookstore — Authors Across Romance: Love and Rivalry
+DESCRIPTION:Preluding Bookstore Romance Day (8/15)\, authors Edward Schmi
+ t and Tom Vellner discuss their anticipated queer and sports romance deb
+ uts!\nhttps://www.eventbrite.com/e/authors-across-romance-love-and-rival
+ ry-tickets-1992148276121
+LOCATION:Greenlight Bookstore in Fort Greene
+URL:https://www.eventbrite.com/e/authors-across-romance-love-and-rivalry-
+ tickets-1992148276121
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:1fd39ed2a7b2b50c01c55265dfa1c8c9d6541b80@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260815T100000
+DTEND;TZID=America/New_York:20260815T220000
+SUMMARY:Greenlight Bookstore — Bookstore Romance Day!
+DESCRIPTION:Greenlight joins bookstores across the nation in celebrating 
+ Bookstore Romance Day\, with discounts\, giveaways\, and more!\nhttps://
+ www.eventbrite.com/e/bookstore-romance-day-tickets-1992151922026
+LOCATION:Greenlight Bookstore in Fort Greene
+URL:https://www.eventbrite.com/e/bookstore-romance-day-tickets-1992151922
+ 026
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:690c41c23c6c1cb18b2e81363122f22762996b34@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260818T183000
+DTEND;TZID=America/New_York:20260818T183000
+SUMMARY:Hive Mind Books — Queer Writing Summer Sessions in Bushwick
+DESCRIPTION:https://www.eventbrite.com/e/queer-writing-summer-sessions-in
+ -bushwick-tickets-1992943010192
+URL:https://www.eventbrite.com/e/queer-writing-summer-sessions-in-bushwic
+ k-tickets-1992943010192
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:51f164a937b4fd4fae5b8ab52a2e79995e01f96a@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260818T193000
+DTEND;TZID=America/New_York:20260818T203000
+SUMMARY:Greenlight Bookstore — Greenlight Book Group Social!
+DESCRIPTION:Meet and mingle with your hosts and fellow readers as we welc
+ ome our book groups back for fall—with discounts\, free merch\, wine\,
+  and more!\nhttps://www.eventbrite.com/e/greenlight-book-group-social-ti
+ ckets-1992152298151
+LOCATION:Greenlight Bookstore in Fort Greene
+URL:https://www.eventbrite.com/e/greenlight-book-group-social-tickets-199
+ 2152298151
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:30ce2c46bcc4dd53b2f447fbe1b7aa5389a4a5c5@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260819T190000
+DTEND;TZID=America/New_York:20260819T190000
+SUMMARY:Hive Mind Books — Disturbing The Peace: An Open Mic & Reading w
+ ith Poets Out Loud
+DESCRIPTION:https://www.eventbrite.com/e/disturbing-the-peace-an-open-mic
+ -reading-with-poets-out-loud-tickets-1994925936177
+URL:https://www.eventbrite.com/e/disturbing-the-peace-an-open-mic-reading
+ -with-poets-out-loud-tickets-1994925936177
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:e9daaa754ca16a5d65af3c7527a111fac86515ac@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260820T190000
+DTEND;TZID=America/New_York:20260820T190000
+SUMMARY:Hive Mind Books — Work In Progress: A Queer Literary Open Mic
+DESCRIPTION:https://www.eventbrite.com/e/work-in-progress-a-queer-literar
+ y-open-mic-tickets-1994987511350
+URL:https://www.eventbrite.com/e/work-in-progress-a-queer-literary-open-m
+ ic-tickets-1994987511350
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:4d8ddaec69e80243aa055a5de681a57a6139211a@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260824T183000
+DTEND;TZID=America/New_York:20260824T193000
+SUMMARY:Greenlight Bookstore — Nature Writing Book Group
+DESCRIPTION:From June to September\, our Nature Writing group meets month
+ ly to discuss great works of nature writing\, in our local community gar
+ den.\nhttps://www.eventbrite.com/e/nature-writing-book-group-tickets-199
+ 0202568457
+LOCATION:Greene Garden
+URL:https://www.eventbrite.com/e/nature-writing-book-group-tickets-199020
+ 2568457
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:200d8ce89fc705fd995c6cc0048a9c8285e3bf67@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260825T183000
+DTEND;TZID=America/New_York:20260825T183000
+SUMMARY:Hive Mind Books — Queer Writing Summer Sessions in Bushwick
+DESCRIPTION:https://www.eventbrite.com/e/queer-writing-summer-sessions-in
+ -bushwick-tickets-1992943011195
+URL:https://www.eventbrite.com/e/queer-writing-summer-sessions-in-bushwic
+ k-tickets-1992943011195
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:eee356b90db715d6083bfa5f3bbec9e6be7989a5@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260825T190000
+DTEND;TZID=America/New_York:20260825T200000
+SUMMARY:Greenlight Bookstore — Squawkin' Sports: Tennis Edition! (at DS
+ K)
+DESCRIPTION:Acclaimed authors Matthew Futterman & Julie Kliegman join our
+  hosts for a book chat on tennis\, from its major icons to its modern tr
+ ials.\nhttps://www.eventbrite.com/e/squawkin-sports-tennis-edition-at-ds
+ k-tickets-1992154169749
+LOCATION:DSK Brooklyn
+URL:https://www.eventbrite.com/e/squawkin-sports-tennis-edition-at-dsk-ti
+ ckets-1992154169749
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:ce4797e000fd35df0837f4ce6057904cc101abce@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260826T190000
+DTEND;TZID=America/New_York:20260826T190000
+SUMMARY:Hive Mind Books — Queer Book Club
+DESCRIPTION:https://www.eventbrite.com/e/queer-book-club-tickets-19949861
+ 83378
+URL:https://www.eventbrite.com/e/queer-book-club-tickets-1994986183378
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:05590190cb3062d3266a7b4c27fbf9bda46c77aa@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260829T173000
+DTEND;TZID=America/New_York:20260829T173000
+SUMMARY:Hive Mind Books — Queer Full Moon Circle
+DESCRIPTION:https://www.eventbrite.com/e/queer-full-moon-circle-tickets-1
+ 994923704502
+URL:https://www.eventbrite.com/e/queer-full-moon-circle-tickets-199492370
+ 4502
+CATEGORIES:Literary & Book Communities
+END:VEVENT
+END:VCALENDAR

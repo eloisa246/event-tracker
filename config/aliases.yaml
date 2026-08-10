@@ -1,0 +1,22 @@
+# Name variants that refer to the same place, and lookalikes that don't.
+#
+# The parser already merges obvious variants automatically ("Rough Trade NYC"
+# and "Rough Trade"). This file handles the leftovers a computer shouldn't
+# guess at. Edit it freely — it's plain text.
+
+# Treat these as ONE org. First name listed is the one that gets used.
+same:
+  - ["Gladys Books & Wine", "Gladys Books"]
+  - ["Syndicated Bar Theater Kitchen", "Syndicated"]
+  - ["Daya Yoga Studio", "Daya Yoga Studio Ridgewood"]
+
+# Similar names that are genuinely DIFFERENT orgs. Listed so the duplicate
+# check stops flagging them every run.
+not_same:
+  - ["Ridgewood Rides", "Ridgewood Runners"]
+  - ["Flatbush Cats", "Flatbush Vet"]
+  - ["Friends and Lovers", "Friends NYC"]
+  - ["Friends of Ridgewood Library", "Friends NYC"]
+  - ["Book Club Bar", "Queer Book Club Bushwick"]
+  - ["Book Club Bar", "Silent Book Club [Brooklyn & Manhattan]"]
+  - ["Sapphic NY", "South Brooklyn Sapphic"]

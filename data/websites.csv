@@ -1,0 +1,83 @@
+name,website,events_url,other_platforms,confidence,notes
+Elsewhere,https://www.elsewhere.club/,https://www.elsewhere.club/events,eventbrite:elsewhere-105655500371 | ra:139960 | bandsintown:10010996,high,Not elsewherebrooklyn.com as you might guess
+Market Hotel,https://www.markethotel.org/,https://www.markethotel.org/calendar,ra:19281 | bandsintown:10014579,high,
+Public Records,https://publicrecords.nyc/,https://publicrecords.nyc/,dice:public-records-w2qg | ra:164270 | bandsintown:10041255,high,Five separate spaces under one roof; may need per-room handling
+Nowadays,https://nowadays.nyc/,https://nowadays.nyc/,ra:105873 | bandsintown:10014974,high,
+Baby's All Right,https://babysallright.com/,https://babysallright.com/,seetickets:babysallrightbrooklyn | ticketmaster:1343 | bandsintown:10001849,high,
+Friends and Lovers,https://www.fnlbk.com/,https://www.fnlbk.com/upcoming,eventbrite:friends-and-lovers-10023790784 | ra:88376,high,Events actually run through Eventbrite
+Brooklyn Pop-Up,https://www.brooklynpop-up.com/,https://www.brooklynpop-up.com/markets,,high,
+Grand Bazaar NYC,https://grandbazaarnyc.org/,https://grandbazaarnyc.org/events/,eventbrite:grand-bazaar-nyc-10860076088,high,Weekly Sundays; likely recurring rather than one-off events
+Queens Night Market,https://queensnightmarket.com/,https://queensnightmarket.com/,,high,Confirmed by owner. Seasonal: Apr-Aug and Sep-Oct
+Café con Libros,https://www.cafeconlibrosbk.com/,https://www.cafeconlibrosbk.com/events,,high,
+Quiet Reading,https://quietreading.org/,https://quietreading.org/,,high,Confirmed by owner via Instagram bio link
+Caveat,https://caveat.nyc/,https://caveat.nyc/events,axs | fever,high,75+ shows a month - high value
+The Tiny Cupboard,https://www.thetinycupboard.com/,https://www.thetinycupboard.com/calendar,fever,high,
+100 Sutton,https://100sutton.com/,https://100sutton.com/upcoming-events/,,high,Mostly a private rental venue - weddings/corporate. Low public-event value
+Abrons Arts Center,https://www.abronsartscenter.org/,https://www.abronsartscenter.org/calendar,,high,
+Alamo Drafthouse NYC,https://drafthouse.com/,https://drafthouse.com/theater/downtown-brooklyn,fandango,high,Chain site; showtimes not quite the same shape as events
+Film Noir Cinema,https://www.filmnoircinema.com/,https://www.filmnoircinema.com/program/,eventbrite,high,Tickets sold via Eventbrite
+Light Industry,https://www.lightindustry.org/,https://www.lightindustry.org/calendar/,,high,
+Metrograph,https://metrograph.com/,https://metrograph.com/nyc/,,high,
+Caffeine Underground,https://www.caffeineunderground.com/,https://www.caffeineunderground.com/event-calendar/,shotgun | ra:213671,high,
+Seventh Heaven Bar & Karaoke,https://www.seventhheaven.bar/,https://www.seventhheaven.bar/,dice:seventh-heaven-bar--karaoke-dkkwg | ra:181826 | eventbrite,high,
+Starr Bar,https://www.starrbar.com/,https://www.starrbar.com/events,ra:130246,high,
+Bibliothèque NYC,https://www.bibliothequenyc.com,https://www.bibliothequenyc.com,,high,Confirmed by owner. Events page still unverified - discovery will tell us
+Greenlight Bookstore,https://greenlightbookstore.com/,https://greenlightbookstore.com/events,eventbrite:greenlight-bookstore-13064382976,high,
+Hive Mind Books,,https://www.eventbrite.com/o/hive-mind-books-79929425663,eventbrite:hive-mind-books-79929425663 | bookevents.nyc,high,No events page on own site - Eventbrite is the real source
+Queer Book Club Bushwick,,https://www.eventbrite.com/o/hive-mind-books-79929425663,eventbrite (via Hive Mind) | meetup,medium,Runs AT Hive Mind Books - may duplicate. Watch for double-listing
+Brooklyn Flea,https://www.brooklynflea.com/,https://www.brooklynflea.com/locations,,high,Every Sat+Sun year-round; recurring not one-off
+Scratch Ceramics Studio,https://www.scratchceramics.com/,https://www.scratchceramics.com/,,high,Classes run in 8-week blocks - different shape from single events
+Cassette NYC,https://dice.fm/venue/cassette-922xo,https://dice.fm/venue/cassette-922xo,dice:cassette-922xo | ra:285265,high,"No own website - Dice IS the source. Tier 1, better than a scraper"
+Nuyorican Poets Cafe,https://www.nuyorican.org/,https://www.nuyorican.org/,eventbrite:nuyorican-poets-cafe-17401146295,high,CLOSED for renovation - events happen off-site at other venues
+The Poetry Project,https://www.poetryproject.org/,https://www.poetryproject.org/events,,high,Four weekly series - reliably high volume
+BACKSPACE,https://www.wearebackspace.com/,https://www.wearebackspace.com/,,high,Found via Instagram bio link - not discoverable by name search
+Ridgewood Commons,https://ridgewoodcommons.nyc/,https://withfriends.events/p/ridgewood-commons/,withfriends:ridgewood-commons | pools.events,high,Withfriends is a known platform - likely an easy feed
+BOYFRIEND co-op,https://boyfriend.coop/,https://boyfriend.coop/,,high,
+Anjellicle Cats Rescue,https://www.anjelliclecats.com/,,,high,auto-found: name in <title> + NY locality: 'ANJELLICLE CATS RESCUE | NEW YORK CITY CAT RESCUE | NO-'
+Badass Animal Rescue,https://badassanimalrescue.com,,,high,auto-found: name in <title> + NY locality: 'Badass Animal Rescue'
+Flatbush Cats,https://www.flatbushcats.org/,,,high,auto-found: name in <title> + NY locality: 'Flatbush Cats'
+Social Tees Animal Rescue,https://socialteesnyc.org,,,high,auto-found: name in <title> + NY locality: 'Social Tees Animal Rescue'
+Bushwick Ceramics,https://www.bushwickceramics.com/,,,high,auto-found: name in <title> + NY locality: 'Bushwick Ceramics | Ceramics Studio  |  228 Suydam Stre'
+Recess Grove,https://www.recessgrove.com/,,,high,"auto-found: name in <title> + NY locality: 'recess grove | creative space, art classes, workshop, c'"
+Textile Arts Center,https://textileartscenter.com,,,high,auto-found: name in <title> + NY locality: 'Textile Arts Center'
+Anthology Film Archives,https://www.anthologyfilmarchives.org/,,,high,auto-found: name in <title> + NY locality: 'Anthology Film Archives'
+Arts On Site,https://www.artsonsite.org/,,,high,auto-found: name in <title> + NY locality: 'Rehearsal Studio Rental | Arts On Site | New York'
+Hack Manhattan,https://hackmanhattan.com,,,high,auto-found: name in <title> + NY locality: 'Hack Manhattan'
+Low Cinema,https://lowcinema.com,,,high,auto-found: name in <title> + NY locality: 'Low Cinema'
+NYC Resistor,https://www.nycresistor.com/,,,high,"auto-found: name in <title> + NY locality: 'NYC Resistor &#8211; We learn, share, and make things.'"
+Niche Night NYC,https://www.nichenightnyc.com/,,,high,auto-found: name in <title> + NY locality: 'Home | Niche Night Nyc'
+Paris Theater,https://www.paristheaternyc.com/,,,high,auto-found: name in <title> + NY locality: 'Paris Theater'
+Roxy Cinema New York,https://www.roxycinemanewyork.com/,,,high,auto-found: name in <title> + NY locality: 'Roxy Cinema New York | Tribeca Independent &amp; Art Ho'
+Syndicated,https://syndicatedbk.com,,,high,"auto-found: name in <title> + NY locality: 'Movie Theater, Bar, Restaurant in Bushwick | Syndicated'"
+Tiny Arts Supply,https://tinyartssupply.com,,,high,auto-found: name in <title> + NY locality: 'Tiny Arts Supply'
+The Brooklyn Strategist,https://thebrooklynstrategist.com,,,high,auto-found: name in <title> + NY locality: 'Home - The Brooklyn Strategist'
+Cubbyhole,https://www.cubbyholebar.com/,,,high,auto-found: name in <title> + NY locality: 'Cubbyhole Bar NYC'
+Dank Dykes,https://dankdykes.com,,,high,auto-found: name in <title> + NY locality: 'Dank Dykes | NYC Queer Cannabis Social Club &amp; Dispe'
+Lesbian Herstory Archives,https://lesbianherstoryarchives.org,,,high,auto-found: name in <title> + NY locality: 'Lesbian Herstory Archives &#8211; In Memory of the Voic'
+Adanne,https://adanne.co,,,high,auto-found: name in <title> + NY locality: 'Adanne'
+Molasses Books,https://www.molassesbooks.org/,,,high,auto-found: name in <title> + NY locality: 'MOLASSES BOOKS'
+Rosebuds Reading Collective,https://rosebudsreadingcollective.org,,,high,auto-found: name in <title> + NY locality: 'Rosebuds Reading Collective — Restoring Dignity Through'
+Brooklyn Bowl,https://www.brooklynbowl.com/,,,high,auto-found: name in <title> + NY locality: 'Brooklyn Bowl'
+House of Yes,https://www.houseofyes.org/,,,high,"auto-found: name in <title> + NY locality: 'House of Yes: Performance-Fueled Nightclub in Brooklyn,'"
+TV Eye,https://tveyenyc.com,,,high,"auto-found: name in <title> + NY locality: 'TV Eye &#8211; Performance &amp; Event Venue. Funhaus, '"
+The Sultan Room,https://thesultanroom.com,,,high,auto-found: name in <title> + NY locality: 'Home - The Sultan RoomThe Sultan Room'
+Repair Café El Barrio,https://www.repaircafeelbarrio.org/,,,high,auto-found: name in <title> + NY locality: 'Repair Café El Barrio | Free Repair &amp; Community Wor'
+Front Runners New York,https://frny.org/,,,high,auto-found: name in <title> + NY locality: 'Front Runners New York'
+Harlem Yoga Studio,https://www.harlemyogastudio.com/,,,high,auto-found: name in <title> + NY locality: 'HOME | Harlem Yoga Studio New York'
+Ridgewood Rides,https://www.ridgewoodrides.org/,,,high,auto-found: name in <title> + NY locality: 'Ridgewood Rides'
+Solid Gold Yogi,https://www.solidgoldyogi.com/,,,high,auto-found: name in <title> + NY locality: 'SOLID GOLD YOGI'
+Another World,https://anotherworld.nyc,,,high,auto-found: name in <title> + NY locality: 'Another World'
+Hands Off NYC,https://www.handsoffnyc.com/,,,high,auto-found: name in <title> + NY locality: 'Hands Off NYC'
+Interference Archive,https://interferencearchive.org,,,high,auto-found: name in <title> + NY locality: 'Interference Archive &#8211; Exploring the relationship'
+Jewish Currents,https://jewishcurrents.org,,,high,auto-found: name in <title> + NY locality: 'Jewish Currents'
+Ridgewood Tenants Union,https://ridgewoodtenantsunion.org,,,high,auto-found: name in <title> + NY locality: 'Ridgewood Tenants Union &#8211; Ridgewood Tenants Union'
+Rough Trade NYC,https://www.roughtradenyc.com/,,,high,auto-found: name in <title> + NY locality: 'Rough Trade NYC | Live Music and Record Store'
+Grownkid,https://grownkid.com,,,high,auto-found: name in <title> + NY locality: 'Grownkid'
+Xanadu Roller Arts,https://www.xanadu.nyc/,,,high,auto-found: name in <title> + NY locality: 'Xanadu • Roller Arts • NYC'
+Centra Studios,https://centrastudios.com,,,high,auto-found: name in <title> + NY locality: 'CENTRA STUDIOS | NYC'
+Flatbush Vet,https://flatbushvet.org,,,high,auto-found: name in <title> + NY locality: 'Home - Flatbush Vet'
+The Deep End,https://www.thedeepend.nyc/,,,high,auto-found: name in <title> + NY locality: 'NYC Bar | Restaurant | Event Space | The Deep End'
+Threes Brewing,https://threesbrewing.com,,,high,"auto-found: name in <title> + NY locality: 'Buy Craft Beer Online, Delivery &amp; Pick-Up in NY - T'"
+Friends NYC,https://friendsnyc.com,,,high,"auto-found: name in <title> + NY locality: 'Friends NYC: Unique Gifts, Blind Boxes &amp; Smoke Shop'"
+Grace Land New York,https://www.gracelandnewyork.com/,,,high,auto-found: name in <title> + NY locality: 'grace land new york'
+Select Vintage,https://selectvintage.com,,,high,auto-found: name in <title> + NY locality: 'SELECT VINTAGE NYC\n &ndash; Select Vintage NYC'

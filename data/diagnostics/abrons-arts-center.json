@@ -1,0 +1,250 @@
+{
+  "id": "abrons-arts-center",
+  "name": "Abrons Arts Center",
+  "url": "https://www.abronsartscenter.org/calendar",
+  "responses": [
+    {
+      "url": "https://www.abronsartscenter.org/calendar",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/dfe6fcf.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/c5d6a7a.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/372e51e.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/484e515.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/85122b4.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/b15802f.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/c115325.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/1e35c6b7e3257382689c88923342f212460d926d-8000x4500.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/40c6133dbe7724796536c69a81b874eaaa295d8f-1696x1430.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/cbd6f537539778d14a5cab9f5ebffe5e2f97b825-6000x4000.jpg?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/6a22ee9625174ba5f6c561af2a96487f20c0d437-6400x4600.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/20573ae77f4bf6aef3be676bd634197fe208d7fa-3000x2250.jpg?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/ba9a144541d75d99700b2a53860e19a559d454bc-1080x1350.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/914f79bfaa9a8f84ef6305f2e417e55bc2e714fa-1545x2000.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/0fbacc6b63a67c41d8fa85ac0177b4367b2c8ed6-1587x2245.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/a36c9e42449116ec4fd7ecddf8269ffe9aea6321-2003x3000.jpg?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/58c1b462c03d5182bb9fc9902ac7e8486c14d891-6455x3872.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/b37cd39d0a074dd6574de58b7ac01a2c2707decd-2160x1080.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/69f5d9a4987e74befa4f27e2c9b0c687d2b7210a-5852x3907.jpg?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/213602e0759fe3cea52a30ba4152c3e5105b7b2d-2024x1279.png?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/0s7kskkf/production/b8b2fa0dac12428a421e8240789d27198336ae5a-737x602.jpg?w=2000&auto=format",
+      "status": 200,
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-1069683569",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/fonts/AbronsGrotesk-Italic.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/fonts/AbronsGrotesk-Roman.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/henry-street-settlement.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&auid=1134138383.1786171626&dt=Calendar%20%7C%20Abrons%20Arts%20Center&tid=AW-1069683569&en=page_view&dl=https%3A%2F%2Fwww.abronsartscenter.org%2Fcalendar&scrsrc=www.googletagmanager.com&rnd=1522879515.1786171626&navt=n&npa=0&ep.anonymize_ip=1&gt",
+      "status": 200,
+      "content_type": ""
+    },
+    {
+      "url": "https://www.google.com/rmkt/collect/1069683569/?random=1786171626407&cv=11&fst=1786171626407&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6852v896702017za200zd896702017xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119527019~119896802&u_w=1280&u_h=2000",
+      "status": 200,
+      "content_type": ""
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1069683569/?random=1786171626407&cv=11&fst=1786171626407&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6852v896702017za200zd896702017xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119527019~1198",
+      "status": 200,
+      "content_type": "text/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1134138383.1786171626&gtm=45be6852v896702017za200zd896702017xec&fmt=8",
+      "status": 204,
+      "content_type": ""
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-3NTMH7YZK6&gtm=45be6852v896702017za200zd896702017&_p=1786171626395&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=259144896.1786171626&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x2000&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0",
+      "status": 204,
+      "content_type": "text/plain"
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/1069683569/?random=1786171626407&cv=11&fst=1786168800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6852v896702017za200zd896702017xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131808~118897920~118897930~119527019~119896802&u_w=1280&u_h=200",
+      "status": 200,
+      "content_type": "image/gif"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/555c62c.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/6029c1e.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/21ce7b3.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/90248bc.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/060efa3.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/d467a01.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/8c2d5e4.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/b2ef68a.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/a9a517d.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/6c9c6f0.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/fad82f8.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://www.abronsartscenter.org/_nuxt/7dbc0dd.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    }
+  ],
+  "hosts": [
+    "ad.doubleclick.net",
+    "cdn.sanity.io",
+    "googleads.g.doubleclick.net",
+    "www.abronsartscenter.org",
+    "www.google-analytics.com",
+    "www.google.com",
+    "www.googletagmanager.com"
+  ],
+  "html_title": "Calendar | Abrons Arts Center",
+  "html_len": 922262,
+  "calendar_ish_classes": [
+    "calendar_container",
+    "program_calendar"
+  ],
+  "error": "",
+  "iframes": [],
+  "embedded_script_json": []
+}

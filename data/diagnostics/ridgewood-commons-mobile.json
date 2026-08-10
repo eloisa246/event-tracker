@@ -1,0 +1,52 @@
+{
+  "id": "ridgewood-commons",
+  "name": "Ridgewood Commons",
+  "url": "https://ridgewoodcommons.nyc/booking-calendar/",
+  "responses": [
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/lib/fullcallendar-icalendar-6.1.19-index.global.min.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/lib/ical.es5.min.cjs",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/lib/fullcalendar-6.1.19-index.global.min.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/rc-calendar.ics?version=1786171981243",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    }
+  ],
+  "hosts": [
+    "ridgewoodcommons.nyc"
+  ],
+  "html_title": "",
+  "html_len": 12539,
+  "calendar_ish_classes": [
+    "calendar",
+    "fc-event fc-event-start fc-event-end fc-event-past fc-list-event",
+    "fc-event fc-event-start fc-event-end fc-event-today fc-event-future fc-list-event",
+    "fc-list-event-dot",
+    "fc-list-event-graphic",
+    "fc-list-event-time",
+    "fc-list-event-title"
+  ],
+  "error": "",
+  "iframes": [],
+  "embedded_script_json": [],
+  "all_script_bodies": [
+    "\n      document.addEventListener('DOMContentLoaded', function() {\n          var calendarEl = document.getElementById('calendar');\n          var version = (new Date()).valueOf();\n          var calendar = new FullCalendar.Calendar(calendarEl, {\n              initialView: 'listWeek',\n              events: {\n                  url: 'rc-calendar.ics?version=' + version,\n                  format: 'ics'\n              },\n              views: {\n                  timeGridWeek: {\n                      nowIndicator: true\n                  }\n              },\n              headerToolbar: {\n                  start: 'listWeek,dayGridMonth,timeGridWeek', // will normally be on the left. if RTL, will be on the right\n                  center: 'title',\n                  end: 'prev,today,next' // will normally be on the right. if RTL, will be on the left\n              }\n          });\n          calendar.render();\n      });\n\n    "
+  ]
+}

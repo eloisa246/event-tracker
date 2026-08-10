@@ -1,0 +1,204 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bk-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brooklyn Events — Creative Collectives & Communities
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:2670d6ac840f4ed7f95d01dc744596a8ccd95855@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260807T190000
+DTEND;TZID=America/New_York:20260807T200000
+SUMMARY:Film Noir Cinema — WATCH ME
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/7/watch-me
+URL:https://www.filmnoircinema.com/program/2026/8/7/watch-me
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:4bb9c0a5e7730dddc7350a5fefb180595a14f103@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260807T210000
+DTEND;TZID=America/New_York:20260807T220000
+SUMMARY:Film Noir Cinema — PARIS VU PAR
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/7/7/paris-vu-par
+URL:https://www.filmnoircinema.com/program/2026/7/7/paris-vu-par
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:29dba83e4b0f65d87f04c2de870525f40b90836e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T190000
+DTEND;TZID=America/New_York:20260808T200000
+SUMMARY:Film Noir Cinema — WATCH ME
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8
+ l
+URL:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8l
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:6760da90d21e25896c472e793112383561b3834e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T210000
+DTEND;TZID=America/New_York:20260808T220000
+SUMMARY:Film Noir Cinema — ARREBATO
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/8/arrebato
+URL:https://www.filmnoircinema.com/program/2026/8/8/arrebato
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:b4bd4fe97c5d0b60aac56f79ed264b8829ebc585@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260809T150000
+DTEND;TZID=America/New_York:20260809T160000
+SUMMARY:Film Noir Cinema — SINTOMAS
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/7/31/sintomas
+URL:https://www.filmnoircinema.com/program/2026/7/31/sintomas
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:5645a48690a15aa6519ce69e323762fca7a6eba9@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260809T170000
+DTEND;TZID=America/New_York:20260809T180000
+SUMMARY:Film Noir Cinema — SNOW WOMAN
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/7/28/snow-witch
+URL:https://www.filmnoircinema.com/program/2026/7/28/snow-witch
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:5bb63227fa3f547eac9b8d59026802d21903ec8d@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260809T190000
+DTEND;TZID=America/New_York:20260809T200000
+SUMMARY:Film Noir Cinema — KRYSAR
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/2/6/pan-kresa
+URL:https://www.filmnoircinema.com/program/2026/2/6/pan-kresa
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:ed0ac76b59bc0dab2315963fc4000cdf44b74d2d@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260809T200000
+DTEND;TZID=America/New_York:20260809T210000
+SUMMARY:Film Noir Cinema — DECODER
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/4/1/der-dekoder
+URL:https://www.filmnoircinema.com/program/2026/4/1/der-dekoder
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:e9a5c1f41236e28232f19e06082e588c196371b0@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260810T210000
+DTEND;TZID=America/New_York:20260810T220000
+SUMMARY:Film Noir Cinema — FILM NOIR MONDAY
+DESCRIPTION:https://www.filmnoircinema.com/program/2019/12/16/film-noir-m
+ ondays-b4lyr-5hdte-8mz2l
+URL:https://www.filmnoircinema.com/program/2019/12/16/film-noir-mondays-b
+ 4lyr-5hdte-8mz2l
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:566686757d81d940a4bc470645500d73249600fe@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260811T210000
+DTEND;TZID=America/New_York:20260811T220000
+SUMMARY:Film Noir Cinema — CULT CINEMA
+DESCRIPTION:https://www.filmnoircinema.com/program/2020/11/24/cult-cinema
+ -wncry-7tb8g-x6f5d-b3gye-5t3rg-nl6z9-69nam-72ksn
+URL:https://www.filmnoircinema.com/program/2020/11/24/cult-cinema-wncry-7
+ tb8g-x6f5d-b3gye-5t3rg-nl6z9-69nam-72ksn
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:aa2a1e658b7c28afae1689022eaaa7cb72332ffe@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260813T190000
+DTEND;TZID=America/New_York:20260813T200000
+SUMMARY:Film Noir Cinema — WATCH ME
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8
+ l-7ht38
+URL:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8l-7ht38
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:17d0a65ad73afc4bbac18b1c1c3b4ad062901c6f@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260814T190000
+DTEND;TZID=America/New_York:20260814T200000
+SUMMARY:Film Noir Cinema — WATCH ME
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8
+ l-7ht38-6e3f7
+URL:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8l-7ht38-
+ 6e3f7
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:c952bc7e301bb7960d37c936e0f5343aa0e1f8fc@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260815T190000
+DTEND;TZID=America/New_York:20260815T200000
+SUMMARY:Film Noir Cinema — WATCH ME
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8
+ l-7ht38-6e3f7-5rkp8
+URL:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8l-7ht38-
+ 6e3f7-5rkp8
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:c842fc53b586e921761a939e9a1e10fe29377ebe@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260821T190000
+DTEND;TZID=America/New_York:20260821T200000
+SUMMARY:Film Noir Cinema — WATCH ME
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8
+ l-7ht38-6e3f7-5rkp8-5hht2
+URL:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8l-7ht38-
+ 6e3f7-5rkp8-5hht2
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:5dca0dc7f44621f48a486d2350dcaffcd53ec2e6@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260822T190000
+DTEND;TZID=America/New_York:20260822T200000
+SUMMARY:Film Noir Cinema — WATCH ME
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8
+ l-7ht38-6e3f7-5rkp8-5hht2-7kasb
+URL:https://www.filmnoircinema.com/program/2026/8/7/watch-me-5fr8l-7ht38-
+ 6e3f7-5rkp8-5hht2-7kasb
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:3658c7198a157ac941ef03965256e75be5c14c50@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260824T190000
+DTEND;TZID=America/New_York:20260824T200000
+SUMMARY:Film Noir Cinema — PHEDRE
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/8/24/phedre
+URL:https://www.filmnoircinema.com/program/2026/8/24/phedre
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:b17911a20f1ed3c848eb4f551be17d0c6fc1b8ac@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261024T190000
+DTEND;TZID=America/New_York:20261024T200000
+SUMMARY:Film Noir Cinema — CLOWNSPIRACY
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/10/24/clownspirac
+ y
+URL:https://www.filmnoircinema.com/program/2026/10/24/clownspiracy
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+BEGIN:VEVENT
+UID:d74bb8a03ba9d23fd24136fb839da3d91e0f301a@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261101T190000
+DTEND;TZID=America/New_York:20261101T200000
+SUMMARY:Film Noir Cinema — SECRETS OF THE DEAD
+DESCRIPTION:https://www.filmnoircinema.com/program/2026/11/1/secrets-of-t
+ he-dead
+URL:https://www.filmnoircinema.com/program/2026/11/1/secrets-of-the-dead
+CATEGORIES:Creative Collectives & Communities
+END:VEVENT
+END:VCALENDAR

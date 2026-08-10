@@ -1,0 +1,449 @@
+{
+  "id": "nuyorican-poets-cafe",
+  "name": "Nuyorican Poets Cafe",
+  "url": "https://www.nuyorican.org/",
+  "responses": [
+    {
+      "url": "https://www.nuyorican.org/",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.spacer/d205e953-d2a7-4337-ab1c-9bfe7e74a770_1132/website.components.spacer.styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.button/ad457667-7c74-435c-a465-fb5b9268b6d4_979/website.components.button.styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/8afdaff0-5284-4899-bfab-a5b7abc25274_854/website.components.code.styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/9a7d66d2-551d-4d41-a94f-d42d9da992c0_587/website.components.socialLinks.styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.horizontalrule/2d36ad2e-f040-4b4c-9073-d3b574dce5de_176/website.components.horizontalrule.styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/commerce-d50e5960dc9fd059-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.nuyorican.org/s/calendar.css",
+      "status": 302,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.nuyorican.org/s/bootstrap.css",
+      "status": 302,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/sitecss/5b5b98029d5abb591deee47f/136/55f0aac0e4b0f0a5b7e0b22e/5b5b98039d5abb591deee493/359/site.css?nocustom=true",
+      "status": 200,
+      "content_type": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/custom-css/5b5b98029d5abb591deee47f/5b5b98039d5abb591deee493/2/custom.css",
+      "status": 200,
+      "content_type": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-949c5a26a5ec79fe-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-73cd226d3c785c4e-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.spacer/d205e953-d2a7-4337-ab1c-9bfe7e74a770_1132/website.components.spacer.visitor.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.button/ad457667-7c74-435c-a465-fb5b9268b6d4_979/website.components.button.visitor.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/9a7d66d2-551d-4d41-a94f-d42d9da992c0_587/website.components.socialLinks.visitor.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/8afdaff0-5284-4899-bfab-a5b7abc25274_854/website.components.code.visitor.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.horizontalrule/2d36ad2e-f040-4b4c-9073-d3b574dce5de_176/website.components.horizontalrule.visitor.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-22bdf933fb74be0d-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://use.typekit.net/ik/ZHhRRvBpI3kZ4CO7PU0APzd_3qJLqQzIy8WrvokIvCjfeTtgfFHN4UJLFRbh52jhWDmKFAJo52Mk5AbujA4KFQqUZem8ZQbaZyGMJyBKScB0ZeN0OAikdas8SaBuZPJ5dYsROA4zZeN0-PXUFD97fbKv9gMMeMw6MKG4fOZbIMMjgfMfH6qJz8MbMg6BJMJ7fbKt9gMMeMS6MKG4fOubIMMj2PMfH6qJ0mMbMg6sJMJ7fbRxHUMgeMb6MTMgv0xJkMj.js",
+      "status": 200,
+      "content_type": "text/javascript;charset=utf-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-a5cfdec1ae227f33-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://www.nuyorican.org/s/bootstrapmin.js",
+      "status": 302,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "url": "https://www.nuyorican.org/s/jquerymin.js",
+      "status": 302,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/5b5b98029d5abb591deee47f/t/5c3e1bb3cd8366fcddada2c8/1782760147486/bootstrap.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/5b5b98029d5abb591deee47f/t/5c420f80b914432b34223a2e/1782760147486/calendar.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-de28642627a3a9b9-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/5b5b98029d5abb591deee47f/t/5c3dfa4a352f53b8415aad72/1782760147486/jquery.min.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/ta/55f0a9b0e4b0f3eb70352f6d/359/scripts/site-bundle.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/commerce-6cc241d45cb21db3-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/5b5b98029d5abb591deee47f/t/5c3e1cb588251b0b9d13d82e/1782760147486/bootstrap.min.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-a1c1279cc39c06e1-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/performance-988793a4f0a373b5-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/images-v6/damask/play-button.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.nuyorican.org/assets/ui-icons.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://www.nuyorican.org/universal/svg/social-accounts.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://use.typekit.net/af/3ebcc7/00000000000000007735d6a4/31/l?subset_id=2&fvd=n4&v=3",
+      "status": 200,
+      "content_type": "application/font-woff2"
+    },
+    {
+      "url": "https://use.typekit.net/af/abff2b/000000000000000077359df2/31/l?subset_id=2&fvd=n5&v=3",
+      "status": 200,
+      "content_type": "application/font-woff2"
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/90ab4a5d-8a5b-4f76-b1ac-22b64d8b3e35/latin.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/c02dd75d-df69-4519-9bfc-eedeadf97567/latin.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/577b36ac-e4f4-43ab-bbf9-84db7a8b389c/latin.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/8308d1793f387442-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/35ebb88013744865-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/popup-overlay-b742b752f5880972-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/6bc1593a0581d9e7-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5b5b98029d5abb591deee47f/1624986087809-2GN69B3MTC331ABNR6WO/nuyo+merch+copy.jpg?format=1500w",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/50785-5da795d97049b11f-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/7950-04085fdeaa24496c-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/84080-778cda698e7d2f53-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/21102-72fc0c6367524d94-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/49167-51945efe4889e521-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/48844-a3a036795f15c771-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/68506-b6cd1cc81f09244b-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/async-commerce-cart-utils-21524b0098511079-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/async-commerce-afterpay-8983cae9828ec837-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/async-reserved-cart-bootstrap-d335617b5bcc8c2c-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/60965-896812ca61e61906-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/popup-overlay-1cdf3718ad78e5ff-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://use.typekit.net/af/a3dda2/000000000000000077359ded/31/l?subset_id=2&fvd=n3&v=3",
+      "status": 200,
+      "content_type": "application/font-woff2"
+    },
+    {
+      "url": "https://use.typekit.net/af/ab2c0a/00000000000000007735d6bc/31/l?subset_id=2&fvd=n7&v=3",
+      "status": 200,
+      "content_type": "application/font-woff2"
+    },
+    {
+      "url": "https://use.typekit.net/af/731b2c/000000000000000077359dee/31/l?subset_id=2&fvd=i3&v=3",
+      "status": 200,
+      "content_type": "application/font-woff2"
+    },
+    {
+      "url": "https://use.typekit.net/af/7bf3f5/000000000000000077359a54/31/l?subset_id=2&fvd=n4&v=3",
+      "status": 200,
+      "content_type": "application/font-woff2"
+    },
+    {
+      "url": "https://use.typekit.net/af/c6cba1/00000000000000007735d6c8/31/l?subset_id=2&fvd=i7&v=3",
+      "status": 200,
+      "content_type": "application/font-woff2"
+    },
+    {
+      "url": "https://www.youtube.com/embed/0NCgA-GO-xQ",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://p.typekit.net/p.gif?s=2&k=646866_5b5b98029d5abb591deee47f&ht=tk&h=www.nuyorican.org&f=10300.10294.10302.10296.10301.10297.5631&a=646866&js=1.21.0&app=typekit&e=js&_=1786170737974",
+      "status": 200,
+      "content_type": "image/gif"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5b5b98029d5abb591deee47f/1572024725928-QN901YD5RD6ZTOK3A3JB/IMG_9113.jpg?format=500w",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://www.nuyorican.org/api/1/website-component-definitions",
+      "status": 401,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"error\":\"Access Denied:  You are not logged in.\",\"loginRequired\":\"true\"}",
+      "json_len": 73
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/button-render",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/button-render",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/button-render",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/RecordHit",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/button-render",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/button-render",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5b5b98029d5abb591deee47f/1572028585537-YNWVEKK16Y9E2CMBQLNH/Chembo.jpg?format=500w",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/button-render",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.youtube.com/s/player/854a788e/www-player.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/button-render",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.nuyorican.org/api/census/button-render",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.LdEsUeQzt_M.L.X.O/am=AAAAgA/d=1/br=1/rs=AGKMywG4vMiKRwIx69SKfWRnxbKh6r131A/m=root,base",
+      "status": 200,
+      "content_type": "text/css; charset=UTF-8"
+    }
+  ],
+  "hosts": [
+    "assets.squarespace.com",
+    "definitions.sqspcdn.com",
+    "file.squarespace-cdn.com",
+    "images.squarespace-cdn.com",
+    "p.typekit.net",
+    "static1.squarespace.com",
+    "use.typekit.net",
+    "www.nuyorican.org",
+    "www.youtube.com"
+  ],
+  "html_title": "Nuyorican Poets Cafe",
+  "html_len": 203338,
+  "calendar_ish_classes": [
+    "\n  sqs-gallery-container\n  sqs-gallery-block-slideshow\n  \n  \n  \n  \n\n  \n    sqs-gallery-block-show-meta sqs-gallery-block-meta-position-bottom\n    \n  \n  sqs-gallery-block-show-meta\n  \n  \n\n  \n  \n\n  \n  block-animation-none\n  clear",
+    "tweak-site-width-option-full-width tweak-icon-weight-medium tweak-site-ajax-loading-bar-show ancillary-header-top-left-layout-horizontal ancillary-header-top-center-layout-horizontal ancillary-header-top-right-layout-horizontal ancillary-header-bottom-left-layout-horizontal ancillary-header-bottom-center-layout-horizontal ancillary-header-bottom-right-layout-horizontal ancillary-header-branding-position-top-left ancillary-header-tagline-position-hide ancillary-header-primary-nav-position-top-right ancillary-header-secondary-nav-position-top-right ancillary-header-social-position-top-right ancillary-header-search-position-hide ancillary-header-cart-position-top-right ancillary-header-account-position-hide tweak-header-primary-nav-hover-style-spotlight tweak-header-primary-nav-button-style-solid tweak-header-primary-nav-button-shape-square tweak-header-secondary-nav-inherit-styles tweak-header-secondary-nav-hover-style-fade tweak-header-secondary-nav-button-style-solid tweak-header-secondary-nav-button-shape-square tweak-header-search-style-underlined tweak-header-search-placeholder-show tweak-header-cart-style-text tweak-header-account-style-text tweak-overlay-parallax-new-math tweak-index-nav-style-filled-dots tweak-index-nav-position-right tweak-index-nav-text-show tweak-index-page-fullscreen-none tweak-index-page-scroll-indicator-none tweak-index-page-scroll-indicator-icon-arrow tweak-index-page-scroll-indicator-icon-weight-hairline tweak-index-gallery-layout-grid tweak-index-gallery-fixed-height tweak-index-gallery-apply-bottom-spacing tweak-index-gallery-hover-style-fade tweak-index-gallery-controls-small-arrows tweak-index-gallery-controls-icon-weight-hairline tweak-index-gallery-indicators-lines tweak-index-gallery-autoplay-enable tweak-index-gallery-transition-fade tweak-index-gallery-content-position-top-left tweak-index-gallery-content-text-alignment-left tweak-footer-show tweak-footer-layout-stacked tweak-footer-layout-columns-auto tweak-footer-stacked-alignment-center tweak-mobile-bar-top-fixed ancillary-mobile-bar-branding-position-top-left ancillary-mobile-bar-menu-icon-position-top-right tweak-mobile-bar-menu-icon-hamburger ancillary-mobile-bar-search-icon-position-hide ancillary-mobile-bar-cart-position-bottom-center tweak-mobile-bar-cart-style-cart ancillary-mobile-bar-account-position-hide tweak-mobile-bar-account-style-text tweak-mobile-overlay-slide-origin-right tweak-mobile-overlay-close-show tweak-mobile-overlay-menu-primary-button-style-solid tweak-mobile-overlay-menu-primary-button-shape-square tweak-mobile-overlay-menu-secondary-inherit tweak-mobile-overlay-menu-secondary-button-style-solid tweak-mobile-overlay-menu-secondary-button-shape-square tweak-quote-block-alignment-left tweak-social-icons-style-regular tweak-social-icons-shape-square tweak-blog-meta-primary-date tweak-blog-meta-secondary-none tweak-blog-list-style-grid tweak-blog-list-separator-show tweak-blog-list-alignment-left tweak-blog-list-item-image-show tweak-blog-list-item-image-aspect-ratio-grid-11-square tweak-blog-list-item-image-aspect-ratio-stacked-11-square tweak-blog-list-item-title-show tweak-blog-list-item-excerpt-show tweak-blog-list-item-body-show tweak-blog-list-item-readmore-inline tweak-blog-list-item-meta-position-above-title tweak-blog-list-pagination-link-label-show tweak-blog-list-pagination-link-icon-weight-light tweak-blog-item-alignment-center tweak-blog-item-meta-position-above-title tweak-blog-item-share-position-below-content tweak-blog-item-pagination-link-label-show tweak-blog-item-pagination-link-title-show tweak-blog-item-pagination-link-meta-hide tweak-blog-item-pagination-link-icon-weight-light event-disable-item-pages event-thumbnails event-thumbnail-size-169-widescreen event-list-show-cats event-list-date event-list-time event-excerpts event-list-cta-button event-item-back-link gallery-design-slideshow aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop tweak-product-list-image-aspect-ratio-11-square tweak-product-list-item-hover-behavior-show-alternate-image tweak-product-list-meta-position-under tweak-product-list-mobile-meta-position-under tweak-product-list-meta-alignment-under-center tweak-product-list-meta-alignment-overlay-center-center tweak-product-list-show-title tweak-product-list-show-price tweak-product-list-filter-display-top tweak-product-list-filter-alignment-center tweak-product-item-nav-show-breadcrumb-and-pagination tweak-product-item-nav-pagination-style-previousnext tweak-product-item-nav-breadcrumb-alignment-left tweak-product-item-nav-pagination-alignment-split tweak-product-item-gallery-position-left tweak-product-item-gallery-design-stacked tweak-product-item-gallery-aspect-ratio-11-square tweak-product-item-gallery-thumbnail-alignment-left tweak-product-item-details-alignment-left tweak-product-item-details-show-title tweak-product-item-details-show-price tweak-product-item-details-show-excerpt tweak-product-item-details-excerpt-position-below-price tweak-product-item-details-show-share-buttons tweak-product-item-details-show-variants tweak-product-item-details-show-quantity tweak-product-item-details-options-style-square tweak-product-item-details-show-add-to-cart-button tweak-product-item-details-add-to-cart-button-style-outline tweak-product-item-details-add-to-cart-button-shape-square tweak-product-item-details-add-to-cart-button-padding-medium tweak-product-item-image-zoom-behavior-click tweak-product-item-lightbox-enabled tweak-related-products-image-aspect-ratio-11-square tweak-related-products-meta-alignment-under-center tweak-product-badge-style-none tweak-product-badge-position-top-right tweak-product-badge-inset-floating newsletter-style-dark hide-opentable-icons opentable-style-dark small-button-style-solid small-button-shape-square medium-button-style-solid medium-button-shape-square large-button-style-outline large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-solid button-corner-style-square tweak-product-quick-view-button-style-docked tweak-product-quick-view-button-position-center tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light tweak-share-buttons-style-outline tweak-share-buttons-icons-show tweak-share-buttons-counts-show tweak-share-buttons-standard-icon-color tweak-share-buttons-standard-background-color native-currency-code-usd collection-type-index collection-layout-default collection-5b5b9da68a922d8f9e051523 homepage view-list mobile-style-available sqs-has-custom-cart has-logo-image has-social has-cart has-parallax-images enable-load-effects has-primary-nav has-footer-nav parallax-item-positioning-method-fixed"
+  ],
+  "error": "",
+  "iframes": [
+    "https://www.youtube.com/embed/0NCgA-GO-xQ",
+    "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnuyoricanpoets%2F&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId"
+  ]
+}

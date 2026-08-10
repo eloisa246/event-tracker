@@ -1,0 +1,49 @@
+{
+  "id": "ridgewood-commons",
+  "name": "Ridgewood Commons",
+  "url": "https://ridgewoodcommons.nyc/booking-calendar/",
+  "responses": [
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/lib/fullcallendar-icalendar-6.1.19-index.global.min.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/lib/ical.es5.min.cjs",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/lib/fullcalendar-6.1.19-index.global.min.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://ridgewoodcommons.nyc/booking-calendar/rc-calendar.ics?version=1786171621159",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    }
+  ],
+  "hosts": [
+    "ridgewoodcommons.nyc"
+  ],
+  "html_title": "",
+  "html_len": 12539,
+  "calendar_ish_classes": [
+    "calendar",
+    "fc-event fc-event-start fc-event-end fc-event-past fc-list-event",
+    "fc-event fc-event-start fc-event-end fc-event-today fc-event-future fc-list-event",
+    "fc-list-event-dot",
+    "fc-list-event-graphic",
+    "fc-list-event-time",
+    "fc-list-event-title"
+  ],
+  "error": "",
+  "iframes": [],
+  "embedded_script_json": []
+}

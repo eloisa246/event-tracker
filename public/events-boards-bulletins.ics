@@ -1,0 +1,511 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bk-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brooklyn Events — Events Boards & Bulletins
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:e1b2c270b496f738a5ffdb97916ca6eb2d572163@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260807T180000
+DTEND;TZID=America/New_York:20260807T230000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:c461c6ab72542bf58b155f11cdf19bf80b504d68@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T150000
+DTEND;TZID=America/New_York:20260808T210000
+SUMMARY:Ridgewood Commons — Mercado Caracol
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:d11fce5f4f397d376df5eedd7c158c9380e63780@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260811T190000
+DTEND;TZID=America/New_York:20260811T210000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:43947cb92da1102f314362358a1ebf5ead60f874@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260813T183000
+DTEND;TZID=America/New_York:20260813T213000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:7897a30f07116597574a61a5a8cd6b1f7c40aeb7@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260815T150000
+DTEND;TZID=America/New_York:20260815T163000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:04734fb564df40a0921eb276af0bf730812f0151@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260816T123000
+DTEND;TZID=America/New_York:20260816T153000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:b71adb1770f9401ce652e35886982aafd667a108@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260820T180000
+DTEND;TZID=America/New_York:20260820T210000
+SUMMARY:Ridgewood Commons — Solidarity craft circle: Mending workshop/ 
+ DIY craft night
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:37420d652d1ad84d580d1388e48114dc372c124a@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260821T170000
+DTEND;TZID=America/New_York:20260821T220000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:45aba9558eb350796eeeb9632c7ce5bf43010efc@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Ridgewood Commons — 1 Yr Anniversary Party
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:36a059678dda448ebdc081c4ac96dcaf422c9def@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260823T130000
+DTEND;TZID=America/New_York:20260823T150000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:c56bb1114cf25f695e819d722435f74c544867ba@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260829T150000
+DTEND;TZID=America/New_York:20260829T210000
+SUMMARY:Ridgewood Commons — Migrant Solidarity Presents Mercado Caracol
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:b088d0f833f4d800cd97f8d694ed300120aaa886@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260830T130000
+DTEND;TZID=America/New_York:20260830T150000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:d8a87fa0d02fac64c18cb2df40b6ffa73c1434ab@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260905T150000
+DTEND;TZID=America/New_York:20260905T170000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:601755e4461df69f806c13040e91c7879d72ed98@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260905T170000
+DTEND;TZID=America/New_York:20260905T203000
+SUMMARY:Ridgewood Commons — Collage Fundraiser - benefiting NYC Migrant
+  Solidarity
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:2e10bdfcde57459225de6aa0bacb7f8861809242@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260906T150000
+DTEND;TZID=America/New_York:20260906T173000
+SUMMARY:Ridgewood Commons — Pop-Gym Self Defense Workshop
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:c900e69d7a6940d02563fa62a7cb523722977fc4@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260909T170000
+DTEND;TZID=America/New_York:20260909T190000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:bf3f0726e12cd3cb9217e03f5c460063404ee422@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260910T183000
+DTEND;TZID=America/New_York:20260910T200000
+SUMMARY:Ridgewood Commons — Spokescouncil Meeting
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:c014ede2b5e211e73b6fdd58a91a1ca8d554604b@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260912T143000
+DTEND;TZID=America/New_York:20260912T220000
+SUMMARY:Ridgewood Commons — Migrant Solidarity Presents Mercado Caracol
+  (tentative)
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:682c514df0fadbcb66350b15c2ac206969183bcd@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260913T090000
+DTEND;TZID=America/New_York:20260913T170000
+SUMMARY:Ridgewood Commons — Community Care Clinic
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:db53b2a498f6438432cc3fc4cd22a04efaddfc7e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260917T180000
+DTEND;TZID=America/New_York:20260917T210000
+SUMMARY:Ridgewood Commons — Solidarity craft circle: Mending workshop/ 
+ DIY craft night
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:50ce6622a2def5464b576d3c993b3f17ee3c1715@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260918T170000
+DTEND;TZID=America/New_York:20260918T220000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:467da06c799181ff14c8af5062273cc209c569a2@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260920T130000
+DTEND;TZID=America/New_York:20260920T150000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:1b433cced4f50f9adbc32d3bf3bfe9af0d774ed6@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260926T143000
+DTEND;TZID=America/New_York:20260926T220000
+SUMMARY:Ridgewood Commons — Migrant Solidarity Presents Mercado Caracol
+  (tentative)
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:abc4217e5404966a36656de270b13361180a6168@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261004T100000
+DTEND;TZID=America/New_York:20261004T170000
+SUMMARY:Grand Bazaar NYC — Decor and Design Bazaar
+DESCRIPTION:Refresh your space at our Decor &amp\; Design Bazaar. Discove
+ r vintage furnishings\, handcrafted home goods\, original artwork\, text
+ iles\, ceramics\, lighting\, and one-of-a-kind decor from local makers\,
+  designers\, and collectors. Whether you&#8217\;re searching for a state
+ ment piece or simply gathering inspiration\, you&#8217\;ll find plenty o
+ f unique treasures to explore. Spend the day browsing\, discovering new 
+ favorites\, [&hellip\;]\nhttps://grandbazaarnyc.org/events/decor-and-des
+ ign-bazaar/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/decor-and-design-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e0ddc78b832e8e1791f907fbc75585c408860b@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261010T150000
+DTEND;TZID=America/New_York:20261010T163000
+SUMMARY:Ridgewood Commons — Spokescouncil Meeting
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:8577acf59a8c75b93826d8f1b2a15cf920a74032@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261011T100000
+DTEND;TZID=America/New_York:20261011T170000
+SUMMARY:Grand Bazaar NYC — Cozy and Crafted Bazaar
+DESCRIPTION:As the seasons begin to shift\, Cozy &#038\; Crafted celebrat
+ es the makers and handmade treasures that bring warmth\, character\, and
+  comfort to everyday life. Shop handcrafted home goods\, artisan-made ac
+ cessories\, cozy textiles\, candles\, ceramics\, and unique gifts while 
+ meeting the talented creators behind them. It&#8217\;s the perfect oppor
+ tunity to discover thoughtful finds and embrace the [&hellip\;]\nhttps:/
+ /grandbazaarnyc.org/events/cozy-and-crafted-bazaar/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/cozy-and-crafted-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:573fd1d0ba6e0f77fa206e4760bf372cd0dbad85@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T210000
+SUMMARY:Ridgewood Commons — Solidarity craft circle: Mending workshop/ 
+ DIY craft night
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:b36782da91866d24554e3f43c5d2334058526282@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261017T143000
+DTEND;TZID=America/New_York:20261017T210000
+SUMMARY:Ridgewood Commons — Migrant Solidarity Presents Mercado Caracol
+  (tentative)
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:9933f3e3baeff571ae41ef40d544b717318df956@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261018T100000
+DTEND;TZID=America/New_York:20261018T170000
+SUMMARY:Grand Bazaar NYC — Art and Fashion Bazaar
+DESCRIPTION:Where creativity meets personal style. Art &#038\; Fashion Ba
+ zaar brings together independent artists\, designers\, vintage curators\
+ , and makers for a vibrant day of self-expression and inspiration. Explo
+ re original artwork\, statement pieces\, handcrafted accessories\, and d
+ istinctive fashion that reflects the creativity and diversity of New Yor
+ k City. Whether you&#8217\;re refreshing your wardrobe or searching for 
+ the [&hellip\;]\nhttps://grandbazaarnyc.org/events/art-and-fashion-bazaa
+ r/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/art-and-fashion-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:10f02abfbf5dcb9056530bb8ce6023ced304c610@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261025T100000
+DTEND;TZID=America/New_York:20261025T170000
+SUMMARY:Grand Bazaar NYC — Spooky Spectacular Bazaar
+DESCRIPTION:Halloween comes to Grand Bazaar NYC with our Spooky Spectacul
+ ar Bazaar. Browse festive decorations\, handcrafted treats\, seasonal gi
+ fts\, costumes\, vintage finds\, and plenty of unexpected treasures from
+  local vendors. Whether you&#8217\;re getting ready for Halloween or jus
+ t love this time of year\, there&#8217\;s no shortage of spooky-season i
+ nspiration to discover. We&#8217\;ll also be celebrating on [&hellip\;]\
+ nhttps://grandbazaarnyc.org/events/spooky-spectacular-bazaar/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/spooky-spectacular-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:c816b70b81b701cf8cad66bbb767e0b17c367c27@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261101T100000
+DTEND;TZID=America/New_York:20261101T170000
+SUMMARY:Grand Bazaar NYC — Wellness Weekend Bazaar
+DESCRIPTION:The day after the NYC Marathon\, slow down and treat yourself
+  to a little recovery. Our Wellness Weekend Bazaar brings together local
+  vendors offering natural skincare\, handmade goods\, nourishing foods\,
+  self-care essentials\, and thoughtful products designed to help you fee
+ l your best. Take a break from the weekend crowds\, explore the market\,
+  and discover small [&hellip\;]\nhttps://grandbazaarnyc.org/events/welln
+ ess-weekend-bazaar/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/wellness-weekend-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:8827687a5a1ae10b33c558d0802923d57c2a9755@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261108T100000
+DTEND;TZID=America/New_York:20261108T170000
+SUMMARY:Grand Bazaar NYC — One of a Kind Bazaar
+DESCRIPTION:Some things are worth making by hand. Our One of a Kind Bazaa
+ r celebrates the artists\, makers\, and small businesses behind some of 
+ the most unique finds at Grand Bazaar NYC. Shop handmade jewelry\, origi
+ nal artwork\, home goods\, accessories\, gifts\, and other thoughtfully 
+ crafted pieces. If you love discovering something you won&#8217\;t see e
+ verywhere else\, [&hellip\;]\nhttps://grandbazaarnyc.org/events/one-of-a
+ -kind-bazaar-8/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/one-of-a-kind-bazaar-8/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:dc07b695f7b614ba252acf792a6ca6df9ef71e03@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:Ridgewood Commons — Writing Workshop
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:60aaea65e4e6bf205bd62b6e26d5f2bb440d919b@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261112T183000
+DTEND;TZID=America/New_York:20261112T200000
+SUMMARY:Ridgewood Commons — Spokescouncil Meeting
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:28fdbd8508d96741be1745e922b1838d626a4887@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261114T150000
+DTEND;TZID=America/New_York:20261114T233000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:a394df69fdf0f071852efd4df1aefbe8f89965b5@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261115T100000
+DTEND;TZID=America/New_York:20261115T170000
+SUMMARY:Grand Bazaar NYC — Autumn Bazaar
+DESCRIPTION:As the city settles into autumn\, there&#8217\;s no better ti
+ me to spend a Sunday wandering the market. Our Autumn Bazaar brings toge
+ ther vintage collectors\, local makers\, food vendors\, artists\, and sm
+ all businesses for a day of seasonal shopping and neighborhood connectio
+ n. Browse\, explore\, and enjoy the simple pleasure of discovering somet
+ hing unexpected. Fall in New [&hellip\;]\nhttps://grandbazaarnyc.org/eve
+ nts/autumn-bazaar-3/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/autumn-bazaar-3/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:44c91a091f52c1f2675cd6f932e38f7c5b1935c2@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261122T100000
+DTEND;TZID=America/New_York:20261122T170000
+SUMMARY:Grand Bazaar NYC — Homecoming Bazaar
+DESCRIPTION:Just before Thanksgiving\, Homecoming Bazaar is all about gat
+ hering\, hosting\, and making your space feel welcoming. Discover vintag
+ e treasures\, handcrafted home goods\, tableware\, candles\, textiles\, 
+ artwork\, and thoughtful decor from local makers and collectors. Whether
+  you&#8217\;re preparing for holiday guests or simply refreshing your ho
+ me for the season\, you&#8217\;ll find plenty of inspiration along the [
+ &hellip\;]\nhttps://grandbazaarnyc.org/events/homecoming-bazaar/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/homecoming-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:787dce25ef46c639c8cd3c703f0430df7b88d99a@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261126T190000
+DTEND;TZID=America/New_York:20261126T210000
+SUMMARY:Ridgewood Commons — Writing Workshop
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:46ab9dda0732ab3465a053b70f9c506bf9185c51@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261129T100000
+DTEND;TZID=America/New_York:20261129T170000
+SUMMARY:Grand Bazaar NYC — Super Sunday Bazaar
+DESCRIPTION:The holiday season is underway\, and Super Sunday Bazaar is t
+ he perfect place to spend a leisurely Sunday afternoon. Browse a diverse
+  mix of vintage finds\, handcrafted goods\, specialty foods\, home decor
+ \, jewelry\, and gifts from local vendors. Whether you&#8217\;re beginni
+ ng your holiday shopping or simply looking for something unique\, you&#8
+ 217\;ll find plenty to explore. [&hellip\;]\nhttps://grandbazaarnyc.org/
+ events/super-sunday-bazaar/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/super-sunday-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:f38bb22d27640b4ce91da1fd77fe420aa1be22b2@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261206T100000
+DTEND;TZID=America/New_York:20261206T170000
+SUMMARY:Grand Bazaar NYC — Art and Decor Bazaar
+DESCRIPTION:Fill your home with creativity at our Art &#038\; Decor Bazaa
+ r. Explore original artwork\, handcrafted home goods\, ceramics\, textil
+ es\, lighting\, and distinctive decor from local artists and makers. Whe
+ ther you&#8217\;re looking for a statement piece\, a thoughtful gift\, o
+ r something small that brings a space to life\, you&#8217\;ll find plent
+ y of inspiration throughout the market. [&hellip\;]\nhttps://grandbazaar
+ nyc.org/events/art-and-decor-bazaar/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/art-and-decor-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:261fb55e0d86c9996984be6b5ab63177bf4fc6ce@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T210000
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:b23e3779142b3ead2be5252dda21903d07eb55a1@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261210T190000
+DTEND;TZID=America/New_York:20261210T210000
+SUMMARY:Ridgewood Commons — Writing Workshop
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:efab97ebff78d82f1247be51a36a03f5d1fd93da@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261212T150000
+DTEND;TZID=America/New_York:20261212T163000
+SUMMARY:Ridgewood Commons — Spokescouncil Meeting
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:e99cb3c491e66f5634b3b9c8dd43347ba00adb80@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261213T100000
+DTEND;TZID=America/New_York:20261213T170000
+SUMMARY:Grand Bazaar NYC — Holiday Bazaar
+DESCRIPTION:Holiday shopping doesn&#8217\;t have to mean crowded stores a
+ nd endless scrolling. At our Holiday Bazaar\, you&#8217\;ll find thought
+ ful gifts from local makers\, artists\, vintage dealers\, and small busi
+ nesses. Discover handcrafted jewelry\, cozy home accents\, original artw
+ ork\, specialty foods\, and plenty of one-of-a-kind finds you won&#8217\
+ ;t see in a department store. Take your time\, wander the [&hellip\;]\nh
+ ttps://grandbazaarnyc.org/events/holiday-bazaar/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/holiday-bazaar/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:bbaf1bdaf0032b1413ac0949e50501ccd4a08c6d@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;VALUE=DATE:20261219
+SUMMARY:Ridgewood Commons — private event
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:5c7baba5dc16e9927e40a450d95e2a67f0c4d9aa@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261220T100000
+DTEND;TZID=America/New_York:20261220T170000
+SUMMARY:Grand Bazaar NYC — Holiday Bazaar
+DESCRIPTION:Get into the holiday spirit at Grand Bazaar NYC&#8217\;s Holi
+ day Bazaar\, where you&#8217\;ll find one-of-a-kind gifts\, handcrafted 
+ goods\, vintage treasures\, holiday décor\, art\, jewelry\, home goods\
+ , and delicious food from over 200 local vendors. Whether you&#8217\;re 
+ checking off your gift list or simply enjoying a festive day out\, every
+  purchase supports independent makers and helps [&hellip\;]\nhttps://gra
+ ndbazaarnyc.org/events/holiday-bazaar-2/
+LOCATION:Grand Bazaar NYC\, 100 West 77th St.\, NY\, NY 10024\, (At Colum
+ bus Avenue)
+URL:https://grandbazaarnyc.org/events/holiday-bazaar-2/
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+BEGIN:VEVENT
+UID:f8f16cd31c0c76534dabe2b2cba0fa254464a444@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20261224T190000
+DTEND;TZID=America/New_York:20261224T210000
+SUMMARY:Ridgewood Commons — Writing Workshop
+CATEGORIES:Events Boards & Bulletins
+END:VEVENT
+END:VCALENDAR

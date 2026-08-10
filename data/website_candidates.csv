@@ -1,0 +1,210 @@
+name,instagram,category,website,score,evidence
+Animal Care Centers of NYC,@nycacc,Animal Welfare & Rescue,,0,no candidate domain resolved
+Anjellicle Cats Rescue,@anjelliclecats,Animal Welfare & Rescue,https://www.anjelliclecats.com/,3,name in <title> + NY locality: 'ANJELLICLE CATS RESCUE | NEW YORK CITY CAT RESCUE | NO-'
+Badass Animal Rescue,@badassanimalrescue,Animal Welfare & Rescue,https://badassanimalrescue.com,3,name in <title> + NY locality: 'Badass Animal Rescue'
+Flatbush Cats,@flatbushcats,Animal Welfare & Rescue,https://www.flatbushcats.org/,3,name in <title> + NY locality: 'Flatbush Cats'
+Social Tees Animal Rescue,@socialteesnyc,Animal Welfare & Rescue,https://socialteesnyc.org,3,name in <title> + NY locality: 'Social Tees Animal Rescue'
+After Hours Club,@afterhoursclubnyc,"Arts, Music & Creative Classes",https://www.afterhoursclubnyc.com/,2,name in <title> but NO New York signal: 'After Hours Club'
+Bushwick Ceramics,@bushwickceramics,"Arts, Music & Creative Classes",https://www.bushwickceramics.com/,3,name in <title> + NY locality: 'Bushwick Ceramics | Ceramics Studio  |  228 Suydam Stre'
+Centerpoint Ceramics,@centerpointbk,"Arts, Music & Creative Classes",https://www.centerpointceramics.com/,2,name in <title> but NO New York signal: 'Centerpoint Ceramics'
+Cleo's Yarn Shop,@cleosyarnshop,"Arts, Music & Creative Classes",https://cleosyarnshop.com,2,name/handle in body + NY locality
+Happy Medium,@gethappymedium,"Arts, Music & Creative Classes",https://happymedium.com,2,name in <title> but NO New York signal: 'HappyMedium.com - Consulting Domain for Sale'
+RC Writing Workshop,@rcwritingworkshop,"Arts, Music & Creative Classes",,0,no candidate domain resolved
+Recess Grove,@recessgrove,"Arts, Music & Creative Classes",https://www.recessgrove.com/,3,"name in <title> + NY locality: 'recess grove | creative space, art classes, workshop, c'"
+Textile Arts Center,@textileartscenter,"Arts, Music & Creative Classes",https://textileartscenter.com,3,name in <title> + NY locality: 'Textile Arts Center'
+The Public Theater,@publictheaterny,"Arts, Music & Creative Classes",https://thepublictheatre.org,1,resolves but unconfirmed: 'The Public Theatre - The Public Theatre'
+Aunt Ginny's,@auntginnys,Bars & Third Places,,0,no candidate domain resolved
+Bread N Wine,@breadandwinenyc,Bars & Third Places,https://breadnwine.com,1,"name/handle in body, no New York signal"
+Cute Cafe,@cutecatnyc,Bars & Third Places,,0,no candidate domain resolved
+Donna Cocktail Club,@donnacocktailclub,Bars & Third Places,,0,no candidate domain resolved
+Evil Twin Brewing NYC,@eviltwinbrewingnyc,Bars & Third Places,,0,no candidate domain resolved
+Gottscheer Hall,@gottscheerhall,Bars & Third Places,,0,no candidate domain resolved
+Honeymoon Coffee Shop,@honeymooncoffeeshop,Bars & Third Places,,0,no candidate domain resolved
+Knickerbocker Bagel,@knickerbocker_bagel,Bars & Third Places,https://knickerbockerbagel.com,3,name in <title> + NY locality: 'Knickerbocker Bagel &#8211; Modern Beauty Trends'
+Milk & Pull,@milkandpull,Bars & Third Places,,0,no candidate domain resolved
+Mr. Nancy's,@mrnancys,Bars & Third Places,,0,no candidate domain resolved
+SEY Coffee,@seycoffee,Bars & Third Places,https://www.seycoffee.com/,2,name/handle in body + NY locality
+Sunrise/Sunset,@sunrisesunsetbk,Bars & Third Places,https://sunrisesunset.com,3,name in <title> + NY locality: 'Sunrise Sunset Calendars - Home'
+The Back Room,@thebackroomnyc,Bars & Third Places,https://thebackroom.com,2,name in <title> but NO New York signal: 'The Back Room'
+The Bad Old Days,@the_bad_old_days,Bars & Third Places,https://badolddays.com,1,"name/handle in body, no New York signal"
+The Gutter,@gutterbar,Bars & Third Places,https://gutter.nyc,2,name/handle in body + NY locality
+The Ten Bells,@thetenbells,Bars & Third Places,https://www.tenbells.com/,2,name in <title> but NO New York signal: 'The Ten Bells • An proper East London pub'
+The Underground Open Mic,@theundergroundopenmic,Bars & Third Places,,0,no candidate domain resolved
+A Third Place,@athirdplace.nyc,Creative Collectives & Communities,https://athirdplace.com,1,resolves but unconfirmed
+Anthology Film Archives,@anthologyfilmarchives,Creative Collectives & Communities,https://www.anthologyfilmarchives.org/,3,name in <title> + NY locality: 'Anthology Film Archives'
+Arts On Site,@artsonsite,Creative Collectives & Communities,https://www.artsonsite.org/,3,name in <title> + NY locality: 'Rehearsal Studio Rental | Arts On Site | New York'
+Gaia Music Collective,@gaiamusiccollective,Creative Collectives & Communities,,0,no candidate domain resolved
+Hack Manhattan,@hack.manhattan,Creative Collectives & Communities,https://hackmanhattan.com,3,name in <title> + NY locality: 'Hack Manhattan'
+Low Cinema,@low_cinema,Creative Collectives & Communities,https://lowcinema.com,3,name in <title> + NY locality: 'Low Cinema'
+Millennium Film Workshop,@millennium_film,Creative Collectives & Communities,https://www.millenniumfilm.org/,1,"name/handle in body, no New York signal"
+NYC Resistor,@nycresistor,Creative Collectives & Communities,https://www.nycresistor.com/,3,"name in <title> + NY locality: 'NYC Resistor &#8211; We learn, share, and make things.'"
+Niche Night NYC,@nichenightnyc,Creative Collectives & Communities,https://www.nichenightnyc.com/,3,name in <title> + NY locality: 'Home | Niche Night Nyc'
+Paris Theater,@paristheaternyc,Creative Collectives & Communities,https://www.paristheaternyc.com/,3,name in <title> + NY locality: 'Paris Theater'
+Pioneer Works,@pioneerworks,Creative Collectives & Communities,https://pioneerworks.com,2,name in <title> but NO New York signal: 'Pioneer Works &#8211; Custom Manufacturing &#'
+Roxy Cinema New York,@roxycinemanyc,Creative Collectives & Communities,https://www.roxycinemanewyork.com/,3,name in <title> + NY locality: 'Roxy Cinema New York | Tribeca Independent &amp; Art Ho'
+Spectacle Theater,@spectaclenyc,Creative Collectives & Communities,,0,no candidate domain resolved
+Syndicated,@syndicatedbk,Creative Collectives & Communities,https://syndicatedbk.com,3,"name in <title> + NY locality: 'Movie Theater, Bar, Restaurant in Bushwick | Syndicated'"
+The Lot Radio,@thelotradio,Creative Collectives & Communities,https://www.thelotradio.com/,2,name in <title> but NO New York signal: 'THE LOT RADIO'
+The New School,@thenewschool,Creative Collectives & Communities,https://thenewschool.com,1,"name/handle in body, no New York signal"
+Tiny Arts Supply,@tinyartssupply,Creative Collectives & Communities,https://tinyartssupply.com,3,name in <title> + NY locality: 'Tiny Arts Supply'
+Zine Club Brooklyn,@zineclub_bklyn,Creative Collectives & Communities,https://zineclub.com,1,resolves but unconfirmed: 'ZineClub.com - Publishing Domains for Sale - Buy Premiu'
+Artists Who Sublet,@artistswhosublet,Events Boards & Bulletins,,0,no candidate domain resolved
+Girls Who Sublet NYC,@girlswhosublet.nyc,Events Boards & Bulletins,https://girlswhosublet.nyc,1,title is just the domain (placeholder?): 'girlswhosublet.nyc'
+Overheard New York,@overheardnewyork,Events Boards & Bulletins,,0,no candidate domain resolved
+Astoria Chess,@astoriachess,Games & Game Nights,,0,no candidate domain resolved
+Bushwick Chess,@bushwickchess,Games & Game Nights,https://bushwick-chess.com,0,parked/for-sale page
+Bushwick Gaming Club,@bushwick_gaming_club,Games & Game Nights,https://www.bushwick.com/,1,resolves but unconfirmed: 'Bushwick Real Estate - The market is crazy. Get an agen'
+Chess Haus,@chess.haus,Games & Game Nights,https://www.chess.com/,1,resolves but unconfirmed: 'Chess.com - Play Chess Online - Free Games'
+Food Mahjong Club,@foodmahjongclub,Games & Game Nights,,0,no candidate domain resolved
+Harlem Chess,@harlemchess,Games & Game Nights,,0,no candidate domain resolved
+Hex & Co.,@hexandcompany,Games & Game Nights,,0,no candidate domain resolved
+North Brooklyn Chess,@northbrooklynchess,Games & Game Nights,https://northbrooklynchess.club,1,title is just the domain (placeholder?): 'northbrooklynchess.club'
+Pawn Chess Club,@pawnchessclub,Games & Game Nights,https://pawnchessclub.com,2,name in <title> but NO New York signal: 'Pawn Chess Club'
+People's Chess Club,@peopleschessclub,Games & Game Nights,,0,no candidate domain resolved
+Queers Gambit,@queers.gambit,Games & Game Nights,https://queers.nyc,1,resolves but unconfirmed: 'queers.nyc&nbsp;-&nbsp;queers Resources and Information'
+The Brooklyn Strategist,@thebrooklynstrategist,Games & Game Nights,https://thebrooklynstrategist.com,3,name in <title> + NY locality: 'Home - The Brooklyn Strategist'
+The Uncommons,@theuncommonsnyc,Games & Game Nights,https://uncommons.org,1,title is just the domain (placeholder?): 'Uncommons.org'
+Cubbyhole,@cubbyholebar,LGBTQ+ & Identity-Based Groups,https://www.cubbyholebar.com/,3,name in <title> + NY locality: 'Cubbyhole Bar NYC'
+Dank Dykes,@dankdykes_,LGBTQ+ & Identity-Based Groups,https://dankdykes.com,3,name in <title> + NY locality: 'Dank Dykes | NYC Queer Cannabis Social Club &amp; Dispe'
+Dykes and Dolls,@dykesanddolls,LGBTQ+ & Identity-Based Groups,https://dykesanddolls.com,2,name in <title> but NO New York signal: 'Dykes and Dolls'
+Gay Agenda NYC,@gay.agenda.nyc,LGBTQ+ & Identity-Based Groups,,0,no candidate domain resolved
+Ginger's Bar,@gingersbar_brooklyn,LGBTQ+ & Identity-Based Groups,https://gingersbarbrooklyn.com,1,resolves but unconfirmed
+Happyfun Hideaway,@happyfunhideaway,LGBTQ+ & Identity-Based Groups,,0,no candidate domain resolved
+Haus of Femme,@hausoffemme.nyc,LGBTQ+ & Identity-Based Groups,https://hausoffemmenyc.com,1,resolves but unconfirmed
+Henrietta Hudson,@henriettahudson,LGBTQ+ & Identity-Based Groups,https://henriettahudson.com,2,name in <title> but NO New York signal: 'Henrietta Hudson'
+Lesbian Herstory Archives,@lesbianherstoryarchives,LGBTQ+ & Identity-Based Groups,https://lesbianherstoryarchives.org,3,name in <title> + NY locality: 'Lesbian Herstory Archives &#8211; In Memory of the Voic'
+Queer Aperitivo NYC,@queeraperitivonyc,LGBTQ+ & Identity-Based Groups,,0,no candidate domain resolved
+Sapphic NY,@sapphic.ny,LGBTQ+ & Identity-Based Groups,https://sapphic.com,1,resolves but unconfirmed: 'SAPPHIC.COM | Strategic-Grade domain names for establis'
+South Brooklyn Sapphic,@southbrooklynsapphic,LGBTQ+ & Identity-Based Groups,,0,no candidate domain resolved
+The Bush,@bushdykebar,LGBTQ+ & Identity-Based Groups,https://thebush.org,2,name in <title> but NO New York signal: 'The Bush'
+1804 Books,@1804books,Literary & Book Communities,https://1804books.com,2,name in <title> but NO New York signal: '1804 Books'
+Adanne,@adanne.co,Literary & Book Communities,https://adanne.co,3,name in <title> + NY locality: 'Adanne'
+Book Club Bar,@bookclubbar,Literary & Book Communities,https://bookclubbar.com,2,name in <title> but NO New York signal: 'Book Club Bar'
+Burnt Books,@burnt_books_,Literary & Book Communities,https://burnt.com,1,resolves but unconfirmed: 'Burnt'
+Gladys Books,@gladysbooksbk,Literary & Book Communities,,0,no candidate domain resolved
+Human Relations,@humanrelationsnyc,Literary & Book Communities,https://humanrelations.com,2,name in <title> but NO New York signal: 'Human Relations.com ||'
+Molasses Books,@molassesbooks,Literary & Book Communities,https://www.molassesbooks.org/,3,name in <title> + NY locality: 'MOLASSES BOOKS'
+Printed Matter,@printedmatterinc,Literary & Book Communities,,0,no candidate domain resolved
+Rosebuds Reading Collective,@rosebudsreadingcollective,Literary & Book Communities,https://rosebudsreadingcollective.org,3,name in <title> + NY locality: 'Rosebuds Reading Collective — Restoring Dignity Through'
+Silent Book Club [Brooklyn & Manhattan],@silentbookclub.nyc,Literary & Book Communities,https://silentbook.club/,1,resolves but unconfirmed: 'Silent Book Club'
+Topos Bookstore Cafe,@toposbookstore,Literary & Book Communities,https://www.toposbookstore.com,1,"name/handle in body, no New York signal"
+Unnameable Books,@unnameablebooks,Literary & Book Communities,https://unnameablebooks.com,1,resolves but unconfirmed
+Wendy's Subway,@wendyssubway,Literary & Book Communities,,0,no candidate domain resolved
+Bowery Ballroom,@boweryballroom,Music Venues & Education,,0,no candidate domain resolved
+Brooklyn Bowl,@brooklynbowl,Music Venues & Education,https://www.brooklynbowl.com/,3,name in <title> + NY locality: 'Brooklyn Bowl'
+Gold Sounds,@goldsoundsbar,Music Venues & Education,https://www.goldsounds.bar/,2,name in <title> but NO New York signal: 'GOLD SOUNDS'
+House of Yes,@houseofyesnyc,Music Venues & Education,https://www.houseofyes.org/,3,"name in <title> + NY locality: 'House of Yes: Performance-Fueled Nightclub in Brooklyn,'"
+Pete's Candy Store,@petescandystore,Music Venues & Education,https://www.petescandystore.com/,2,name/handle in body + NY locality
+Purgatory,@purgatory.bk,Music Venues & Education,https://www.purgatorybk.com/,2,name in <title> but NO New York signal: 'home | Purgatory'
+Roulette Intermedium,@roulette_intermedium,Music Venues & Education,https://roulette.org,2,name/handle in body + NY locality
+TV Eye,@tveyenyc,Music Venues & Education,https://tveyenyc.com,3,"name in <title> + NY locality: 'TV Eye &#8211; Performance &amp; Event Venue. Funhaus, '"
+The Red Pavilion,@redpavilionbk,Music Venues & Education,https://www.theredpavilion.com/,2,name in <title> but NO New York signal: 'The Red Pavilion | Asian Neo-Noir Nightclub'
+The Sultan Room,@thesultanroom,Music Venues & Education,https://thesultanroom.com,3,name in <title> + NY locality: 'Home - The Sultan RoomThe Sultan Room'
+Trans-Pecos,@trans.pecos,Music Venues & Education,https://trans.com,1,resolves but unconfirmed
+Club A,@club_a_nyc,Mutual Aid & Volunteering,https://cluba.com,2,name in <title> but NO New York signal: 'CLUBA — Mehr als Schärfe. Definiert durch Her'
+Common Strength,@common.strength,Mutual Aid & Volunteering,https://www.common.org/,1,resolves but unconfirmed: 'COMMON - Join the Community'
+Crown Heights Aid,@crownheightsaid,Mutual Aid & Volunteering,,0,no candidate domain resolved
+Friends of Ridgewood Library,@friendsofridgewoodlibrary_qns,Mutual Aid & Volunteering,,0,no candidate domain resolved
+Repair Café El Barrio,@repaircafeelbarrio,Mutual Aid & Volunteering,https://www.repaircafeelbarrio.org/,3,name in <title> + NY locality: 'Repair Café El Barrio | Free Repair &amp; Community Wor'
+The Friendly Fridge BX,@thefriendlyfridgebx,Mutual Aid & Volunteering,https://www.friendlyfridgefoundation.org/,2,name/handle in body + NY locality
+Baby Cobra Yoga,@baby.cobra.yoga,Outdoor & Wellness Communities,https://babycobrayoga.com,2,name/handle in body + NY locality
+Big Apple Recreational Sports (BARS),@bigapplerec,Outdoor & Wellness Communities,,0,no candidate domain resolved
+CRUX LGBTQIA+ Climbing,@climbcrux,Outdoor & Wellness Communities,https://climbcrux-com.l.ink/,1,"name/handle in body, no New York signal"
+Carver Community Garden,@carvercommunitygardennyc,Outdoor & Wellness Communities,,0,no candidate domain resolved
+Center Yoga NYC,@centeryoga.nyc,Outdoor & Wellness Communities,https://www.centeryoganyc.com/,2,name/handle in body + NY locality
+Daya Bushwick,@dayayogastudio,Outdoor & Wellness Communities,https://www.dayayogastudio.com/,2,name/handle in body + NY locality
+Daya Yoga Studio Ridgewood,@dayayogastudio_ridgewood,Outdoor & Wellness Communities,https://www.dayayogastudio.com/,2,name/handle in body + NY locality
+Everyone Yoga NYC,@everyoneyoganyc,Outdoor & Wellness Communities,,0,no candidate domain resolved
+Exhale to Inhale,@exhale2inhale,Outdoor & Wellness Communities,https://www.exhaletoinhale.org/,2,name in <title> but NO New York signal: 'Exhale to Inhale'
+Front Runners New York,@frontrunnersny,Outdoor & Wellness Communities,https://frny.org/,3,name in <title> + NY locality: 'Front Runners New York'
+Gotham Volleyball,@gothamvolleyball,Outdoor & Wellness Communities,https://gothamvolleyball.com,1,resolves but unconfirmed
+Harlem Yoga Studio,@harlemyoga,Outdoor & Wellness Communities,https://www.harlemyogastudio.com/,3,name in <title> + NY locality: 'HOME | Harlem Yoga Studio New York'
+Kala Yoga BK,@kalayogabk,Outdoor & Wellness Communities,https://www.kalayogabk.com/,2,name/handle in body + NY locality
+Queer Walks and Hikes,@queerwalksandhikes,Outdoor & Wellness Communities,,0,no candidate domain resolved
+Ridgewood Rides,@ridgewoodrides,Outdoor & Wellness Communities,https://www.ridgewoodrides.org/,3,name in <title> + NY locality: 'Ridgewood Rides'
+Ridgewood Runners,@ridgewoodrunners,Outdoor & Wellness Communities,,0,no candidate domain resolved
+Solid Gold Yogi,@solidgoldyogi,Outdoor & Wellness Communities,https://www.solidgoldyogi.com/,3,name in <title> + NY locality: 'SOLID GOLD YOGI'
+UpDog Studios,@updognyc,Outdoor & Wellness Communities,https://www.updognyc.com/,2,name in <title> but NO New York signal: 'UpDog Studios'
+YogaSole Brooklyn,@yogasole,Outdoor & Wellness Communities,https://yogasole.com,2,name/handle in body + NY locality
+50501 New York,@50501ny,Political & Social Justice Orgs,https://linktr.ee/50501NY,2,name/handle in body + NY locality
+Another World,@anotherworldbk,Political & Social Justice Orgs,https://anotherworld.nyc,3,name in <title> + NY locality: 'Another World'
+Day Laborer Network,@daylaborernetwork,Political & Social Justice Orgs,,0,no candidate domain resolved
+Hands Off NYC,@handsoffnyc,Political & Social Justice Orgs,https://www.handsoffnyc.com/,3,name in <title> + NY locality: 'Hands Off NYC'
+Independent Labor Club of New York City,@ilcofnyc,Political & Social Justice Orgs,,0,no candidate domain resolved
+Interference Archive,@interferencearchive,Political & Social Justice Orgs,https://interferencearchive.org,3,name in <title> + NY locality: 'Interference Archive &#8211; Exploring the relationship'
+Jewish Currents,@jewishcurrentsmag,Political & Social Justice Orgs,https://jewishcurrents.org,3,name in <title> + NY locality: 'Jewish Currents'
+Mayday Space,@maydayspace,Political & Social Justice Orgs,,0,no candidate domain resolved
+NYC Democratic Socialists of America,@nycdsa,Political & Social Justice Orgs,https://nycdsa.com,1,resolves but unconfirmed
+NYC PSL,@nycpsl,Political & Social Justice Orgs,,0,no candidate domain resolved
+New York Immigration Coalition,@thenyic,Political & Social Justice Orgs,,0,no candidate domain resolved
+Ridgewood Tenants Union,@ridgewoodtenantsunion,Political & Social Justice Orgs,https://ridgewoodtenantsunion.org,3,name in <title> + NY locality: 'Ridgewood Tenants Union &#8211; Ridgewood Tenants Union'
+The People's Forum,@peoplesforumnyc,Political & Social Justice Orgs,https://peoplesforum.org,2,name/handle in body + NY locality
+Woodbine,@woodbine.nyc,Political & Social Justice Orgs,https://woodbine.com,2,name in <title> but NO New York signal: 'Home - Woodbine Racetrack'
+Brooklyn Vintage Company,@brooklynvintagecompany,Shopping & Local Retail,,0,no candidate domain resolved
+Ridgewood Thrift Shop,@ridgewoodthriftshop,Shopping & Local Retail,,0,no candidate domain resolved
+Rough Trade NYC,@roughtradenyc,Shopping & Local Retail,https://www.roughtradenyc.com/,3,name in <title> + NY locality: 'Rough Trade NYC | Live Music and Record Store'
+The Niche Shop,@the.niche.shop,Shopping & Local Retail,https://thenicheshop.com,1,resolves but unconfirmed
+Grownkid,@grownk1d,Social Clubs,https://grownkid.com,3,name in <title> + NY locality: 'Grownkid'
+Queer Supper Club NYC,@queernycsupperclub,Social Clubs,,0,no candidate domain resolved
+Xanadu Roller Arts,@xanadu.nyc,Social Clubs,https://www.xanadu.nyc/,3,name in <title> + NY locality: 'Xanadu • Roller Arts • NYC'
+Abe's Pagoda Bar,,nyc bars restaurants and hangouts,https://www.abespagodabar.com/,1,"name/handle in body, no New York signal"
+Arrigo's Of Fresh Pond Rd,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Bakeri,,nyc bars restaurants and hangouts,https://www.bakeri.net/,2,name in <title> but NO New York signal: 'Forsiden - bakeri'
+Bar Freda,,nyc bars restaurants and hangouts,https://www.barfreda.com/,2,name/handle in body + NY locality
+Benny's Deli & Catering,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Bleecker Deli & Grill,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Bonus Room,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Calibella Bakery & Piqueteadero,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Centra Studios,,nyc bars restaurants and hangouts,https://centrastudios.com,3,name in <title> + NY locality: 'CENTRA STUDIOS | NYC'
+Cherry On Top,,nyc bars restaurants and hangouts,https://www.cherryontop.com/,2,name in <title> but NO New York signal: 'CherryOnTop.com | Shaping Futures In Entertai'
+Cooper Ave,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Cute Cat Cafe,,nyc bars restaurants and hangouts,https://cutecatcafe.com,2,name in <title> but NO New York signal: 'Cute Cat Cafe'
+Dada,,nyc bars restaurants and hangouts,https://dada.org,2,name in <title> but NO New York signal: 'Dada.org &#8211; Detroit Auto Dealers Associa'
+Dead Letter No. 9,,nyc bars restaurants and hangouts,https://www.deadletterno9.com/,2,name in <title> but NO New York signal: 'ABOUT | Dead Letter No9'
+Di's Corner Bar,,nyc bars restaurants and hangouts,https://discornerbar.com,1,title is just the domain (placeholder?): 'discornerbar.com'
+Doctor's Cave Cafe,,nyc bars restaurants and hangouts,https://www.doctorscavecafe.com/,2,name/handle in body + NY locality
+Filthy Diamond,,nyc bars restaurants and hangouts,https://www.hugedomains.com/domain_profile.cfm?d=filthydiamond.com,0,parked/for-sale page
+Flatbush Vet,,nyc bars restaurants and hangouts,https://flatbushvet.org,3,name in <title> + NY locality: 'Home - Flatbush Vet'
+High & Dry,,nyc bars restaurants and hangouts,https://high-dry.com,1,resolves but unconfirmed
+Il Gigante,,nyc bars restaurants and hangouts,https://ilgigante.com,2,name in <title> but NO New York signal: 'ilgigante.com - Dominio in vendita'
+Jones Bar,,nyc bars restaurants and hangouts,https://jonesbar.com,2,name in <title> but NO New York signal: 'jonesbar | organic fruit and nut bars - made '
+Julia's,,nyc bars restaurants and hangouts,https://www.facebook.com/media/set/?set=a.10153546046559028.1073741831.732644027&type=1&l=137b6cdbe8,1,resolves but unconfirmed: 'Facebook'
+Kings County Brewers Collective,,nyc bars restaurants and hangouts,https://kingscountybrewerscollective.com,1,resolves but unconfirmed
+Left Hand Path,,nyc bars restaurants and hangouts,https://lefthandpath.com,1,title is just the domain (placeholder?): 'lefthandpath.com'
+Lichen,,nyc bars restaurants and hangouts,https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fdrumwave.com%2Fdrumwave&dsh=S1729904364%3A1786231846070981&followup=https%3A%2F%2Fsites.google.com%2Fdrumwave.com%2Fdrumwave&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxvy03SpM-THE4pxuQ0cyIaoSIzBBn_Hf-TSPWzHenz3-UQFR7TPgfKmlfWzz8fimcUdsCGi,1,resolves but unconfirmed: 'Sign in - Google Accounts'
+Lucky Chix,,nyc bars restaurants and hangouts,https://www.luckychix.com/,2,name in <title> but NO New York signal: 'LuckyChix &#8211; because we are'
+Maria Hernandez Park,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Myrtle Pub,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Myrtle's Clayhouse,,nyc bars restaurants and hangouts,https://www.myrtlesclayhouse.com/,2,"name in <title> but NO New York signal: ""Myrtle's Clayhouse | Ridgewood &amp; Queens C"""
+Nana’s House Kitchen & Bar,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Nook,,nyc bars restaurants and hangouts,https://nook.nyc,1,resolves but unconfirmed: 'porkbun.com | parked domain'
+Rosemary's Playground,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Salty Lunch Lady's Little Luncheonette,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Secret Riso Club,,nyc bars restaurants and hangouts,https://secretrisoclub.com,2,name in <title> but NO New York signal: 'Secret Riso Club'
+Social Cues - BSA,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Talon,,nyc bars restaurants and hangouts,https://talon.net,1,resolves but unconfirmed
+Tasty Restaurant,,nyc bars restaurants and hangouts,https://tastyrestaurant.org,1,"name/handle in body, no New York signal"
+The Deep End,,nyc bars restaurants and hangouts,https://www.thedeepend.nyc/,3,name in <title> + NY locality: 'NYC Bar | Restaurant | Event Space | The Deep End'
+Threes Brewing,,nyc bars restaurants and hangouts,https://threesbrewing.com,3,"name in <title> + NY locality: 'Buy Craft Beer Online, Delivery &amp; Pick-Up in NY - T'"
+Variety,,nyc bars restaurants and hangouts,https://variety.com,2,"name in <title> but NO New York signal: 'Variety - Entertainment news, film reviews, a'"
+Your Way Cafe,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+curry leaf indian cuisine,,nyc bars restaurants and hangouts,,0,no candidate domain resolved
+Bushwick Flea,,nyc shopping,https://bushwickflea.com,1,resolves but unconfirmed
+Carlynne Ceramics,,nyc shopping,https://carlynneceramics.com,2,name in <title> but NO New York signal: 'Carlynne Ceramics'
+Finn Vintage,,nyc shopping,,0,no candidate domain resolved
+Friends NYC,,nyc shopping,https://friendsnyc.com,3,"name in <title> + NY locality: 'Friends NYC: Unique Gifts, Blind Boxes &amp; Smoke Shop'"
+Fringe Records Nyc,,nyc shopping,,0,no candidate domain resolved
+Grace Land New York,,nyc shopping,https://www.gracelandnewyork.com/,3,name in <title> + NY locality: 'grace land new york'
+Key Food,,nyc shopping,https://www.keyfood.com/,2,name in <title> but NO New York signal: 'Key Food | Neighborhood Grocery Store for Dea'
+Le Point Value,,nyc shopping,https://www.lepointvalue.com/,1,title is just the domain (placeholder?): '...'
+Mil Mundos,,nyc shopping,https://www.hugedomains.com/domain_profile.cfm?d=milmundos.com,0,parked/for-sale page
+New York Fabrics,,nyc shopping,https://newyorkfabrics.com,1,resolves but unconfirmed
+Other People's Clothes,,nyc shopping,https://otherpeoplesclothes.com,1,resolves but unconfirmed
+Ridgewood European Pork Store,,nyc shopping,,0,no candidate domain resolved
+Saint Seneca Store,,nyc shopping,,0,no candidate domain resolved
+Select Vintage,,nyc shopping,https://selectvintage.com,3,name in <title> + NY locality: 'SELECT VINTAGE NYC\n &ndash; Select Vintage NYC'
+Stay Forever,,nyc shopping,https://stay-forever.org,2,name in <title> but NO New York signal: 'Stay Forever &#8211; Forever'
+The Oracle Shop,,nyc shopping,https://oracleshop.com,1,resolves but unconfirmed
+Urban Jungle,,nyc shopping,https://livetrends.com/urban-jungle/,2,name in <title> but NO New York signal: 'Urban Jungle | About the Brand | LiveTrends D'
+Vinyl Fantasy,,nyc shopping,https://vinylfantasy.com,2,name in <title> but NO New York signal: 'VinylFantasy.com - Music Domains for Sale - B'
+beacon's closet,,nyc shopping,https://beaconscloset.com,2,name/handle in body + NY locality

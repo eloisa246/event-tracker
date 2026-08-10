@@ -1,0 +1,350 @@
+{
+  "id": "market-hotel",
+  "name": "Market Hotel",
+  "url": "https://www.markethotel.org/calendar",
+  "responses": [
+    {
+      "url": "https://www.markethotel.org/calendar",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/9a7d66d2-551d-4d41-a94f-d42d9da992c0_587/website.components.socialLinks.styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/8afdaff0-5284-4899-bfab-a5b7abc25274_854/website.components.code.styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/9a7d66d2-551d-4d41-a94f-d42d9da992c0_587/website.components.socialLinks.visitor.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/8afdaff0-5284-4899-bfab-a5b7abc25274_854/website.components.code.visitor.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-949c5a26a5ec79fe-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/commerce-d50e5960dc9fd059-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/sitecss/5b313e6df2e6b1a969e571ed/82/52e96934e4b0ea14d0f64568/5b313e6df2e6b1a969e57201/1142/site.css?nocustom=true",
+      "status": 200,
+      "content_type": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/custom-css/5b313e6df2e6b1a969e571ed/5b313e6df2e6b1a969e57201/0/custom.css",
+      "status": 200,
+      "content_type": "text/css; charset=UTF-8"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Abel&display=swap",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-ad448e1230d6d227-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-22bdf933fb74be0d-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-a5cfdec1ae227f33-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://use.typekit.net/ik/YHYsJOldRi4Jy-iDS75yaQXw3A_ImEMohOxRe9GQwwqfe032fFHN4UJLFRbh52jhWDmKwDIDZQZqZR48FcJUjQqh5A9uFDB8Zg7qMkG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcBDOcu8OfG0jhUzihoc-WFGOA4uiYs8ScZCpPuR5QSuO1FUiABkZWF3jAF8OcFzdP37O1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCjAFu-",
+      "status": 200,
+      "content_type": "text/javascript;charset=utf-8"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/ta/52e968b5e4b04d2aa2a3bba3/1142/scripts/site-bundle.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-de28642627a3a9b9-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/commerce-6cc241d45cb21db3-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-a1c1279cc39c06e1-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://widget.staging.venuepilot.com/2.0.0-36989630/widget-loader.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/performance-8aaac4bd12594159-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://widget.staging.venuepilot.com/2.0.0-36989630/style.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.markethotel.org/universal/svg/social-accounts.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://use.typekit.net/af/6a47a4/0000000000000000773598a6/31/l?subset_id=2&fvd=n4&v=3",
+      "status": 200,
+      "content_type": "application/font-woff2"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/50785-5da795d97049b11f-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/84080-778cda698e7d2f53-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/2fe902ee-2b27-4b05-9bab-666b482069eb/latin.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/35ebb88013744865-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/8308d1793f387442-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/styles-compressed/6bc1593a0581d9e7-min.en-US.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/21102-72fc0c6367524d94-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/49167-51945efe4889e521-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/48844-a3a036795f15c771-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/async-commerce-cart-utils-21524b0098511079-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/async-reserved-cart-bootstrap-d335617b5bcc8c2c-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/60965-896812ca61e61906-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/7950-04085fdeaa24496c-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/async-commerce-afterpay-8983cae9828ec837-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/68506-b6cd1cc81f09244b-min.en-US.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE6Vg.ttf",
+      "status": 200,
+      "content_type": "font/ttf"
+    },
+    {
+      "url": "https://widget.staging.venuepilot.com/2.0.0-36989630/vp-widget.umd.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://p.typekit.net/p.gif?s=2&k=646866_5b313e6df2e6b1a969e571ed&ht=tk&h=www.markethotel.org&f=1717&a=646866&js=1.21.0&app=typekit&e=js&_=1786170732843",
+      "status": 200,
+      "content_type": "image/gif"
+    },
+    {
+      "url": "https://www.markethotel.org/api/census/RecordHit",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "json_preview": "{\"success\": true}",
+      "json_len": 17
+    },
+    {
+      "url": "https://www.venuepilot.co/graphql",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "json_preview": "{\"data\":{\"paginatedEvents\":{\"collection\":[{\"id\":191544,\"name\":\"JB vs 1D: JUSTIN BIEBER \\u0026 ONE DIRECTION PARTY!\",\"date\":\"2026-08-08\",\"doorTime\":\"23:00:00\",\"startTime\":\"23:00:00\",\"endTime\":\"04:00:00\",\"minimumAge\":18,\"promoter\":null,\"support\":\"\",\"description\":\"\\u003cp\\u003eMarket Hotel Presents:\\u0026nbsp;\\u003c/p\\u003e\\u003cp\\u003e\\u003c/p\\u003e\\u003cp\\u003eJB vs. 1D! A JUSTIN BIEBER ONE DIRECTION PARTY!\\u0026nbsp;\\u003c/p\\u003e\\u003cp\\u003e\\u003c/p\\u003e\\u003cp\\u003eBeliebers. Directioners. TIME TO UNITE!\\u0026nbsp;\\u003c/p\\u003e\\u003cp\\u003eWe invite you to the ultimate Justin Bieber and One Direction party! Come relive the golden era of the 2010s with a night full of teenage nostalgia and and absolute bangers back to back.. IS IT TO LATE NOW TO SAY THAT’S WHAT MAKES YOU BEAUTIFUL?? \\u0026lt;3\\u003c/p\\u003e\\u003cp\\u003e\\u003c/p\\u003e\\u003cp\\u003eWe’re playing \\u0026nbsp;all JB and 1D eras at the club all night long! Sounds by DJ N0ST4LG1A\\u003c/p\\u003e\\u003cp\\u003e\\u003c/p\\u003e\\u003cp\\u003eSaturday August 8th\\u003c/p\\u003e\\u003cp\\u003e11PM-LATE\\u0026nbsp;\\u003c/p\\u003e\\u003cp\\u003eMarket Hotel\\u0026nbsp;\\u003c/p\\u003e\\u003cp\\u003e1140 Myrtle Ave. Brooklyn NY\\u0026nbsp;\\u003c/p\\u003e\\u003cp\\u003e18+\\u003c/p\\u003e\",\"websiteUrl\":null,\"twitterUrl\":null,\"instagramUrl\":null,\"announceImages\":[{\"name\":\"JB vs 1D Party  copy.jpg\",\"highlighted\":true,\"versions\":{\"thumb\":{\"src\":\"https://s3.amazonaws.com/files.venuepilot.com/attachments/thumb_5c3d4c7fd4cdfb5743c17e16d6b6a2a8a1e8698efc390cace57921206b96a543.jpg\",\"__typename\":\"AnnounceImageVersion\"},\"cover\":{\"src\":\"https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_5c3d4c7fd4cdfb5743c17e16d6b6a2a8a1e8698efc390cace57921206b96a543.jpg\",\"__typename\":\"AnnounceImageVersion\"},\"__typename\":\"AnnounceImageVersions\"},\"__typename\":\"AnnounceImage\"}],\"__typename\":\"PublicEvent\",\"status\":\"Tickets\",\"announceArtists\":[],\"artists\":[],\"venue\":{\"name\":\"MARKET HOTEL // 1140 Myrtle Ave, Brooklyn, NYC, NY\",\"__typename\":\"PublicVenue\"},\"footerContent\":\"\\u003cp\\u003eIn purchasing, Buyer agrees to, and acknowledges receipt, review, and understanding of, the following:\\u003c/p\\u003e\\u003cp\\u003eBuyer agrees that this sale is final and is not refundable under any circumstances.\\u003c/p\\u003e\\u003cp\\u003eBuyer acknowledges that Seller reserves the right to refuse service to anyone, and especially that all entry is subject to Seller's and/or event organizer's or event venue's own admission criteria, at their discretion, which shall be absolute.\\u003c/p\\u003e\\u003cp\\u003eBuyer agrees that refusal of entry, ejection from premises, or failure to receive or to enjoy any good or service, is not grounds for refund nor dispute of charge.\\u003c/p\\u003e\\u003cp\\u003eBuyer acknowledges purchase does not guarantee receipt of any good or service, and does not absolutely ensure entry nor uninterrupted enjoyment of/to any event.\\u003c/p\\u003e\\u003cp\\u003eBuyer agrees in perpetuity to not dispute the validity of this charge with any banking or credit institution, nor in any court, and further agrees to reimburse Seller for any sum related to this purchase that is refunded or granted to the Buyer by any banking or credit institution, or by any court, plus any legal costs or collection fees plus any damages suffered by the Seller in defending against such dispute, or resultant from any disparagement of the Seller by the Buyer directly or indirectly related to such dispute, in treble, to the satisfaction of the Seller, at the Seller's sole discretion.\\u003c/p\\u003e\\u003cp\\u003eIn the event that Buyer files a dispute of any kind regarding this charge, Buyer grants Seller unlimited right to use Buyer's likeness and identifying information and contact information in advertisement or public notice, of any form the Seller chooses, as well as agrees that Seller may share the same with other advanced ticketing vendors and event venues and event organizers, for the purposes of maintaining and seeking public awareness of a list of \\\"bad faith\\\" customers.\\u003c/p\\u003e\\u003cp\\u003eBuyer further affirms that buyer has read and understood this agreement before completing purchase, and has had the opportunity to seek legal counsel, and further agrees that any invalidation or ruling of enforceability of any part or section of the above shall not invalidate all other sections and clauses herein, which shall otherwise remain in effect to the greatest extent possible, and Buyer agrees to nonetheless remain bound to in perpetuity.\\u003c/p\\u003e\",\"ticketsUrl\":\"https://t.venuepilot.com/e/jb-vs-1d-justin-bieber-one-direction-party-2026-08-08-market-hotel-1140-myrtle-ave-brooklyn-nyc-ny-bu-7988f3\"},{\"id\":192130,\"name\":\"Matt Ox [Live] w/ Special guest: Cranes Featuring: Binx, 4evr, Killakam, Dylan Ali\",\"date\":\"2026-08-13\",\"doorTime\":\"21:00:00\",\"startTime\":\"21:00:00\",\"endTime\":\"02:00:00\",\"minimumAge\":18,\"promoter\":null,\"support\":\"\",\"description\":null,\"websiteUrl\":null,\"twitterUrl\":null,\"instagramUrl\":null,\"announceImages\":[{\"name\":\"10C12636-2E99-4B22-8767-9DE2309CA821.jpeg\",\"highlighted\":true,\"versions\":{\"thumb\":{\"src\":\"https://s3.amazonaws.com/files.venuepilot.com/attachments/thumb_18390abfce0cc296bbb6fdced955c2e435a45c085dcc6dc0d1c92f512103d645.jpg\",\"__typename\":\"AnnounceImageVersion\"},\"cover\":{\"src\":\"https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_18390abfce0cc296bbb6fdced955c2e435a45c085dcc6dc0d1c92f512103d645.jpg\",\"__typename\":\"AnnounceImageVersion\"},\"__typename\":\"AnnounceImageVersions\"},\"__typename\":\"AnnounceImage\"}],\"__typename\":\"PublicEvent\",\"status\":\"Tickets\",\"announceArtists\":[{\"applemusic\":null,\"bandcamp\":null,\"facebook\":\"https://facebook.com/oxalwayswins\",\"instagram\":\"https://instagram.com/MattOX\",\"lastfm\":null,\"name\":\"Matt OX\",\"songkick\":null,\"spotify\":\"https://open.spotify.com/artist/2J6pigOrBmKQgqJUY5UM7r\",\"twitter\":\"https://twitter.com/mattox215\",\"website\":\"https://facebook.com/oxalwayswins\",\"wikipedia\":null,\"youtube\":\"https://www.youtube.com/channel/UCeSL5leXCREGvpDpoWcSb8g\"",
+      "json_len": 63778
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/aa7f7578-9087-49f3-9cca-f1f7167c12b0/latin.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/ab65ff1a-d4f0-4ed3-88c8-f4d853656ece/latin.woff2",
+      "status": 200,
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_18390abfce0cc296bbb6fdced955c2e435a45c085dcc6dc0d1c92f512103d645.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_8222d6f9571632e87bb2d3b43b07eac533b20f632f87f74162e603b1238e41b7.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_5c3d4c7fd4cdfb5743c17e16d6b6a2a8a1e8698efc390cace57921206b96a543.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_f80a0d4684cd09f4b825a492e430002817cc2fd1d60ac55b8db54382ff3969d2.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_403fb0c9b2b03ee1e2e22b1d02af2e935f44c98e7164290af5a8ed5accf9ca9c.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_ee42d7297a3ab274f5a010839a279f0140612a4d10b69215224698f2ef7ab7fc.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_8fdfabc2122ff6a0fd50ee6051d45d8945f1775bbb906f22160584ed2777b9d7.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_68812d7452e9f7f3978f723882b2380cbcfb04dd3932334282fb13d974842ab8.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_b687acc1fa2fc609d6d8831479f6860857c879882bdb9a778b8c8160d4e1063b.png",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_6f2ee49303959eda876e9d007534bdeb95ab2c055783a8dc42f969d076ce2909.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_04a5bc7223c37fa0cc543b4129da785aba6e6ed88a1201430970a7104d8fc69c.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_52cb4fa1902ae697685187fdcb03f0486ac3636f2b0f63f02058112dac492d5d.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_723bc0c24c177e363224e4a3948770e839f9d49b3bd8102bab9cbfa6084b66e7.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_54c176fdd6d56053321ae0aff60bf68b8ee4ac2adfa751ce56fd4cc016704cf5.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    }
+  ],
+  "hosts": [
+    "assets.squarespace.com",
+    "definitions.sqspcdn.com",
+    "file.squarespace-cdn.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "p.typekit.net",
+    "s3.amazonaws.com",
+    "static1.squarespace.com",
+    "use.typekit.net",
+    "widget.staging.venuepilot.com",
+    "www.markethotel.org",
+    "www.venuepilot.co"
+  ],
+  "html_title": "CALENDAR — MARKET HOTEL",
+  "html_len": 159966,
+  "calendar_ish_classes": [
+    "calendarElementId1",
+    "eventGridElementId1",
+    "eventListElementId1",
+    "mobile-nav-toggle-label show-on-scroll-mobile",
+    "nav-wrapper desktop-nav-wrapper show-on-scroll",
+    "transparent-header homepage-index-nav-show-on-scroll show-page-title index-section-separation-border design-slideshow grid-aspect-ratio-11-square grid-max-columns-four slideshow-aspect-ratio-169-widescreen slideshow-transition-fade slideshow-autoplay gallery-controls-arrows gallery-controls-color-light meta-priority-date hide-entry-author pre-footer-content-empty show-category-navigation hide-album-share-link event-thumbnails event-thumbnail-size-32-standard event-date-label event-date-label-time event-list-show-cats event-list-date event-list-time event-list-address event-icalgcal-links event-excerpts event-item-back-link gallery-design-grid aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop product-list-titles-under product-list-alignment-center product-item-size-11-square product-gallery-size-11-square show-product-price show-product-item-nav tweak-v1-related-products-image-aspect-ratio-11-square tweak-v1-related-products-details-alignment-center newsletter-style-dark hide-opentable-icons opentable-style-dark small-button-style-outline small-button-shape-square medium-button-style-outline medium-button-shape-square large-button-style-outline large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-outline button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-67dc13da6d5686121922851e collection-type-page collection-layout-default mobile-style-available collection-calendar",
+    "vp-event-link",
+    "vp-event-name",
+    "vp-event-row vp-widget-reset vp-venue-markethotel-1140myrtleave-brooklyn-nyc-ny",
+    "vp-event-row-action vp-btn-tickets tickets-Tickets",
+    "vp-event-row-datetime",
+    "vp-event-row-title",
+    "vp-events-list vp-mt-10",
+    "vp-img-wrapper vp-event-row-img"
+  ],
+  "error": "",
+  "iframes": []
+}

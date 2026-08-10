@@ -1,0 +1,830 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bk-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brooklyn Events — Bars & Third Places
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:f329c4c8f4ec686bc5a646086e3fd31975cd3a4e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260807T180000
+DTEND;TZID=America/New_York:20260807T210000
+SUMMARY:Starr Bar — Siren Songs: A Karaoke Dance Party
+DESCRIPTION:https://www.starrbar.com/events/sirensongs
+URL:https://www.starrbar.com/events/sirensongs
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:965ee756579bd7b07236828df53b75f9fbd67ffe@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260807T230000
+DTEND;TZID=America/New_York:20260808T040000
+SUMMARY:Starr Bar — DJ Rell
+DESCRIPTION:https://www.starrbar.com/events/djrell
+URL:https://www.starrbar.com/events/djrell
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:aa2bd06e3935702c7dfc585d40b3ddcdd0f92f2b@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T190000
+DTEND;TZID=America/New_York:20260808T220000
+SUMMARY:Cassette NYC — TRISTAN ALLEN\, GIDEON BROSHY: MUSIC\, PUPPETS &
+  FANTASY
+DESCRIPTION:MUSIC\, PUPPETS & FANTASY\nhttps://dice.fm/event/6d88o8-trist
+ an-allen-gideon-broshy-music-puppets-fantasy-8th-aug-cassette-new-york-c
+ ity-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/6d88o8-tristan-allen-gideon-broshy-music-puppet
+ s-fantasy-8th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:5ef8be60b7a2ada5d908315c1419befb911e9364@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T190000
+DTEND;TZID=America/New_York:20260809T040000
+SUMMARY:Seventh Heaven Bar & Karaoke — ˖ ݁♬⋆.˚𝄞. Karaoke Satu
+ rday Night ˖ ݁♬⋆.˚𝄞.
+DESCRIPTION:**Let’s meet at Seventh Heaven!** While walk-ins are always
+  accepted\, we love to know that you’re coming! We offer a no-fee\, co
+ mplimentary rsvp for our communal karaoke nights. Get ready to make new 
+ friends!\n\n- Designed by karaoke lovers and professional sound engineer
+ s\, Seventh Heaven boasts a club-quality sound system\, multiple big scr
+ een TVs (plus a few vintage ones)\, and up to two microphones so you can
+  sing solo or a duet. We have songs available in over 20 languages!\n- I
+ n between songs? Our main bar room and outdoor space are ideal for conve
+ rsation. Our menu features a curated selection of signature cocktails\, 
+ sommelier-selected wines and unique Japanese drafts. Enjoy our selection
+  of rare books and games. We have board games\, a selection of rare book
+ s\, and even a free-to-play arcade\nhttps://dice.fm/event/8eqqv2--karaok
+ e-saturday-night-8th-aug-seventh-heaven-bar-karaoke-new-york-city-ticket
+ s
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/8eqqv2--karaoke-saturday-night-8th-aug-seventh-
+ heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:3aaf0f5e55bb5f18eda1bedfe6d969a757330487@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T170000
+DTEND;TZID=America/New_York:20260808T203000
+SUMMARY:Starr Bar — Live music: Speedfriending
+DESCRIPTION:https://www.starrbar.com/events/speed
+URL:https://www.starrbar.com/events/speed
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:02da7fdbde113ddea6f1c290617e84678ea4123f@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T220000
+DTEND;TZID=America/New_York:20260809T020000
+SUMMARY:Cassette NYC — RIDGEWOOD RENDEZVOUS DRAG SHOW
+DESCRIPTION:RIDGEWOOD RENDEZVOUS DRAG SHOW\n\nRIDGEWOOD'S BEST\, WORST AN
+ D ONLY WEEKLY DRAG SHOW\n\nEVERY SATURDAY // 10PM-2AM // FREE\n\nTIP YOU
+ R QUEENS!\nhttps://dice.fm/event/ryk99v-ridgewood-rendezvous-drag-show-8
+ th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/ryk99v-ridgewood-rendezvous-drag-show-8th-aug-c
+ assette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:107eed0754cf0399a6def705e7ae48587efc7f8e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260808T230000
+DTEND;TZID=America/New_York:20260809T040000
+SUMMARY:Starr Bar — DJ Sunny Dee
+DESCRIPTION:https://www.starrbar.com/events/celebrating-aries
+URL:https://www.starrbar.com/events/celebrating-aries
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:3b687f720d20b52afaea90b65d38d0c833932342@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260809T210000
+DTEND;TZID=America/New_York:20260810T010000
+SUMMARY:Cassette NYC — ADAM AMRAM FAMILY BAND\, KAILEY ROCKER\, JOSEPHI
+ NE NETWORK (SOLO)
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/6d8873-adam-amram-fam
+ ily-band-kailey-rocker-josephine-network-solo-9th-aug-cassette-new-york-
+ city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/6d8873-adam-amram-family-band-kailey-rocker-jos
+ ephine-network-solo-9th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:4f8d26bdd299e0fe09e41830b84b6df6ae16c88f@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260809T220000
+DTEND;TZID=America/New_York:20260810T030000
+SUMMARY:Seventh Heaven Bar & Karaoke — ˖ ݁♬⋆.˚𝄞. Karaoke Sund
+ ay Night ˖ ݁♬⋆.˚𝄞.
+DESCRIPTION:**Let’s meet at Seventh Heaven!** While walk-ins are always
+  accepted\, we love to know that you’re coming! We offer a no-fee\, co
+ mplimentary rsvp for our communal karaoke nights. Get ready to make new 
+ friends!\n\n- Designed by karaoke lovers and professional sound engineer
+ s\, Seventh Heaven boasts a club-quality sound system\, multiple big scr
+ een TVs (plus a few vintage ones)\, and up to two microphones so you can
+  sing solo or a duet. We have songs available in over 20 languages!\n- I
+ n between songs? Our main bar room and outdoor space are ideal for conve
+ rsation. Our menu features a curated selection of signature cocktails\, 
+ sommelier-selected wines and unique Japanese drafts. Enjoy our selection
+  of rare books and games. We have board games\, a selection of rare book
+ s\, and even a free-to-play arcade\nhttps://dice.fm/event/2w55lp--karaok
+ e-sunday-night-9th-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/2w55lp--karaoke-sunday-night-9th-aug-seventh-he
+ aven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:66c676af7503fd4c4bf995f27f066fd3cb80351b@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260809T210000
+DTEND;TZID=America/New_York:20260809T235500
+SUMMARY:Starr Bar — Art Rock with Dr. Dan
+DESCRIPTION:https://www.starrbar.com/events/fmtt4o19nd8mdkk69sey7wzcjcafs
+ h
+URL:https://www.starrbar.com/events/fmtt4o19nd8mdkk69sey7wzcjcafsh
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:c1bd0b3630491a437721643ede3a0571ee95c325@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260810T190000
+DTEND;TZID=America/New_York:20260810T210000
+SUMMARY:Cassette NYC — CHURTCH
+DESCRIPTION:A monthly communion of songs\, consisting of house band + rot
+ ating cast of singers from across the music community.\nhttps://dice.fm/
+ event/l87nrx-churtch-10th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/l87nrx-churtch-10th-aug-cassette-new-york-city-
+ tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:1ad1ad9632fba88911eef4bb1d4404b55b91532c@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260810T190000
+DTEND;TZID=America/New_York:20260810T210000
+SUMMARY:Seventh Heaven Bar & Karaoke — swarm axes 05 ♱ soloshow.onlin
+ e film exhibition
+DESCRIPTION:Solo Show Online ♱ Seventh Heaven\n\nWe invite you to a spe
+ cial screening of Swarm Axes 05\, a curated collection of 29 short films
+  that are circulated synchronously. Having been exhibited in 32 cities &
+  12 continents\, we are looking forward to bringing a @solo\\_\\_\\_show
+  exhibition to nyc for one night only.\n\n**Swarm Axes 05 will feature s
+ hort films by**\n\n- @bleu281\\_\n- @cisne.soluble\n- @aemmonia\n- @demo
+ ns.tale\n- @liminal.bloom\n- @tenshioukoku\n- @frostedgla55\n- @phantasm
+ x\\_x\n- @nkieve8\n- @l444u\\_\n- @kstarlili\n- @carpatosmusic\n- @junci
+ ego\n- @e\\_taurina\n- @kboigray\n- @denpa\\_d0ll\n- @\\_cen\\_zi\n- @ki
+ mkimjongun\n\nSwarm Axes graphic by @maribittersea & film still by @demo
+ ns.tale\nhttps://dice.fm/event/923d57-swarm-axes-05-soloshowonline-film-
+ exhibition-10th-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/923d57-swarm-axes-05-soloshowonline-film-exhibi
+ tion-10th-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:0b4b4a75238019d1b206b5d4f56f3d23c607d449@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260810T200000
+DTEND;TZID=America/New_York:20260810T235500
+SUMMARY:Starr Bar — Art vs Life Open Mic
+DESCRIPTION:https://www.starrbar.com/events/wednesday-comedy-night-5tefw-
+ eyhdx
+URL:https://www.starrbar.com/events/wednesday-comedy-night-5tefw-eyhdx
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:e8e0204ae71ddebbb919e45fbfb1f1dfb9c56b5f@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260811T193000
+DTEND;TZID=America/New_York:20260811T223000
+SUMMARY:Cassette NYC — PAPER MATADOR\, COOPER NAESS\, SWEAR TAPES
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/q2p76o-paper-matador-
+ cooper-naess-swear-tapes-11th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/q2p76o-paper-matador-cooper-naess-swear-tapes-1
+ 1th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:d57c578e80940e9697bb08a5c7bacde41c88d7fa@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260812T190000
+DTEND;TZID=America/New_York:20260812T210000
+SUMMARY:Seventh Heaven Bar & Karaoke — Seventh Heaven Run Club with @Ho
+ rrorBabeFit
+DESCRIPTION:Join us for the **Seventh Heaven Run Club** hosted by **@horr
+ orbabefit** aka our bartender Deb!\n\n- Meet up at 7pm\n- Run starts at 
+ 7:30pm 🏁\n\n✅️ Free Bag Check\n\n✅️ Water Station *(Bring wat
+ er bottle)*\n\n✅️ All Gender Bathrooms *(feel free to change at the 
+ bar)*\n\n✅️ 3 miles (Or less) *\\* based off weather and participant
+ s*\n\n- All paces welcome\n- Cyclists welcome as well 🚴‍♂️\n- K
+ araoke afterwards 🎤\n- Every wednesday\n\nPlease wear sneakers and co
+ mfortable clothes.\n\nSunglasses/hats/sunscreen always recommended\n\n
+ 🏳️‍🌈🏳️‍⚧️\nhttps://dice.fm/event/3orqgp-seventh-hea
+ ven-run-club-with-horrorbabefit-12th-aug-seventh-heaven-bar-karaoke-new-
+ york-city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/3orqgp-seventh-heaven-run-club-with-horrorbabef
+ it-12th-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:5506fdaf2d71cd1c7c95512123ccbd2951fae1a7@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260812T193000
+DTEND;TZID=America/New_York:20260812T223000
+SUMMARY:Cassette NYC — MOONMILL\, 4LA7LA\, BLUE EGRET
+DESCRIPTION:An evening of music with Moonmill\, 4la7la\, and Blue Egret.\
+ n\nMoonmill tells ethereal folk pop stories through adventurous vocal ha
+ rmonies and interwoven guitar lines.\n\nBlue Egret is a four-person folk
+  music project based in Brooklyn.\n\n4la7la\, pronounced 'for layla' is 
+ a singer\, songwriter\, instrumentalist forming a trio-band based in Ric
+ hmond\, VA\; creating emotionally immersive soundscapes rooted in vulner
+ ability\, transformation and cinematic intimacy.\nhttps://dice.fm/event/
+ pywyll-moonmill-4la7la-blue-egret-12th-aug-cassette-new-york-city-ticket
+ s
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/pywyll-moonmill-4la7la-blue-egret-12th-aug-cass
+ ette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:3eeb1ead730c8544f16450d716ba9382a131dd6d@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260812T190000
+DTEND;TZID=America/New_York:20260812T220000
+SUMMARY:Starr Bar — NYC Salsa Social &amp\; Karaoke
+DESCRIPTION:https://www.starrbar.com/events/salsasocial
+URL:https://www.starrbar.com/events/salsasocial
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:7fa21e760718826c5adfe3a9aa3a8a3082597e05@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260812T220000
+DTEND;TZID=America/New_York:20260813T020000
+SUMMARY:Starr Bar — Pulse Sessions
+DESCRIPTION:https://www.starrbar.com/events/pulse-sessions
+URL:https://www.starrbar.com/events/pulse-sessions
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:10aea8d9b27b055040f537029dbef21b3fed7f8f@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260813T190000
+DTEND;TZID=America/New_York:20260813T220000
+SUMMARY:Seventh Heaven Bar & Karaoke — Casual Encounters x Constantly H
+ ating: Lit Reading
+DESCRIPTION:Casual Encounters and Constantly Hating collaborate for their
+  next reading at Seventh Heaven Bar & Karaoke on Thursday\, August 13th\
+ n\n**Readings by:**\n\n- Meg Spectre\n- Sammy Loren\n- Audrey Horne\n- S
+ afy-Hallan Farrah\nhttps://dice.fm/event/eo6gyd-casual-encounters-x-cons
+ tantly-hating-lit-reading-13th-aug-seventh-heaven-bar-karaoke-new-york-c
+ ity-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/eo6gyd-casual-encounters-x-constantly-hating-li
+ t-reading-13th-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:2fc58e63cf0be1bf2956debf7a3a322d32e665c2@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260813T193000
+DTEND;TZID=America/New_York:20260813T223000
+SUMMARY:Cassette NYC — JACKIE WEST\, SCOUT GILLETT\, AUBREY HADDARD
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/yowq3a-jackie-west-sc
+ out-gillett-aubrey-haddard-13th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/yowq3a-jackie-west-scout-gillett-aubrey-haddard
+ -13th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:01039057ed3dc57418748695e3197574ce15153c@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260814T193000
+DTEND;TZID=America/New_York:20260814T223000
+SUMMARY:Cassette NYC — MAX HOFFMAN\, KEDDJRA\, PET LESLIE
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/3or2ov-max-hoffman-ke
+ ddjra-pet-leslie-14th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/3or2ov-max-hoffman-keddjra-pet-leslie-14th-aug-
+ cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:4a1245f1a0c605b4165df5a1a7f20917feb09286@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260814T220000
+DTEND;TZID=America/New_York:20260815T040000
+SUMMARY:Starr Bar — Perreo Party
+DESCRIPTION:https://www.starrbar.com/events/perreo
+URL:https://www.starrbar.com/events/perreo
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:44c90a7cb53ac459b2bebbb34f75a444bd226147@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260815T220000
+DTEND;TZID=America/New_York:20260816T020000
+SUMMARY:Cassette NYC — RIDGEWOOD RENDEZVOUS DRAG SHOW
+DESCRIPTION:RIDGEWOOD RENDEZVOUS DRAG SHOW\n\nRIDGEWOOD'S BEST\, WORST AN
+ D ONLY WEEKLY DRAG SHOW\n\nEVERY SATURDAY // 10PM-2AM // FREE\n\nTIP YOU
+ R QUEENS!\nhttps://dice.fm/event/2wy88m-ridgewood-rendezvous-drag-show-1
+ 5th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/2wy88m-ridgewood-rendezvous-drag-show-15th-aug-
+ cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:0d9c12d7e7a5133637b7f02f5c8c1d97b4d8e104@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260816T170000
+DTEND;TZID=America/New_York:20260816T200000
+SUMMARY:Seventh Heaven Bar & Karaoke — 'A Small Place' Residency Karaok
+ e Fundraiser
+DESCRIPTION:Karaoke fundraiser to support the construction of *A Small Pl
+ ace*\, an artist residency in Carapaichaima\, Trinidad and Tobago. From 
+ 5-8 PM\, get on stage at Seventh Heaven Bar and Karaoke to support indep
+ endent artists!\n\n100% of donations will go directly to the residency\,
+  which is due to begin construction in November 2026.\nhttps://dice.fm/e
+ vent/53mg6d-a-small-place-residency-karaoke-fundraiser-16th-aug-seventh-
+ heaven-bar-karaoke-new-york-city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/53mg6d-a-small-place-residency-karaoke-fundrais
+ er-16th-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:a5841a54ef7d93f8129a48463343db8ca407ab32@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260816T190000
+DTEND;TZID=America/New_York:20260816T220000
+SUMMARY:Cassette NYC — PINCUSHION PUPPET CLUB PRESENTS: PUPPET MOVIE NI
+ GHT
+DESCRIPTION:PUPPET MOVIE NIGHT\n\n$12-20 SLIDING SCALE\nhttps://dice.fm/e
+ vent/l87lkr-pincushion-puppet-club-presents-puppet-movie-night-16th-aug-
+ cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/l87lkr-pincushion-puppet-club-presents-puppet-m
+ ovie-night-16th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:c2e4ab5781a890a815deff13f19af5770484f3e1@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260818T193000
+DTEND;TZID=America/New_York:20260818T223000
+SUMMARY:Cassette NYC — ISABEL HAGEN\, NIGHT TEACHER\, ELIZA EDENS\, ADA
+ M LYTLE
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/avxdvd-isabel-hagen-n
+ ight-teacher-eliza-edens-adam-lytle-18th-aug-cassette-new-york-city-tick
+ ets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/avxdvd-isabel-hagen-night-teacher-eliza-edens-a
+ dam-lytle-18th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:3adb5a8c2c4e25de889f833b6d894686bf8987db@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260819T190000
+DTEND;TZID=America/New_York:20260819T220000
+SUMMARY:Seventh Heaven Bar & Karaoke — Hot Grrrl Shit Zine Release Part
+ y
+DESCRIPTION:**Join Hot Grrrl Shit for their first-ever zine release party
+ !**\n\nHot Grrrl Shit is a Black punk feminist zine inspired by the Riot
+  Grrrl Movement and the impact Blackness has had on alternative subcultu
+ re.\n\nIssue 3 of HGS centers around parties as a love language passed d
+ own through generations\, and features art by @sensitive.cactus and an i
+ nterview with local indie duo Stolen Clementines! We hope to see you the
+ re for zines\, celebration\, and karaoke!\nhttps://dice.fm/event/mxnmyw-
+ hot-grrrl-shit-zine-release-party-19th-aug-seventh-heaven-bar-karaoke-ne
+ w-york-city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/mxnmyw-hot-grrrl-shit-zine-release-party-19th-a
+ ug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:9c30cc5d20dd27c20191f502d789bef76ca41e57@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260819T193000
+DTEND;TZID=America/New_York:20260819T223000
+SUMMARY:Cassette NYC — THE TRANSITIVE PROPERTY\, SPEEDFRIENDING\, VERNA
+  CODEINE\, AWFUL CHRISTINE
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/yodkba-the-transitive
+ -property-speedfriending-verna-codeine-awful-christine-19th-aug-cassette
+ -new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/yodkba-the-transitive-property-speedfriending-v
+ erna-codeine-awful-christine-19th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:957c6f5343eac7ac9ab0a3cd93667a228c02f99e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260820T190000
+DTEND;TZID=America/New_York:20260820T210000
+SUMMARY:Seventh Heaven Bar & Karaoke — The Pacified Rage (2026) Indie F
+ ilm Screening
+DESCRIPTION:Free screening of **The Pacified Rage** (2026)\, an independe
+ nt short film directed by Stephanie Cherng with actor Kimi Handa Brown i
+ n attendance.\n\nThe Pacified Rage film follows a young woman named Dais
+ y who is struggling with alcohol addiction and begins a tender romance w
+ ith a beauty salon receptionist\, but as her addiction and buried childh
+ ood trauma surface\, she risks losing the first person who truly sees he
+ r.\n\nDoors open at 7pm\n\nFilm begins at 8pm\n\nKaraoke all night after
+  the screening\nhttps://dice.fm/event/8e9nl2-the-pacified-rage-2026-indi
+ e-film-screening-20th-aug-seventh-heaven-bar-karaoke-new-york-city-ticke
+ ts
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/8e9nl2-the-pacified-rage-2026-indie-film-screen
+ ing-20th-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf81c89cf7a00b2cf9b707dc6882254504b3d8d@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260820T193000
+DTEND;TZID=America/New_York:20260820T223000
+SUMMARY:Cassette NYC — PINK MEXICO (ALBUM RELEASE)\, GENUINE CONNECTION
+ \, SLUGWATER
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/8eq7dv-pink-mexico-al
+ bum-release-genuine-connection-slugwater-20th-aug-cassette-new-york-city
+ -tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/8eq7dv-pink-mexico-album-release-genuine-connec
+ tion-slugwater-20th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:d2f87a92c0e3ebd8d5bdee6a84372d44d2911e7e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260820T210000
+DTEND;TZID=America/New_York:20260821T030000
+SUMMARY:Seventh Heaven Bar & Karaoke — ✮ J-Fashion Meetup & AnimeNYC 
+ Karaoke Afterparty ✮
+DESCRIPTION:On Thursday\, August 20th\, come join **LIVE BAIT**\, Brookly
+ n's premier alternative j-fashion select shop\, at Seventh Heaven Bar & 
+ Karaoke for an AnimeNYC kick-off party! J-pop and J-rock karaoke all nig
+ ht!\n\n*No coord after the con?* LIVE BAIT will also curate a selection 
+ of J-fashion accessories\, magazines\, and vintage CDs for sale from 9-1
+ 1pm. Come early!\n\nSing your heart out\, dance the night away and meet 
+ new friends as we celebrate the start of AnimeNYC weekend together ( ˶
+ ˆ꒳ˆ˵ )\n\n✖ AnimeNYC badge is **NOT** required for entry\n\n✖ N
+ o cover with one drink minimum per guest\n\n✖ Seventh Heaven is a 21+ 
+ venue + valid ID is required for entry\nhttps://dice.fm/event/nvpwy9--j-
+ fashion-meetup-animenyc-karaoke-afterparty-20th-aug-seventh-heaven-bar-k
+ araoke-new-york-city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/nvpwy9--j-fashion-meetup-animenyc-karaoke-after
+ party-20th-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:51bd6d10dc78a1f41c6260314e3978736d0950f3@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260822T190000
+DTEND;TZID=America/New_York:20260823T040000
+SUMMARY:Seventh Heaven Bar & Karaoke — The Velvet Room: Persona Karaoke
+  & ANYC Afterparty
+DESCRIPTION:**WIRES00** invites you to **The Velvet Room: Persona Karaoke
+  & AnimeNYC Afterparty** at Seventh Heaven Bar & Karaoke on Saturday 8.2
+ 2.26 from 7pm-LATE\n\nLet’s keep the party going after the con with Pe
+ rsona Karaoke ♬\n\n**Come early** since the **Cosplay Contest** starts
+  at 9 pm .ᐟ.ᐟ.ᐟ\n\nCosplay strongly encouraged but not required ( 
+ ˶ˆ꒳ˆ˵ )\n\n✖ AnimeNYC badge is NOT required for entry\n\n✖ No 
+ cover with one drink minimum per guest\n\n✖ Seventh Heaven is a 21+ ve
+ nue + valid ID is required for entry\nhttps://dice.fm/event/mxn5gl-the-v
+ elvet-room-persona-karaoke-anyc-afterparty-22nd-aug-seventh-heaven-bar-k
+ araoke-new-york-city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/mxn5gl-the-velvet-room-persona-karaoke-anyc-aft
+ erparty-22nd-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:e5c25d2cbf425a889dc2707cbcaa19ed45298d94@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260822T220000
+DTEND;TZID=America/New_York:20260823T020000
+SUMMARY:Cassette NYC — RIDGEWOOD RENDEZVOUS DRAG SHOW
+DESCRIPTION:RIDGEWOOD RENDEZVOUS DRAG SHOW\n\nRIDGEWOOD'S BEST\, WORST AN
+ D ONLY WEEKLY DRAG SHOW\n\nEVERY SATURDAY // 10PM-2AM // FREE\n\nTIP YOU
+ R QUEENS!\nhttps://dice.fm/event/mx933k-ridgewood-rendezvous-drag-show-2
+ 2nd-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/mx933k-ridgewood-rendezvous-drag-show-22nd-aug-
+ cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:82bf38827b26b9c435d5f50e56eef08bb1b11635@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260823T190000
+DTEND;TZID=America/New_York:20260823T220000
+SUMMARY:Cassette NYC — DALE HOLLOW\, HENRY BLACK\, NATHAN XANDER
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/mxn289-dale-hollow-he
+ nry-black-nathan-xander-23rd-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/mxn289-dale-hollow-henry-black-nathan-xander-23
+ rd-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:f53151737280bef5666f706e8f6c8e66405eaaa6@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260823T190000
+DTEND;TZID=America/New_York:20260823T220000
+SUMMARY:Seventh Heaven Bar & Karaoke — Fairy-Kei Art Gallery ୨୧ Ani
+ meNYC Afterparty
+DESCRIPTION:**DOLLYROTTEN X SEVENTH.HEAVEN**\n\n‿︵‿︵‿︵୨୧\
+ n\nHI EVERYPONY~~ @dollyrottenz is hosting his first gallery show at Sev
+ enth Heaven Bar & Karaoke\n\nThe gallery will be a showcase of select il
+ lustrations from his fairy pinup collection and a night of fairy themed 
+ fun!\n\n**FAIRY DRESS CODE IS STRONGLY ENCOURAGED~**\n\nDollyrotten will
+  have his fairy artbooks to view and for purchase\, and some event exclu
+ sive screenprints (^\\_\\_^)!\n\nCome party like a fairy\, sip on a wing
+ ed cocktail\, and enjoy the spicy fairy art<3\n\n*THIS IS A 21+ EVENT*\n
+ \n୨୧\n\n1 drink minimum per person\n\nwe hope to see you there<3\n\n
+ ୨(^//////^)/(u/////u)୧\nhttps://dice.fm/event/nvpe9q-fairy-kei-art-g
+ allery-animenyc-afterparty-23rd-aug-seventh-heaven-bar-karaoke-new-york-
+ city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/nvpe9q-fairy-kei-art-gallery-animenyc-afterpart
+ y-23rd-aug-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:6a902bec2e729d1df90114c5cd4a0a2b7f4044f0@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260825T190000
+DTEND;TZID=America/New_York:20260825T223000
+SUMMARY:Cassette NYC — LINDSAY WHITEMAN\, AMY JAY\, LAUREN DINHOFER\, A
+ NDIE MECHANIC
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/yod9d2-lindsay-whitem
+ an-amy-jay-lauren-dinhofer-andie-mechanic-25th-aug-cassette-new-york-cit
+ y-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/yod9d2-lindsay-whiteman-amy-jay-lauren-dinhofer
+ -andie-mechanic-25th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:1781f59314311c38b2e39868e7c4e677bc8b8fd5@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260825T180000
+DTEND;TZID=America/New_York:20260826T020000
+SUMMARY:Starr Bar — HRTuesday!
+DESCRIPTION:https://www.starrbar.com/events/ksmain
+URL:https://www.starrbar.com/events/ksmain
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:349d29af818fa36f7fecccc503d852cadd4561ba@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260827T193000
+DTEND;TZID=America/New_York:20260827T223000
+SUMMARY:Cassette NYC — BLUE SUNSHINE\, BALLOON SNAKE\, PAMPHLETS\, CHUR
+ CH CRUSH
+DESCRIPTION:Shoegaze\, post-punk\, emo\, and psych converge for an eclect
+ ic birthday show.\nhttps://dice.fm/event/q2q27p-blue-sunshine-balloon-sn
+ ake-pamphlets-church-crush-27th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/q2q27p-blue-sunshine-balloon-snake-pamphlets-ch
+ urch-crush-27th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:872af935e0adf6baac24d8c7efde484162aad14c@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260827T200000
+DTEND;TZID=America/New_York:20260828T020000
+SUMMARY:Starr Bar — Dimitri Onixx: One Night Only
+DESCRIPTION:https://www.starrbar.com/events/dimitri
+URL:https://www.starrbar.com/events/dimitri
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:1c09f5385220389931542f20748ff467933b455c@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260828T210000
+DTEND;TZID=America/New_York:20260829T000000
+SUMMARY:Cassette NYC — CS CLEANERS\, TF BUNDY\, SAM ZALTA\, SUBURBAN SP
+ EED
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/avrk8x-cs-cleaners-tf
+ -bundy-sam-zalta-suburban-speed-28th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/avrk8x-cs-cleaners-tf-bundy-sam-zalta-suburban-
+ speed-28th-aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:15d6ef6f0301096543f35df73e64b5bffa828c7e@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260830T183000
+DTEND;TZID=America/New_York:20260830T210000
+SUMMARY:Cassette NYC — ADA LEA\, EVAN WRIGHT\, AVALON TASSONYI
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/53m5gd-ada-lea-evan-w
+ right-avalon-tassonyi-30th-aug-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/53m5gd-ada-lea-evan-wright-avalon-tassonyi-30th
+ -aug-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:0eaddc7cbb86de1af25dca6c615c561478776f21@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260830T200000
+DTEND;TZID=America/New_York:20260831T020000
+SUMMARY:Starr Bar — BITE ME! Drag Show
+DESCRIPTION:https://www.starrbar.com/events/biteme
+URL:https://www.starrbar.com/events/biteme
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:4a6a8b8335cd382992624b7558c59dcfea755e68@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260904T193000
+DTEND;TZID=America/New_York:20260904T223000
+SUMMARY:Cassette NYC — COMMON LOON\, PAUL BABE\, KITTY CRIMES
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/2wq7l6-common-loon-pa
+ ul-babe-kitty-crimes-4th-sep-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/2wq7l6-common-loon-paul-babe-kitty-crimes-4th-s
+ ep-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:3dad848ca7aedd8c8b52bc6cb0a622b84b4c3737@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260909T190000
+DTEND;TZID=America/New_York:20260909T220000
+SUMMARY:Seventh Heaven Bar & Karaoke — Final Fantasy & JRPG Live Jazz N
+ ight
+DESCRIPTION:**Final Fantasy Jazz Night is BACK** on Wednesday\, September
+  9th at 7pm.\n\nJoin the Midgar Messengers for a night of live jazz cove
+ rs live at Seventh Heaven Bar & Karaoke (say hi to Tifa for me) from a s
+ election of your favorite J-RPGs including\n\n- Chrono Trigger\n- Kingdo
+ m Hearts\n- Persona\n- Xenoblades\n- Fire Emblem\n- Dragon quest\n- Eart
+ hbound\n\nLimited early bird tickets available - $15\n\nGeneral Admissio
+ n - $20\n\nKaraoke all night after the show\nhttps://dice.fm/event/l8kxm
+ p-final-fantasy-jrpg-live-jazz-night-9th-sep-seventh-heaven-bar-karaoke-
+ new-york-city-tickets
+LOCATION:Seventh Heaven Bar & Karaoke\, 4 Irving Avenue\, Brooklyn\, New 
+ York 11237\, United States
+URL:https://dice.fm/event/l8kxmp-final-fantasy-jrpg-live-jazz-night-9th-s
+ ep-seventh-heaven-bar-karaoke-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:af954683514714094483a6993c27b2a0969bd551@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260910T193000
+DTEND;TZID=America/New_York:20260910T223000
+SUMMARY:Cassette NYC — BLOOD ESTATE\, CHICHE\, JUNE & HER BAND\, GLOBE
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/eo6pwy-blood-estate-c
+ hiche-june-her-band-globe-10th-sep-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/eo6pwy-blood-estate-chiche-june-her-band-globe-
+ 10th-sep-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:aaabca68a60e37c2d1d57ac289c4465e748f3ea2@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260912T193000
+DTEND;TZID=America/New_York:20260912T223000
+SUMMARY:Cassette NYC — THOR & FRIENDS\, HOUR\, JADELAIN
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/6d82p7-thor-friends-h
+ our-jadelain-12th-sep-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/6d82p7-thor-friends-hour-jadelain-12th-sep-cass
+ ette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:ab93af4fff3d985a1a47070d5586318722417dcb@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260913T190000
+DTEND;TZID=America/New_York:20260913T220000
+SUMMARY:Cassette NYC — STEADY SUN\, LENA BARTELS
+DESCRIPTION:Steady Sun is the brainchild of Dylan Nowik\, a songwriter an
+ d producer who has been quietly making his mark on the worldwide music s
+ cene. He has written for and served as the primary guitarist for Clairo
+ ’s most recent records\; has performed on Jimmy Fallon with both Clair
+ o and Black Thought on separate occasions\; has written music covered by
+  Angel Olsen\, and has written for El Michels Affair\, Norah Jones and L
+ eon Bridges.\n\nJOY marks the fourth album from the Catskill\, NY-based 
+ psychedelic project\, Steady Sun\, who formed in 2011 in NYC. The record
+  is a transformative and kaleidoscopic journey\, birthed from many trans
+ continental trips taken from Nowik's Catskill\, New York home to Los Ang
+ eles\, the primary recording location and current home of producer Wayne
+  Gordon\, former head engineer of Br\nhttps://dice.fm/event/xe3xge-stead
+ y-sun-lena-bartels-13th-sep-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/xe3xge-steady-sun-lena-bartels-13th-sep-cassett
+ e-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:94a3eed24fb3ccbeb7b70ee59967923500db685a@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260917T193000
+DTEND;TZID=America/New_York:20260917T223000
+SUMMARY:Cassette NYC — JOE KAPLOW\, HERE FOR YOU\, TRACEY NELSON
+DESCRIPTION:Posh\, Poodle\, Krystal and Toe is the third full length albu
+ m from Santa Cruz-based songwriter and multi-instrumentalist Joe Kaplow.
+  Appropriately named after his bandmates’ nicknames\, this record is a
+  more cohesive ‘band’ statement than his previous self-recorded work
+ . Most tracks were cut over a five day span\, performed live at the OK T
+ heater in Enterprise\, OR with engineer Bart Budwig. They were learned a
+ nd workshopped on the spot\, thus capturing very honest\, energetic\, an
+ d ‘fly by the seat of your pants’ moments. The record was mixed unde
+ rground at Vin Christopher’s studio\, Heavy Meadow in Portland\, Orego
+ n.\nhttps://dice.fm/event/dkp5wq-joe-kaplow-here-for-you-tracey-nelson-1
+ 7th-sep-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/dkp5wq-joe-kaplow-here-for-you-tracey-nelson-17
+ th-sep-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:6916b3c13dead673ee1d16c5bbfe7029dff4b4fe@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260923T193000
+DTEND;TZID=America/New_York:20260923T223000
+SUMMARY:Cassette NYC — BENOIT PIOULARD\, WILL ORCHARD & JESS KERBER\, C
+ ONSTANT SMILES
+DESCRIPTION:A NIGHT OF MUSIC\nhttps://dice.fm/event/wwmqyx-benoit-pioular
+ d-will-orchard-jess-kerber-constant-smiles-23rd-sep-cassette-new-york-ci
+ ty-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/wwmqyx-benoit-pioulard-will-orchard-jess-kerber
+ -constant-smiles-23rd-sep-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+BEGIN:VEVENT
+UID:c7c94dad76cb2aab74828d37a8934c61ca0220d8@bk-calendar
+DTSTAMP:20260808T212458Z
+DTSTART;TZID=America/New_York:20260926T193000
+DTEND;TZID=America/New_York:20260926T224500
+SUMMARY:Cassette NYC — LOBSTER TOOTH RECORDS PRESENTS: SPIN\, RETURN AD
+ DY\, LOVEWELL\, TWO POINT OH
+DESCRIPTION:A NIGHT OF MUSIC PRESENTED BY LOBSTER TOOTH RECORDS\nhttps://
+ dice.fm/event/nv5rl3-lobster-tooth-records-presents-spin-return-addy-lov
+ ewell-two-point-oh-26th-sep-cassette-new-york-city-tickets
+LOCATION:Cassette\, 68-38 Forest Avenue\, Storefront B\, Ridgewood\, New 
+ York 11385\, United States
+URL:https://dice.fm/event/nv5rl3-lobster-tooth-records-presents-spin-retu
+ rn-addy-lovewell-two-point-oh-26th-sep-cassette-new-york-city-tickets
+CATEGORIES:Bars & Third Places
+END:VEVENT
+END:VCALENDAR
