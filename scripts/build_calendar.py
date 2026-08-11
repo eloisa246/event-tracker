@@ -7,7 +7,9 @@ Reads config/sources.yaml. Writes:
   public/<category>.ics filtered feeds
   docs/health.md        per-source status
 
-Runs in GitHub Actions. Safe to run repeatedly: event identities are stable, so
+Run from cron via scripts/run.sh -- on your own machine or a VPS, NOT from
+GitHub Actions (docs/COMPLIANCE.md §1). Safe to run repeatedly: identities are
+stable, so
 re-running produces the same UIDs and subscribers see updates rather than a
 delete-and-re-add of everything.
 """
@@ -939,6 +941,34 @@ def main():
               + (f"  ⚠️ {err}" if err else ""))
 
     events = sorted(dedupe(all_events), key=lambda e: e.start)
+
+    # Refuse to publish a collapse.
+    #
+    # A run where the network is down, a proxy intercepts, or DNS fails looks
+    # exactly like a run where every venue genuinely has nothing on: sources
+    # "succeed", return nothing, and the emitter cheerfully writes an empty
+    # calendar. On a cron that pushes automatically, that empties the calendar
+    # of every subscriber -- the single worst outcome this project can produce,
+    # and far worse than being a few hours stale.
+    #
+    # So: a sharp drop is treated as broken infrastructure, not as news. Bail
+    # without writing anything and exit non-zero so cron surfaces it. --force
+    # overrides, for the genuine case where sources were removed on purpose.
+    prev_path = DATA / "events.json"
+    if prev_path.exists() and "--force" not in sys.argv:
+        try:
+            prev_n = len(json.loads(prev_path.read_text(encoding="utf-8")))
+        except Exception:
+            prev_n = 0
+        if prev_n >= 20 and len(events) < prev_n * 0.4:
+            print(f"\nABORT: {len(events)} events, down from {prev_n} "
+                  f"(<40%). Refusing to overwrite.")
+            failed = [h for h in health if h["error"]]
+            for h in failed[:10]:
+                print(f"  {h['name'][:32]:32} {h['error'][:70]}")
+            print("\nNothing was written. Investigate, then re-run "
+                  "(--force to publish anyway).")
+            return 1
 
     PUBLIC.mkdir(exist_ok=True)
     DATA.mkdir(exist_ok=True)

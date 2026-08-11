@@ -20,3 +20,7 @@ Thumbs.db
 
 # Local scratch — not the inbox, which IS tracked on purpose
 scratch/
+
+# local run artifacts
+.venv/
+.run.lock

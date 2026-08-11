@@ -4,9 +4,11 @@
 Runs through the ingestion tiers in PLAN.md and reports, per org, the best
 option found. Writes data/discovery.json and docs/triage.md.
 
-This needs real internet access, so it runs in GitHub Actions rather than
-locally. Nothing here writes to config/ — a human reads the triage report and
-decides what goes into config/sources.yaml.
+This needs real internet access, so run it from a machine that has it — not
+from GitHub Actions, and not from an agent sandbox (which generally blocks
+venue sites). See docs/COMPLIANCE.md §1 for why Actions is off the table.
+Nothing here writes to config/ — a human reads the triage report and decides
+what goes into config/sources.yaml.
 """
 import csv, json, re, sys, threading, time
 from concurrent.futures import ThreadPoolExecutor

@@ -4,9 +4,10 @@ One subscribable calendar aggregating events from a few dozen Brooklyn
 organizations and venues — Eventbrite, website calendars, ticketing platforms,
 and everything else they use.
 
-**Status: running.** 14 sources live, 336 events, rebuilt every 6h by
-[GitHub Actions](.github/workflows/build-calendar.yml). The remaining 200+ orgs
-from the inbox are not wired up yet.
+**Status: running.** 14 sources live, 336 events. Rebuilt by
+[`scripts/run.sh`](scripts/run.sh) on a cron **on your own machine or a VPS** —
+deliberately *not* GitHub Actions, see [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md).
+The remaining 200+ orgs from the inbox are not wired up yet.
 
 ---
 
@@ -46,7 +47,7 @@ scraper, and only as a last resort a browser + LLM extraction. Shared adapters
 mean adding a venue is usually a config edit rather than new code. Events are
 normalized to one schema with stable UIDs and deduplicated across sources
 (the same show on the venue site *and* Eventbrite becomes one event with both
-links). A GitHub Actions cron runs the pipeline and commits the output, so the
+links). A cron **outside GitHub** runs the pipeline and commits the output, so the
 git history doubles as an audit log and broken scrapers show up as visible
 diffs instead of silent gaps.
 

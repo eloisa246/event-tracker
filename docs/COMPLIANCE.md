@@ -2,120 +2,120 @@
 
 Why this project is built the way it is, and where the real risk sits.
 
-There are **two** separate rulebooks in play, and they are not equally
-dangerous. GitHub's terms govern the runner and the hosting. The venues' terms
-govern the scraping. Most of the attention below goes to GitHub because that is
-what was asked about — but the venue side is where the actual legal exposure
-lives, and §3 should not be skimmed.
+There are **two** separate rulebooks in play. GitHub's terms govern where the
+code lives and where the pipeline runs. The venues' terms govern the scraping.
+
+The first section is not a general discussion of policy. It records a specific
+enforcement decision already taken against this project.
 
 ---
 
-## 1. GitHub's terms
+## 1. GitHub — this is settled, not a judgment call
 
-### 1.1 Actions — the clause that matters
+### 1.1 What happened
 
-GitHub's [Terms for Additional Products and
-Features](https://github.com/github/docs/blob/main/content/site-policy/github-terms/github-terms-for-additional-products-and-features.md)
-prohibit, on GitHub-hosted runners:
+The previous account, `9dpzmbpyym-crypto`, was restricted. GitHub Support, on
+2026-08-09:
 
-> "any other activity unrelated to the production, testing, deployment, or
-> publication of the software project"
+> "The account has restrictions imposed because it appears to have been taking
+> part in activity which goes against our Terms of Service […] In particular,
+> any repositories that use GitHub Actions **solely to interact with 3rd party
+> websites**, to engage in incentivized activities, or for general computing
+> purposes may fall afoul of the GitHub Additional Product Terms […] For this
+> reason, I'm afraid we will not be removing the restrictions from this
+> account."
 
-and separately prohibit activity that places a burden on GitHub's servers
-disproportionate to the benefit it provides. Cryptomining is called out by name.
+That description — *Actions used solely to interact with third-party websites*
+— is this project exactly. A scheduled workflow whose entire job is fetching
+three dozen venue sites is the thing named in the notice.
 
-**Where this repo sits.** The pattern here — a scraper in a repo, run on cron,
-committing its output back — is commonly called "git scraping" and is
-widespread. The defensible reading is that this repo *is* the software project:
-`scripts/build_calendar.py` is the software, `public/*.ics` is its published
-output, and the scheduled run is that publication step. That is a real
-argument, not a fig leaf.
+**The appeal was made and declined.** So this is not a balance of risk to be
+weighed per-repo. For this project, on this person's accounts, GitHub has
+already given a written answer.
 
-It is, however, **an argument and not a guarantee.** The clause is written
-broadly enough that a pipeline whose repo is a thin wrapper around "use
-GitHub's free compute on a timer" reads badly. What keeps this one on the right
-side is that it stays visibly modest, so the specific choices in
-[`.github/workflows/build-calendar.yml`](../.github/workflows/build-calendar.yml)
-are load-bearing:
+### 1.2 The rule that follows
 
-| Choice | Why |
-|---|---|
-| `cron: "17 */6 * * *"` — 4 runs/day | Modest cadence. The calendar does not get meaningfully better at 15-minute polling, and frequency is the most visible abuse signal. |
-| `timeout-minutes: 30` | A hung browser render is the realistic way this burns hours of runner time for nothing. |
-| `concurrency: build-calendar` | Two builds never scrape the same venues simultaneously. |
-| `permissions: contents: write` | Least privilege — the token can write this repo and nothing else. |
-| Commit only when the diff is non-empty | No churn commits on a quiet window. |
+> **The scraping pipeline does not run on GitHub Actions. Not on a cron, not on
+> `workflow_dispatch`, not "just to test it."**
 
-**If you want more margin,** drop to daily (`17 5 * * *`). Nothing about this
-calendar needs six-hour freshness; most venues announce days or weeks ahead.
-That single change removes most of the argument surface.
+There is a tempting counter-argument: the repo contains real software, the
+`.ics` is its published output, so the run is "publication of the software
+project" and therefore permitted. Do not rely on it. It is precisely the
+argument that has already been rejected, and a second enforcement action
+against the same person for the same pattern will not go better than the first.
 
-Two operational notes:
+Note also that `schedule:` workflows only ever fire from the **default
+branch**. A workflow file sitting on a feature branch has never run — but it is
+one merge away from running, which is why none is kept in this repo at all.
 
-- The repo is **public**, so Actions minutes are free and unmetered. None of
-  this is consuming a paid quota.
-- GitHub **disables scheduled workflows after 60 days of repository
-  inactivity**. A repo whose only commits come from the bot can trip this. If
-  the calendar quietly stops updating, check this first — it is far more likely
-  than a ToS action.
+### 1.3 Where the compute goes instead
 
-### 1.2 Serving the calendar
+Run it anywhere that isn't GitHub. [`scripts/run.sh`](../scripts/run.sh) is
+built for this: it takes a lock, bootstraps a venv, builds, and pushes only a
+non-empty diff.
 
-Right now the `.ics` files are committed to the repo, and the obvious way to
-subscribe is a `raw.githubusercontent.com` URL. **Don't build on that.** Raw
-URLs are not a content-delivery endpoint, they are uncached, and using them as
-a subscription target for a calendar that every client re-polls on its own
-schedule is exactly the "disproportionate burden" shape.
+| Option | Cost | Notes |
+|---|---|---|
+| **Your own machine, `cron` / `launchd`** | free | Simplest, zero policy risk. Only runs when the machine is awake — fine for a calendar that doesn't need six-hour freshness. |
+| **Small VPS** (Hetzner, Fly, DigitalOcean) | ~$4–6/mo | Runs unattended. The right answer if you want it reliable. |
+| **Vercel Cron** | free tier | You already deploy there. Hobby tier is daily-only, and Playwright's browser sources will fight the function size limit. Workable for the HTTP-only sources. |
 
-**GitHub Pages is the correct surface** and is already the plan (PLAN.md §5).
-Pages is intended for this, has a documented ~100 GB/month soft bandwidth
-limit, and is fine for a community calendar. Pages may not be used as free
-hosting for commercial or SaaS operations — a free neighbourhood events feed is
-not that.
+Daily is plenty. Venues announce days to weeks ahead; nothing here benefits
+from polling every six hours, and a lower rate is easier on the venues too.
 
-### 1.3 The item that is actually highest-risk
+Example crontab — 5:17am daily, logged:
 
-**None of the above is the biggest ToS exposure in this project.**
+```cron
+17 5 * * *  cd ~/event-tracker && ./scripts/run.sh >> /tmp/calendar.log 2>&1
+```
 
-`pack-it-up/RESTORE.md` records that a previous GitHub account,
-`9dpzmbpyym-crypto`, was **suspended**, and that the original version of this
-work lived there. This repo is on a different account, `eloisa246`, created
-2026-08-09.
+### 1.4 What GitHub is still fine for
 
-GitHub's Terms of Service state:
+Hosting the code, storing the committed output, and **GitHub Pages** for
+serving `calendar.ics`. Publishing a static site built from files in the repo
+is what Pages is for, and it is not what the notice was about.
+
+Do not use `raw.githubusercontent.com` as the subscribe URL. Calendar clients
+re-poll on their own schedule; raw is not a delivery endpoint and that shape is
+its own kind of abuse. Pages is the correct surface.
+
+### 1.5 The account question, honestly
+
+This work is now on `eloisa246`, created after `9dpzmbpyym-crypto` was
+restricted. GitHub's Terms of Service state:
 
 > "One person or legal entity may maintain no more than one free Account"
 
-and reserve the right to "suspend or terminate your access to all or any part
-of the Website at any time, with or without cause, with or without notice."
+A new account opened after a restriction, hosting the same project, is the
+situation GitHub treats as evading enforcement. **Keeping the new account clean
+does not resolve this**, because the exposure is at the account layer rather
+than in any workflow file. It is worth being clear-eyed: if the accounts are
+linked, this repo can be lost the same way the last one was, and the clean
+scraper will not have prevented it.
 
-If both accounts are yours and the first is still suspended, then rebuilding
-here carries a risk that no amount of workflow hygiene addresses — because the
-exposure is at the account layer, not the code layer. A perfectly compliant
-scraper on an account that is itself a problem still ends with a lost repo, and
-the loss looks exactly like the last one.
+The durable move is to **contact Support and ask directly** what the path
+forward is — say the old account was restricted, that the cause is understood,
+that the Actions usage is gone, and ask whether a new account is permitted. It
+is an uncomfortable email, and it is still better than building for months on
+something that can vanish without notice. Support sometimes confirms a fresh
+start is acceptable once the original problem is fixed; either way you learn
+where you stand while little is at stake.
 
-**The recommended move is to resolve the account question before investing more
-here**, via <https://support.github.com/contact>. Suspension is not deletion:
-if the original account is reinstated you also get the 62-commit history back
-that `RESTORE.md` is currently trying to work around. If the suspension was an
-automated false positive — the `9dpzmbpyym-crypto` name has the shape of an
-auto-generated throwaway, and those get caught in anti-spam sweeps regularly —
-appeals succeed routinely.
-
-If the two accounts are unrelated, or the first was already resolved, disregard
-this section. It is flagged because the cost of being wrong about it is losing
-this repo the same way the last one went.
+The alternative — proceeding quietly and hoping the accounts are never
+connected — is a real choice people make, but it should be made knowingly, and
+it argues for keeping the project cheap to move: the pipeline is plain Python
+and the output is plain files, so nothing here is locked to GitHub. Keep a
+local clone and a copy of `public/*.ics` somewhere off-platform, and a
+termination costs you a remote, not the project.
 
 ---
 
 ## 2. What is deliberately not done
 
-- **No cryptomining.** Named explicitly in the Actions terms.
-- **No Instagram scraping.** Ruled out in PLAN.md §2 — against their ToS,
-  needs an authenticated session, and risks the account.
-- **No use of Actions as general-purpose compute.** The workflow runs this
-  repo's pipeline and nothing else.
+- **No GitHub Actions.** §1.
+- **No cryptomining**, named in the Actions terms.
+- **No Instagram scraping** (PLAN.md §2) — against their ToS, needs an
+  authenticated session, risks the account.
 - **No multi-account parallelism** to dodge quotas.
 
 ---
@@ -123,34 +123,29 @@ this repo the same way the last one went.
 ## 3. The venues' terms — the larger legal surface
 
 GitHub can close an account. A venue or ticketing platform can send a lawyer.
-The second is rarer but worse, and this is where the genuine exposure is.
+The second is rarer but worse.
 
-What the pipeline does to stay defensible:
-
-- **`robots.txt` is fetched and honoured** for every HTTP request and every
-  browser render, via the single chokepoint in `polite_get()` /
-  `render_page()`. A disallowed source is skipped and reported in
-  `docs/health.md` rather than fetched anyway. *(All 14 configured sources
-  currently pass.)*
+- **`robots.txt` is fetched and honoured** on every HTTP request and every
+  browser render, at the `polite_get()` / `render_page()` chokepoints. A
+  disallowed source is skipped and reported in `docs/health.md` rather than
+  fetched anyway. *(All 14 configured sources currently pass.)*
 - **The crawler identifies itself** — the User-Agent names the project and
-  links to this repo, so a venue admin who looks it up finds a real page and a
-  way to reach you. It previously pointed at
-  `9dpzmbpyym-crypto/Event-Calender`, a dead URL on the suspended account,
-  which is worse than no contact address at all.
-- **Rate limited** — 1.5s between requests to the same host, 6 workers across
-  distinct hosts.
-- **No automation-detection evasion.** The Chromium launch used to pass
+  links to this repo, so a venue admin who looks it up finds a real page. It
+  previously pointed at `9dpzmbpyym-crypto/Event-Calender`, a dead URL on the
+  restricted account, which is worse than no contact address at all.
+- **Rate limited** — 1.5s between requests to the same host.
+- **No automation-detection evasion.** Chromium used to launch with
   `--disable-blink-features=AutomationControlled`, whose only purpose is to
-  stop a site detecting that the browser is a bot. It is removed. Evading a
-  control a site deliberately put up is the single fact most likely to turn "we
-  aggregated public listings" into something harder to defend.
+  stop a site detecting the browser is a bot. Removed. Evading a control a
+  site deliberately put up is the fact most likely to turn "we aggregated
+  public listings" into something harder to defend.
 - **Attribution, always** — every event keeps `url` pointing at the original
   listing. Descriptions are truncated, not republished wholesale.
 
 ### Known limitation
 
 Python's `urllib.robotparser` matches rules **in file order** and does not
-implement RFC 9309 longest-match precedence. For a `robots.txt` written as:
+implement RFC 9309 longest-match precedence. For:
 
 ```
 User-agent: *
@@ -158,31 +153,38 @@ Disallow: /
 Allow: /events
 ```
 
-it returns *disallowed* for `/events`, where a spec-compliant parser returns
-allowed. This errs toward **not fetching**, which is the safe direction — but
-it can silently drop a source you are in fact permitted to crawl. If a source
-starts reporting `RobotsDisallowed` and its `robots.txt` has that shape, that
-is the cause, and the fix is a real parser (`protego`, which is what Scrapy
-uses), not an exemption.
+it returns *disallowed* for `/events`, where a spec-compliant parser allows it.
+This errs toward **not fetching**, the safe direction, but can silently drop a
+source you are permitted to crawl. If a source starts reporting
+`RobotsDisallowed` and its `robots.txt` looks like that, this is why; the fix
+is a real parser (`protego`, which Scrapy uses), not an exemption.
 
 ### If a venue asks you to stop
 
-Honour it immediately and without argument — remove them from
-`config/sources.yaml` and reply. One removed venue costs almost nothing. One
-argued-with venue is how an aggregator gets a reputation that closes doors at
-all the others.
+Honour it immediately — remove them from `config/sources.yaml` and reply. One
+removed venue costs almost nothing. One argued-with venue is how an aggregator
+gets a reputation that closes doors at all the others.
 
 ---
 
-## 4. Review triggers
+## 4. Publishing safety
 
-Re-read this document when any of these change:
+`build_calendar.py` **refuses to write** when the event count drops below 40%
+of the previous run. A network failure, a captive proxy, or a DNS outage looks
+identical to "every venue has nothing on": sources return nothing, and the
+emitter would otherwise write an empty calendar and push it — emptying the
+calendar of every subscriber. A stale calendar is a much smaller failure than a
+blank one. Override with `--force` when sources were genuinely removed.
 
-- The cron gets faster, or the source count grows substantially (34 orgs are
-  triaged; 243 exist — at that scale the burden question is a real one).
-- Playwright rendering expands to many more sources; browser renders are by far
-  the heaviest thing here.
-- The project starts charging, taking sponsorship, or otherwise becoming
-  commercial — that changes the Pages analysis in §1.2.
-- Anything is added that authenticates to a platform, or that reads a source
-  behind a login.
+---
+
+## 5. Review triggers
+
+Re-read this when:
+
+- Anything proposes moving scheduled work back onto GitHub Actions.
+- The source count grows substantially (34 triaged, 243 exist).
+- Playwright rendering expands to many more sources — browser renders are the
+  heaviest thing here.
+- The project starts charging or taking sponsorship, which changes §1.4.
+- Anything authenticates to a platform or reads a source behind a login.

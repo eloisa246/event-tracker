@@ -205,8 +205,9 @@ dumps everything: every response, JSON bodies, iframes, calendar-ish class
 names, embedded `<script>` JSON, and third-party widget markup.
 
 ```bash
-# via the "Diagnose source" workflow (needs real internet; this repo's
-# sandbox blocks venue sites, so it runs in Actions)
+# Run locally: python scripts/diagnose.py <args>
+# (Needs real internet — agent sandboxes generally block venue sites. Do NOT
+# run this from GitHub Actions; see docs/COMPLIANCE.md §1.)
 
 <source-id> [<source-id> ...]      # configured sources
 --mobile <source-id>               # emulate a phone (different widget!)

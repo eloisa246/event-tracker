@@ -4,10 +4,13 @@ Aggregate the event calendars of a few dozen Brooklyn organizations and venues
 into one calendar people can subscribe to, browse, and share.
 
 **Status:** Phases 0–3 are substantially built and running. 14 sources produce
-336 events into [`public/calendar.ics`](public/calendar.ics), rebuilt every 6h
-by [GitHub Actions](.github/workflows/build-calendar.yml). The scraping and
-GitHub-terms posture has its own document:
-[`docs/COMPLIANCE.md`](docs/COMPLIANCE.md).
+336 events into [`public/calendar.ics`](public/calendar.ics), rebuilt by
+[`scripts/run.sh`](scripts/run.sh) from cron.
+
+> ⚠️ **§6 below is superseded.** It recommends GitHub Actions as the runner.
+> That is exactly the usage GitHub restricted the previous account for, in
+> writing. The pipeline runs off-GitHub now — see
+> [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md), which is the authority on this.
 
 ---
 
@@ -236,16 +239,24 @@ correct and what keeps access open. Details and the reasoning:
 
 ## 6. Infrastructure
 
-**Recommendation: GitHub Actions + static output. No server.**
+> ⚠️ **Superseded.** This section originally recommended GitHub Actions as the
+> cron runner. GitHub restricted the previous account for precisely that —
+> "repositories that use GitHub Actions solely to interact with 3rd party
+> websites" — and declined the appeal. Do not put this pipeline back on
+> Actions. [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md) §1 has the notice and the
+> reasoning.
 
-- Cron every ~6h → run pipeline → commit `data/events.json` + `public/*.ics` →
-  deploy Pages.
-- **Free**, and the git history *is* the audit log: every run's diff shows
-  exactly which events appeared, changed, or vanished. When a scraper breaks,
-  the diff shows it as "-14 events" rather than silence.
-- Zero ops. At a few dozen sources this is comfortably sufficient.
-- Escalation path if it outgrows this: small VPS + Postgres + a queue. Not
-  needed at this scale, and premature.
+**Recommendation: cron off-GitHub + static output committed back.**
+
+- Daily → [`scripts/run.sh`](scripts/run.sh) → commit `data/events.json` +
+  `public/*.ics` → GitHub Pages serves it.
+- Runs on your own machine (`cron`/`launchd`, free) or a ~$5 VPS if it needs to
+  run unattended.
+- The git history is still the audit log: every run's diff shows exactly which
+  events appeared, changed, or vanished. When a scraper breaks, the diff shows
+  it as "-14 events" rather than silence.
+- GitHub keeps doing the parts it is meant for — hosting the code and serving
+  the output via Pages.
 
 **Stack: Python.** Best-in-class ecosystem for exactly this work — `httpx`,
 `selectolax`/`BeautifulSoup`, `extruct` (JSON-LD/microdata), `dateparser`,
@@ -278,7 +289,7 @@ that number small.
 | Phase | Work | Depends on |
 |---|---|---|
 | **0. Discovery** | Parse `inbox/` → org list. Automated feed probe on every URL. IG bio-link resolution. **Output: triage report — every org, its tier, its effort.** | Your spreadsheet + guide |
-| **1. Core** | Data model, store, normalize/dedupe, ICS emitter, Actions cron. 5 pilot orgs spanning different tiers, end to end. | Phase 0 |
+| **1. Core** | Data model, store, normalize/dedupe, ICS emitter, off-GitHub cron. 5 pilot orgs spanning different tiers, end to end. | Phase 0 |
 | **2. Feeds & platforms** | Tier 0 + Tier 1 adapters (Tribe, Eventbrite, lu.ma, Google Cal, Squarespace, Dice/Bandsintown). | Phase 1 |
 | **3. Long tail** | Generic JSON-LD extractor. Declarative CSS scrapers for the remainder. **Anomaly alerting** — pulled forward from Phase 6, since no-outreach means monitoring is the only breakage signal. | Phase 2 |
 | **4. Hard cases** | Playwright + LLM fallback. Manual entry path. Quarantine queue. | Phase 3 |

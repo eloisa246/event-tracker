@@ -6,6 +6,14 @@
 httpx==0.28.1
 PyYAML==6.0.3
 
-# Only needed for `strategy: browser` sources. The CI job installs the Chromium
-# binary separately with `playwright install --with-deps chromium`.
+# Imported lazily inside fetch_ical(), so a missing install shows up as a single
+# source failing in health.md rather than a crash at startup.
+icalendar==7.2.2
+
+# Only needed for `strategy: browser` sources. scripts/run.sh installs the
+# Chromium binary separately with `playwright install --with-deps chromium`.
 playwright==1.62.0
+
+# Only for scripts/parse_inbox.py, which reads the .xlsx org list. Not needed
+# for a calendar build; install it when re-running inbox parsing.
+# openpyxl==3.1.5
