@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA, DOCS = ROOT / "data", ROOT / "docs"
 
 UA = ("brooklyn-event-calendar/0.1 (+https://github.com/"
-      "9dpzmbpyym-crypto/Event-Calender) events-aggregator")
+      "eloisa246/event-tracker) events-aggregator")
 TIMEOUT = 15
 DELAY = 1.5              # minimum seconds between requests to the SAME host
 

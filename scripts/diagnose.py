@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DIAG_DIR = ROOT / "data" / "diagnostics"
 
 UA = ("brooklyn-event-calendar/0.1 (+https://github.com/"
-      "9dpzmbpyym-crypto/Event-Calender) events-aggregator")
+      "eloisa246/event-tracker) events-aggregator")
 MAX_BODY = 6000          # chars kept per JSON body -- enough to see the shape
 MAX_RESPONSES = 80
 

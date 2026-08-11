@@ -17,6 +17,7 @@ from dataclasses import dataclass, field, asdict
 from datetime import datetime, date, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+from urllib.robotparser import RobotFileParser
 from zoneinfo import ZoneInfo
 
 import httpx, yaml
@@ -26,7 +27,7 @@ DATA, PUBLIC, DOCS = ROOT / "data", ROOT / "public", ROOT / "docs"
 
 NY = ZoneInfo("America/New_York")
 UA = ("brooklyn-event-calendar/0.1 (+https://github.com/"
-      "9dpzmbpyym-crypto/Event-Calender) events-aggregator")
+      "eloisa246/event-tracker) events-aggregator")
 
 # Browser context for every rendered page. scripts/diagnose.py imports this
 # rather than defining its own, and that is the whole point: the diagnostic is
@@ -51,8 +52,50 @@ DELAY = 1.5
 
 _last_hit, _hit_lock = {}, threading.Lock()
 
+# robots.txt, fetched once per host and cached for the run.
+#
+# Fail-open is deliberate: a host that has no robots.txt, or whose robots.txt
+# is unreachable, is treated as allowing the fetch. That matches what every
+# mainstream crawler does -- absence of the file is not a prohibition. Only an
+# explicit Disallow that matches stops us, and when it does we skip the source
+# and say so in health.md rather than fetching anyway.
+UA_TOKEN = "brooklyn-event-calendar"
+_robots, _robots_lock = {}, threading.Lock()
+
+
+class RobotsDisallowed(Exception):
+    """robots.txt explicitly disallows this path for our user-agent."""
+
+
+def _robots_for(origin):
+    with _robots_lock:
+        if origin in _robots:
+            return _robots[origin]
+    rp = RobotFileParser()
+    try:
+        # Fetched with our own UA and short timeout rather than
+        # RobotFileParser.read(), which would use urllib's default UA and
+        # ignore our timeout entirely.
+        r = httpx.get(origin + "/robots.txt", timeout=10,
+                      headers={"User-Agent": UA}, follow_redirects=True)
+        rp.parse(r.text.splitlines() if r.status_code == 200 else [])
+    except Exception:
+        rp.parse([])                  # unreachable -> treat as allow-all
+    with _robots_lock:
+        _robots.setdefault(origin, rp)
+        return _robots[origin]
+
+
+def robots_allows(url):
+    p = urlparse(url)
+    if not p.scheme.startswith("http"):
+        return True
+    return _robots_for(f"{p.scheme}://{p.netloc}").can_fetch(UA_TOKEN, url)
+
 
 def polite_get(client, url):
+    if not robots_allows(url):
+        raise RobotsDisallowed(f"robots.txt disallows {urlparse(url).path or '/'}")
     host = urlparse(url).netloc
     with _hit_lock:
         wait = DELAY - (time.monotonic() - _last_hit.get(host, 0))
@@ -351,6 +394,8 @@ def render_page(url):
     Returns (html, [json payloads]); html is "" if the page is a challenge.
     """
     from playwright.sync_api import sync_playwright
+    if not robots_allows(url):
+        raise RobotsDisallowed(f"robots.txt disallows {urlparse(url).path or '/'}")
     payloads = []
 
     def on_response(resp):
@@ -365,8 +410,15 @@ def render_page(url):
             pass
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(
-            args=["--disable-blink-features=AutomationControlled"])
+        # Launched with default flags. An earlier version passed
+        # --disable-blink-features=AutomationControlled, whose only purpose is
+        # to stop a site from detecting that the browser is automated. Hiding
+        # that we are a bot contradicts the posture in PLAN.md §9 -- identify
+        # yourself, respect robots.txt, stay easy to block -- so it is gone. A
+        # source that only worked with it was working by evading a control the
+        # site chose to put up; if one goes dark here, that is the signal, and
+        # the fix is to ask the venue, not to hide better.
+        browser = pw.chromium.launch()
         try:
             page = browser.new_page(**BROWSER_CONTEXT)
             page.on("response", on_response)

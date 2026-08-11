@@ -4,7 +4,9 @@ One subscribable calendar aggregating events from a few dozen Brooklyn
 organizations and venues — Eventbrite, website calendars, ticketing platforms,
 and everything else they use.
 
-**Status: planning.** No pipeline yet. Next step is getting the org list in.
+**Status: running.** 14 sources live, 336 events, rebuilt every 6h by
+[GitHub Actions](.github/workflows/build-calendar.yml). The remaining 200+ orgs
+from the inbox are not wired up yet.
 
 ---
 
@@ -17,6 +19,7 @@ and everything else they use.
 | **Add a new source / fix one returning zero** | [**`docs/PLAYBOOK.md`**](docs/PLAYBOOK.md) ← start here |
 | See which sources are live right now | [`docs/health.md`](docs/health.md) |
 | See how a venue gets configured | [`config/sources.example.yaml`](config/sources.example.yaml) |
+| **Understand the scraping / ToS posture** | [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md) |
 
 ---
 

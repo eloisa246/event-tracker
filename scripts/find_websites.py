@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
 UA = ("brooklyn-event-calendar/0.1 (+https://github.com/"
-      "9dpzmbpyym-crypto/Event-Calender) events-aggregator Mozilla/5.0")
+      "eloisa246/event-tracker) events-aggregator")
 # .club earns its place: Elsewhere is elsewhere.club, and a .com-only list
 # would have missed one of the largest venues on the list outright.
 TLDS = (".com", ".org", ".nyc", ".club", ".co", ".net")

@@ -3,8 +3,11 @@
 Aggregate the event calendars of a few dozen Brooklyn organizations and venues
 into one calendar people can subscribe to, browse, and share.
 
-**Status:** planning. Nothing built yet. The org list and Apple Maps guide go in
-[`inbox/`](inbox/README.md); the discovery pass (Phase 0) runs as soon as they land.
+**Status:** Phases 0–3 are substantially built and running. 14 sources produce
+336 events into [`public/calendar.ics`](public/calendar.ics), rebuilt every 6h
+by [GitHub Actions](.github/workflows/build-calendar.yml). The scraping and
+GitHub-terms posture has its own document:
+[`docs/COMPLIANCE.md`](docs/COMPLIANCE.md).
 
 ---
 
@@ -200,10 +203,17 @@ inbox/ ──► parse ──► org list ──► feed discovery ──► con
 cancelled rather than silently deleted, so subscribers see `STATUS:CANCELLED`
 instead of an event quietly vanishing from their calendar.
 
-**Politeness:** conditional requests, per-host concurrency caps and delays,
-honor `robots.txt`, and a descriptive User-Agent with a contact address. We are
-a good citizen aggregating public listings and linking back — that posture is
-both correct and what keeps access open.
+**Politeness:** per-host delays, `robots.txt` honored on every request and
+render, and a descriptive User-Agent pointing at this repo. We are a good
+citizen aggregating public listings and linking back — that posture is both
+correct and what keeps access open. Details and the reasoning:
+[`docs/COMPLIANCE.md`](docs/COMPLIANCE.md).
+
+> **Not yet implemented:** conditional requests (`ETag` / `If-Modified-Since`).
+> Every run currently re-fetches every source in full. This is the largest
+> remaining politeness win — it would cut most of the bytes we pull from
+> venues, since the majority of pages are unchanged between six-hourly runs.
+> It needs a small persisted cache of per-URL validators.
 
 ---
 
@@ -286,6 +296,9 @@ lowest-durability tier.
 Public event listings, aggregated with attribution and links back to the source
 — the same thing every local events newsletter does, and orgs generally *want*
 their events found. Concretely:
+
+Full posture, including the GitHub-terms side and the account risk that matters
+more than any of this: [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md).
 
 - Respect `robots.txt`; rate-limit; identify the crawler with a contact address.
 - Always link back to the original listing; never republish full descriptions
