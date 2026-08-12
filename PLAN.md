@@ -135,7 +135,10 @@ For JS-rendered calendars and sites too irregular for selectors.
 ### Tier 5 — Human in the loop ⚪ *the honest floor*
 Some orgs will never be machine-readable. Rather than pretend otherwise:
 
-- `inbox/manual-events.md` or a linked Google Sheet for hand-entered events.
+- **Built:** [`config/manual-events.yaml`](config/manual-events.yaml). Hand-typed
+  events join before dedupe, so a flyer entered by hand and the same show later
+  found by a scraper merge into one entry. A malformed row is skipped and named
+  in `docs/health.md`; the rest of the calendar still builds.
 - A **quarantine queue**: parses that fail or look wrong surface for review
   instead of silently emitting garbage or vanishing.
 

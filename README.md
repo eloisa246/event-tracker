@@ -21,6 +21,7 @@ The remaining 200+ orgs from the inbox are not wired up yet.
 | See which sources are live right now | [`docs/health.md`](docs/health.md) |
 | See how a venue gets configured | [`config/sources.example.yaml`](config/sources.example.yaml) |
 | **Understand the scraping / ToS posture** | [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md) |
+| **Add an event by hand (flyers, IG-only orgs)** | [`config/manual-events.yaml`](config/manual-events.yaml) |
 
 ---
 

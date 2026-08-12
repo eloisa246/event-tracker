@@ -897,6 +897,59 @@ def to_ics(events, name):
     return "\r\n".join(lines) + "\r\n"
 
 
+def load_manual():
+    """Events entered by hand, from config/manual-events.yaml.
+
+    Tier 5 in PLAN.md: the honest floor. A lot of the best small stuff -- a
+    collective's collage night, a reading group in someone's back room -- exists
+    only as a flyer on Instagram and will never be machine-readable. Rather than
+    pretend otherwise, they get typed in and flow through the same normalize,
+    dedupe and ICS path as everything else.
+
+    Deliberately forgiving: a malformed row is skipped with a named reason and
+    the build continues. Losing the whole calendar because one hand-typed date
+    had a typo would be a much worse failure than dropping that one event.
+    """
+    path = ROOT / "config" / "manual-events.yaml"
+    if not path.exists():
+        return [], "", 0
+    try:
+        cfg = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    except Exception as e:
+        return [], f"{type(e).__name__}: {e}", 0
+
+    rows = cfg.get("events") or []
+    out, skipped = [], []
+    for i, row in enumerate(rows, 1):
+        if not isinstance(row, dict):
+            skipped.append(f"#{i} not a list item with fields")
+            continue
+        title = str(row.get("title") or "").strip()
+        if not title:
+            skipped.append(f"#{i} no title")
+            continue
+        start = to_iso(row.get("start"))
+        if not start:
+            skipped.append(f"{title[:24]!r} bad/missing start")
+            continue
+        cats = row.get("categories") or row.get("category") or []
+        if isinstance(cats, str):
+            cats = [cats]
+        ev = Event(
+            source_id="manual",
+            org=str(row.get("org") or "").strip(),
+            title=title,
+            description=str(row.get("description") or "").strip(),
+            start=start,
+            end=to_iso(row.get("end")),
+            location=str(row.get("location") or "").strip(),
+            url=str(row.get("url") or "").strip(),
+            categories=[str(c) for c in cats],
+        )
+        out.append(ev)
+    return out, "; ".join(skipped), len(rows)
+
+
 def main():
     cfg_path = ROOT / "config" / "sources.yaml"
     if not cfg_path.exists():
@@ -939,6 +992,21 @@ def main():
                        "found": len(events), "kept": len(kept), "error": err})
         print(f"  {src['name'][:32]:32} {len(kept):4} events"
               + (f"  ⚠️ {err}" if err else ""))
+
+    # Hand-entered events join before dedupe, so a flyer typed in by hand and
+    # the same show later found by a scraper merge into one entry rather than
+    # showing up twice.
+    manual, manual_err, manual_total = load_manual()
+    kept_manual = [e for e in manual if in_window(e)]
+    for e in kept_manual:
+        e.compute_uid()
+    all_events += kept_manual
+    if manual_total or manual_err:
+        health.append({"id": "manual", "name": "Hand-entered", "strategy": "manual",
+                       "method": f"{manual_total} in file", "found": len(manual),
+                       "kept": len(kept_manual), "error": manual_err})
+        print(f"  {'Hand-entered':32} {len(kept_manual):4} events"
+              + (f"  ⚠️ {manual_err}" if manual_err else ""))
 
     events = sorted(dedupe(all_events), key=lambda e: e.start)
 

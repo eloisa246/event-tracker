@@ -1,0 +1,163 @@
+# Hand-entered events.
+#
+# For everything that will never be machine-readable -- a collective's collage
+# night, a reading group in a back room, anything that lives only as a flyer.
+# These flow into calendar.ics exactly like scraped events do.
+#
+# ---------------------------------------------------------------------------
+# HOW TO ADD ONE
+#
+#   - title: Collage Night              <- required
+#     org: Nana's House                 <- who's putting it on
+#     start: 2026-08-11 19:00           <- required. 24-hour clock, New York time
+#     end: 2026-08-11 21:00             <- optional
+#     location: Nana's House            <- optional, address is better
+#     url: https://...                  <- optional, where to find out more
+#     description: Free, materials provided.       <- optional
+#     category: Creative Collectives & Communities <- optional, see list below
+#
+# Keep the two leading spaces and the "- " before title. Everything else lines
+# up underneath it. If a date is wrong or a title is missing, that ONE event is
+# skipped and named in docs/health.md -- the rest of the calendar still builds.
+#
+# Times are New York time. Don't do any UTC conversion yourself.
+#
+# Categories (use one of these so the per-category feeds work):
+#   Arts, Music & Creative Classes
+#   Bars & Third Places
+#   Creative Collectives & Communities
+#   Events Boards & Bulletins
+#   Literary & Book Communities
+#   Music Venues & Education
+# ---------------------------------------------------------------------------
+
+events:
+  - title: Collage Night
+    org: Nana's House
+    start: 2026-08-11 19:00
+    end: 2026-08-11 21:00
+    location: Nana's House
+    url: https://www.instagram.com/collagenightcollective
+    description: Free event, all materials provided.
+    category: Creative Collectives & Communities
+
+  - title: "Photo 101: Movement"
+    org: Ridgewood Commons
+    start: 2026-08-11 19:00
+    end: 2026-08-11 20:00
+    location: Ridgewood Commons, 585 Woodward Ave, Ridgewood NY 11385
+    url: https://ridgewoodcommons.nyc
+    description: $15 recommended donation to support the space.
+    category: Arts, Music & Creative Classes
+
+  - title: "Abolition Is For Everyone: a reading group"
+    org: 629 Nostrand Ave
+    start: 2026-08-12 19:00
+    end: 2026-08-12 20:30
+    location: 629 Nostrand Ave, Brooklyn
+    description: >-
+      Why abolish police and prisons, and what comes next? Excerpts from George
+      Jackson, Angela Davis and more. No pre-reading required.
+    category: Literary & Book Communities
+
+  - title: Yoga & Tea
+    org: 430 Broome St
+    start: 2026-08-14 19:30
+    end: 2026-08-14 21:30
+    location: 430 Broome St, 2nd Floor, NYC
+    description: Hatha yoga at 7:30pm, tea lounge at 8:45pm.
+    category: Arts, Music & Creative Classes
+
+  - title: Dykes + Dolls Beach Day at Riis
+    org: Dykes + Dolls
+    start: 2026-08-15 12:00
+    end: 2026-08-15 16:00
+    location: Riis Beach, Queens
+    description: Riis Beach is Not for Sale. Boycott the bathhouse.
+    category: Creative Collectives & Communities
+
+  - title: Clothing Swap x Sew
+    org: Swap Club NYC
+    start: 2026-08-15 13:00
+    end: 2026-08-15 16:00
+    location: Brooklyn Sewing Academy
+    description: >-
+      With expert upcycler Shania. All levels welcome. Presented with Swap Club
+      NYC and Brooklyn Sewing Academy.
+    category: Arts, Music & Creative Classes
+
+  - title: "Tiny Art Club: collage-making with Lynnette"
+    org: The Tiny Cupboard
+    start: 2026-08-15 14:00
+    end: 2026-08-15 16:00
+    location: The Tiny Cupboard, 10 Cooper St, Brooklyn NY 11207
+    category: Arts, Music & Creative Classes
+
+  - title: "Dank Surf: queer surf & beach meet"
+    org: Dank Dykes
+    start: 2026-08-15 17:00
+    end: 2026-08-15 21:00
+    location: Beach 68th St, Rockaway NY
+    description: >-
+      Free event. Surf lesson, food, beach bonfire and freebies. 21+. Hosted by
+      Dank Dykes and Lav Crush.
+    category: Creative Collectives & Communities
+
+  - title: NYC Community Health Networks
+    org: Interference Archive
+    start: 2026-08-15 19:00
+    location: Interference Archive, 314 7th St, Brooklyn
+    description: >-
+      Showcase and introduction to newsreels documenting the conditions and work
+      of El Comité MINP and the Young Lords in the 1970s. Presented with Third
+      World Newsreel.
+    category: Arts, Music & Creative Classes
+
+  - title: CONCRÈTE
+    org: Mr. Nancy's
+    start: 2026-08-15 21:00
+    location: Mr. Nancy's, 7-02 Seneca Ave, Ridgewood NY
+    description: Music by Alex Weremchuk + Torsk. $6 beer and a shot, $10 martini.
+    category: Bars & Third Places
+
+  - title: Paddleboarding on the Hudson
+    org: Girls Gone Hiking
+    start: 2026-08-16 09:00
+    end: 2026-08-16 14:00
+    location: Croton-on-Hudson, NY
+    description: A day on the water, with Vivobarefoot.
+    category: Creative Collectives & Communities
+
+  - title: "Secret Movie Night: Summer Bromances"
+    org: Secret Riso Club
+    start: 2026-08-16 18:00
+    location: Secret Riso Club, 122 Central Ave, Brooklyn
+    description: >-
+      $5. A series of secret screenings celebrating summer bromances -- laughs,
+      tears, life-long friendships. The film is announced by clues only.
+    category: Arts, Music & Creative Classes
+
+  # ---- Missing a start time on the flyer. Both are guesses; correct them. ----
+  - title: Summer Finale Hikeish
+    org: Outlandish NYC
+    start: 2026-08-16 09:00
+    location: Lake Tiorati, NY
+    description: 4 miles. With Salomon. RSVP via @outlandish.nyc.
+    category: Creative Collectives & Communities
+
+  - title: Table Tennis Tournament
+    org: The Tiny Cupboard
+    start: 2026-08-16 19:00
+    location: The Tiny Cupboard, 10 Cooper St, Brooklyn NY 11207
+    category: Bars & Third Places
+
+# ---------------------------------------------------------------------------
+# WAITING ON A DATE -- add "start:" and move it up into the list above.
+#
+#   - title: Studio Ghibli + Anime Jazz
+#     org: The Red Pavilion
+#     start: 2026-08-?? ??:??
+#     location: The Red Pavilion, Brooklyn
+#     description: Live at the Red Pavilion.
+#     category: Music Venues & Education
+# ---------------------------------------------------------------------------
